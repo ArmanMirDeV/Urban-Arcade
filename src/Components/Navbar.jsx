@@ -33,13 +33,13 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink className={linkClasses} to="/my-profile">
-          My Profile
+        <NavLink className={linkClasses} to="/all-games">
+         All Games
         </NavLink>
       </li>
       <li>
-        <NavLink className={linkClasses} to="/game-details">
-          Game Details
+        <NavLink className={linkClasses} to="/my-profile">
+          My Profile
         </NavLink>
       </li>
     </>

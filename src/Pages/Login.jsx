@@ -46,7 +46,7 @@ const Login = () => {
 
     return (
       <div>
-        <div className="min-h-[calc(100vh-20px)] flex items-center justify-center bg-gradient-to-br from-blue-400 via-indigo-400 to-purple-400 relative overflow-hidden rounded-xl">
+        <div className="min-h-[calc(100vh-20px)]  flex items-center justify-center bg-gradient-to-br from-blue-400 via-indigo-400 to-purple-400 relative overflow-hidden rounded-xl">
           {/* Animated glow orbs */}
           <div className="absolute inset-0">
             <div className="absolute w-72 h-72 bg-purple-400/30 rounded-full blur-xl top-10 left-10 animate-pulse"></div>

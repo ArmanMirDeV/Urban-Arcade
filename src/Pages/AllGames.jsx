@@ -1,20 +1,15 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router";
 
-const PopularGames = () => {
+
+const AllGames = () => {
   const [games, setGames] = useState([]);
   const navigate = useNavigate();
 
   useEffect(() => {
     fetch("/games.json")
       .then((res) => res.json())
-      .then((data) => {
-        // Sort by ratings descending and take top 3
-        const sortedGames = data
-          .sort((a, b) => parseFloat(b.ratings) - parseFloat(a.ratings))
-          .slice(0, 12);
-        setGames(sortedGames);
-      })
+      .then((data) => setGames(data))
       .catch((err) => console.error(err));
   }, []);
 
@@ -24,8 +19,8 @@ const PopularGames = () => {
 
   return (
     <div className="px-6 py-10">
-      <h2 className="text-3xl font-bold mb-8 text-center">Popular Games</h2>
-      <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
+      <h2 className="text-3xl font-bold mb-8 text-center">All Games</h2>
+      <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-6">
         {games.map((game) => (
           <div
             key={game.id}
@@ -35,16 +30,23 @@ const PopularGames = () => {
             <img
               src={game.coverPhoto}
               alt={game.title}
-              className="w-full h-48 object-cover"
+              className="w-full object-fill h-48 "
             />
             <div className="p-4">
-              <h3 className="text-xl font-semibold mb-2 font-mono text-purple-500">{game.title}</h3>
+              <h3 className="text-xl font-semibold mb-2">{game.title}</h3>
               <p className="text-gray-600 mb-1">Category: {game.category}</p>
-             
-              <p className="text-blue-500 font-bold mb-2">
+              <p className="text-gray-600 mb-1">Developer: {game.developer}</p>
+              <p className="text-yellow-500 font-bold mb-2">
                 Rating: {game.ratings}
               </p>
-             
+              <a
+                href={game.downloadLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                Download
+              </a>
             </div>
           </div>
         ))}
@@ -53,4 +55,4 @@ const PopularGames = () => {
   );
 };
 
-export default PopularGames;
+export default AllGames;

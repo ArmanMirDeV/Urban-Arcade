@@ -1,9 +1,12 @@
 import React from 'react';
+import Slider from './Slider';
+import PopularGames from './PopularGames';
 
 const Banner = () => {
   return (
     <div>
-      Banner
+      <Slider />
+      <PopularGames />
     </div>
   );
 };

@@ -5,7 +5,9 @@ import NewsLetter from '../Components/NewsLetter';
 const HomePage = () => {
     return (
         <div>
+            
             <Banner />
+            
             <NewsLetter />
             
         </div>
