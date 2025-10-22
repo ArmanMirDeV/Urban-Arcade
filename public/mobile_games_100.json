@@ -1,0 +1,1002 @@
+[
+  {"id": "1",
+    "title": "Call of Duty: Mobile",
+    "coverPhoto": "https://i.ibb.co.com/SXNfnN64/GBa-Wlaevq4-CA0x-N13-QYl-Ise-Em-L2inz-VEx9z3-HBBJPNb-IQml-ZLg-A9lj-pfb-Y4h3-XVa5-Xvuns3-ORa-WSEvk8-I.jpg",
+    "category": "FPS",
+    "downloadLink": "https://www.callofduty.com/mobile",
+    "description": "Experience iconic multiplayer maps and modes from the Call of Duty franchise, optimized for mobile with console-quality graphics.",
+    "ratings": "4.6",
+    "developer": "Activision"
+   
+  },
+  {
+    "id": "2",
+    "title": "Player Unknowns Battle Ground: PUBG",
+    "coverPhoto": "https://i.ibb.co.com/NnV1wdKW/63c80ec040d89.png",
+    "category": "FPS",
+    "downloadLink": "https://www.pubgmobile.com/en-US/home.shtml",
+    "description": "PUBG Mobile is a fast-paced battle royale game where players fight for survival, strategy, and victory on dynamic maps.",
+    "ratings": "4.5",
+    "developer": "Krafton"
+  },
+  {
+    "id": "3",
+    "title": "Mobile Legends: Bang Bang",
+    "coverPhoto": "https://i.ibb.co.com/84G4PrYc/mobilelegends-1696089976653.jpg",
+    "category": "MOBA",
+    "downloadLink": "https://m.mobilelegends.com",
+    "description": "A competitive 5v5 MOBA game featuring unique heroes, strategic team battles, and fast-paced 10-minute matches.",
+    "ratings": "4.3",
+    "developer": "Moonton"
+  },
+  {
+    "id": "4",
+    "title": "Genshin Impact",
+    "coverPhoto": "https://i.ibb.co.com/Y7jRj0Z0/30935168a0f21b6710dc2bd7bb37c23ed937fb9fa747d84c.jpg",
+    "category": "RPG",
+    "downloadLink": "https://genshin.hoyoverse.com",
+    "description": "An open-world action RPG with stunning visuals, elemental combat system, and a vast world of Teyvat to explore.",
+    "ratings": "4.7",
+    "developer": "HoYoverse"
+  },
+  {
+    "id": "5",
+    "title": "Free Fire",
+    "coverPhoto": "https://i.ibb.co.com/3YsHxh3h/y4gfgfr.jpg",
+    "category": "Battle Royale",
+    "downloadLink": "https://ff.garena.com",
+    "description": "A survival shooter game with 10-minute matches, featuring unique characters with special abilities and intense firefights.",
+    "ratings": "4.2",
+    "developer": "Garena"
+  },
+  {
+    "id": "6",
+    "title": "Clash of Clans",
+    "coverPhoto": "https://i.ibb.co.com/4wrn6f94/y6-04-BPPI4-DOXXBb-Gwe-G9t-MOz5-Gf-Og-WDe-IHSTzo8l-QYRll-A-X6-I-Dx1x1x-Dp-W2wi-Dn-Zf-Nt-PQ-s900-c-k.jpg",
+    "category": "Strategy",
+    "downloadLink": "https://supercell.com/en/games/clashofclans",
+    "description": "Build your village, raise a clan, and compete in epic Clan Wars in this strategic combat game.",
+    "ratings": "4.5",
+    "developer": "Supercell"
+  },
+  {
+    "id": "7",
+    "title": "Candy Crush Saga",
+    "coverPhoto": "https://i.ibb.co.com/gZKVbWp9/wu1gv8x-OAbuqnke-R-j-TGH-f850dt50-Tixb-GH54c-F34hey-HH-PSg-Xl-ety52ena5qwc.jpg",
+    "category": "Puzzle",
+    "downloadLink": "https://king.com/game/candycrush",
+    "description": "Match colorful candies in this addictive puzzle game with thousands of levels and sweet challenges.",
+    "ratings": "4.4",
+    "developer": "King"
+  },
+  {
+    "id": "8",
+    "title": "Among Us",
+    "coverPhoto": "https://i.ibb.co.com/jPdR9317/Among-Us-cover-art.jpg",
+    "category": "Social Deduction",
+    "downloadLink": "https://www.innersloth.com/games/among-us",
+    "description": "Play with friends online in this multiplayer game of teamwork and betrayal set in space.",
+    "ratings": "4.1",
+    "developer": "Innersloth"
+  },
+  {
+    "id": "9",
+    "title": "Subway Surfers",
+    "coverPhoto": "https://i.ibb.co.com/wZw0zJDY/subway-surfers.jpg",
+    "category": "Endless Runner",
+    "downloadLink": "https://www.subwaysurfers.com",
+    "description": "Dash through subway tracks, dodge trains, and collect coins in this colorful endless runner game.",
+    "ratings": "4.5",
+    "developer": "SYBO Games"
+  },
+  {
+    "id": "10",
+    "title": "Roblox",
+    "coverPhoto": "https://i.ibb.co.com/7twZx05s/5348266ea6c5e67b19d6a814cbbb70f6.jpg",
+    "category": "Sandbox",
+    "downloadLink": "https://www.roblox.com",
+    "description": "Explore millions of user-created games and experiences, or create your own worlds in this social gaming platform.",
+    "ratings": "4.3",
+    "developer": "Roblox Corporation"
+  },
+  {
+    "id": "11",
+    "title": "Minecraft",
+    "coverPhoto": "https://i.ibb.co.com/zHDKrZZr/minecraft-1639513933156.jpg",
+    "category": "Sandbox",
+    "downloadLink": "https://www.minecraft.net",
+    "description": "Build, explore, and survive in procedurally generated worlds with endless creative possibilities.",
+    "ratings": "4.6",
+    "developer": "Mojang Studios"
+  },
+  {
+    "id": "12",
+    "title": "Clash Royale",
+    "coverPhoto": "https://i.ibb.co.com/ymyjwB4H/gn-SC6s8-6-Tjc4uhv-DW7nfr-SJxpbhllz-Yhg-X8y374-N1-LYv-WBStn2-Yhoz-S9-XXaz1-T-Pi2q.png",
+    "category": "Strategy",
+    "downloadLink": "https://supercell.com/en/games/clashroyale",
+    "description": "Real-time multiplayer battles with collectible cards featuring Clash characters in tower defense gameplay.",
+    "ratings": "4.4",
+    "developer": "Supercell"
+  },
+  {
+    "id": "13",
+    "title": "Pokémon GO",
+    "coverPhoto": "https://i.ibb.co.com/zhKvSBks/Lx-QBOuj-V9-WD4-TG0-Qs-GYtay-ZJd-H0-IM0d3iw-QEYU0o9-W-hhiqnl-XTnpe-XPWddf-Cn-LKo-O9w-KU9-WT2v4qtz-Cf.webp",
+    "category": "AR",
+    "downloadLink": "https://pokemongolive.com",
+    "description": "Explore the real world and catch Pokémon using augmented reality technology on your mobile device.",
+    "ratings": "4.1",
+    "developer": "Niantic"
+  },
+  {
+    "id": "14",
+    "title": "Brawl Stars",
+    "coverPhoto": "https://i.ibb.co.com/TM4GcMjq/brawl-stars.jpg",
+    "category": "MOBA",
+    "downloadLink": "https://supercell.com/en/games/brawlstars",
+    "description": "Fast-paced 3v3 multiplayer battles and battle royale modes with unique Brawlers and game modes.",
+    "ratings": "4.4",
+    "developer": "Supercell"
+  },
+  {
+    "id": "15",
+    "title": "Apex Legends Mobile",
+    "coverPhoto": "https://i.ibb.co.com/5hPmvxrN/images-q-tbn-ANd9-Gc-SVM1e2-HG6o6z-as-Z1t-JLuxk-Fss-SIa-Hx-Z1j-w-s.jpg",
+    "category": "Battle Royale",
+    "downloadLink": "https://www.ea.com/games/apex-legends/apex-legends-mobile",
+    "description": "Tactical squad-based battle royale with unique Legends, each with powerful abilities and playstyles.",
+    "ratings": "4.3",
+    "developer": "Electronic Arts"
+  },
+  {
+    "id": "16",
+    "title": "Asphalt 9: Legends",
+    "coverPhoto": "https://i.ibb.co.com/0j2KSNx4/70c58382cbf141504b8933e53befbb5a615d324c64fcb24f514c9ef28772a957.jpg",
+    "category": "Racing",
+    "downloadLink": "https://www.asphalt.com",
+    "description": "Arcade racing game featuring hypercars, stunning visuals, and intense multiplayer racing action.",
+    "ratings": "4.5",
+    "developer": "Gameloft"
+  },
+  {
+    "id": "17",
+    "title": "Gardenscapes",
+    "coverPhoto": "https://i.ibb.co.com/B2TYwDsC/gardenscapes-lifetime-revenue-one-half-billion.jpg",
+    "category": "Puzzle",
+    "downloadLink": "https://playrix.com/gardenscapes",
+    "description": "Solve match-3 puzzles to restore a beautiful garden, unlock new areas, and meet charming characters.",
+    "ratings": "4.3",
+    "developer": "Playrix"
+  },
+  {
+    "id": "18",
+    "title": "RAID: Shadow Legends",
+    "coverPhoto": "https://i.ibb.co.com/Y7HTTbs7/capsule-616x353.jpg",
+    "category": "RPG",
+    "downloadLink": "https://plarium.com/en/games/raid-shadow-legends",
+    "description": "Epic dark fantasy RPG with hundreds of champions, strategic turn-based combat, and stunning visuals.",
+    "ratings": "4.2",
+    "developer": "Plarium"
+  },
+  {
+    "id": "19",
+    "title": "8 Ball Pool",
+    "coverPhoto": "https://i.ibb.co.com/mV5Nrsrf/8-ball-pool-revenue.jpg",
+    "category": "Sports",
+    "downloadLink": "https://www.miniclip.com/games/8-ball-pool-mobile",
+    "description": "Play pool online against players worldwide, level up, and compete in tournaments with realistic physics.",
+    "ratings": "4.4",
+    "developer": "Miniclip"
+  },
+  {
+    "id": "20",
+    "title": "Temple Run 2",
+    "coverPhoto": "https://i.ibb.co.com/dJWBfnxw/maxresdefault.jpg",
+    "category": "Endless Runner",
+    "downloadLink": "https://www.imangistudios.com/games/temple-run-2",
+    "description": "Navigate treacherous cliffs, zip lines, and mines as you run for your life in this epic endless runner.",
+    "ratings": "4.3",
+    "developer": "Imangi Studios"
+  },
+  {
+    "id": "21",
+    "title": "League of Legends: Wild Rift",
+    "coverPhoto": "https://i.ibb.co.com/7dRgW62G/League-of-Legends-Wild-Rift-Preview.jpg",
+    "category": "MOBA",
+    "downloadLink": "https://wildrift.leagueoflegends.com",
+    "description": "Team-based strategy game with fast-paced 5v5 battles, bringing the PC MOBA experience to mobile.",
+    "ratings": "4.4",
+    "developer": "Riot Games"
+  },
+  {
+    "id": "22",
+    "title": "Stumble Guys",
+    "coverPhoto": "https://i.ibb.co.com/Z6ZqQLGp/Mxe3-Gb-JL7-NIAez-E8l9-YL5o-f-B-g293os-GYUFdp-Ub-RYEdtok-RVqm-XJy-Wr-Xo-Zgf2z-NFD1if-QBa6d-H2-LGU49.webp",
+    "category": "Party",
+    "downloadLink": "https://www.stumbleguys.com",
+    "description": "Multiplayer knockout game where 32 players compete through chaotic obstacle courses until one remains.",
+    "ratings": "4.2",
+    "developer": "Kitka Games"
+  },
+  {
+    "id": "23",
+    "title": "Rise of Kingdoms",
+    "coverPhoto": "https://i.ibb.co.com/fVwNhxnv/3tdr-WI36-Ji8yud-D1-WWM-42-IVva-Hv8-Xbc-Nd1-Yjk-V-l9e4yu-Pp-F-Rt-Wo-Dj-Gfx2m-THsb1-A-w526-h296-rw.webp",
+    "category": "Strategy",
+    "downloadLink": "https://rok.lilithgames.com",
+    "description": "Build your civilization, command legendary commanders, and conquer the world in this real-time strategy game.",
+    "ratings": "4.3",
+    "developer": "Lilith Games"
+  },
+  {
+    "id": "24",
+    "title": "Angry Birds 2",
+    "coverPhoto": "https://i.ibb.co.com/HLR7h9GD/AB2-App-Icon-July-2023.webp",
+    "category": "Puzzle",
+    "downloadLink": "https://www.rovio.com/games/angry-birds-2",
+    "description": "Sling birds to defeat the piggies in this physics-based puzzle game with multi-stage levels.",
+    "ratings": "4.4",
+    "developer": "Rovio Entertainment"
+  },
+  {
+    "id": "25",
+    "title": "Hill Climb Racing 2",
+    "coverPhoto": "https://i.ibb.co.com/5XdZPvqK/UGKh6u0g-A0-GLh39q-G4k-XKK3-Vu3-FEAUEd-XWAK55pj-LTGi-JI2v-LQVHz-IPP6-CVo-ZP0dw.png",
+    "category": "Racing",
+    "downloadLink": "https://fingersoft.com/games/hill-climb-racing-2",
+    "description": "Physics-based driving game with challenging terrains, vehicle upgrades, and competitive multiplayer.",
+    "ratings": "4.5",
+    "developer": "Fingersoft"
+  },
+  {
+    "id": "26",
+    "title": "Coin Master",
+    "coverPhoto": "https://i.ibb.co.com/G3CFf4GK/lja-bc-S9-SXsa-K4x-q0r-Xuiqf3-CIIwfy8-Qve-RWf-W5-MEa-APOST-au-DLuz-WMy-MUr-Bzi0s-I.jpg",
+    "category": "Casual",
+    "downloadLink": "https://coinmaster.com",
+    "description": "Spin the slot machine to earn coins, attack other villages, and build your own viking empire.",
+    "ratings": "4.3",
+    "developer": "Moon Active"
+  },
+  {
+    "id": "27",
+    "title": "Honkai: Star Rail",
+    "coverPhoto": "https://i.ibb.co.com/xtxvhC29/8c3ce3611a4bb187418bb5e24924a055ba33d3046a7aaacb.jpg",
+    "category": "RPG",
+    "downloadLink": "https://hsr.hoyoverse.com",
+    "description": "Turn-based RPG adventure through the stars with strategic combat and stunning animation quality.",
+    "ratings": "4.6",
+    "developer": "HoYoverse"
+  },
+  {
+    "id": "28",
+    "title": "State of Survival",
+    "coverPhoto": "https://i.ibb.co.com/WNgqLrFW/g7-Ila-VOg6pqp-CJVu5o-Hy-OUNFq4m-Dp-Ncfk-IRU1yii-Gxj-E4-GF2n-Crk-J5gf76m-LRYsmc-Q.png",
+    "category": "Strategy",
+    "downloadLink": "https://www.stateofsurvival.com",
+    "description": "Zombie apocalypse survival game where you build settlements, recruit heroes, and fight hordes of undead.",
+    "ratings": "4.2",
+    "developer": "FunPlus"
+  },
+  {
+    "id": "29",
+    "title": "Geometry Dash",
+    "coverPhoto": "https://i.ibb.co.com/JYmRXSy/images-q-tbn-ANd9-Gc-Rj-Vs-A7-Ris1i-82u1-C8qmf-Prn-FMae-EPYXQ-s.jpg",
+    "category": "Platformer",
+    "downloadLink": "https://www.robtopgames.com",
+    "description": "Rhythm-based action platformer with challenging levels synced to energetic soundtracks.",
+    "ratings": "4.5",
+    "developer": "RobTop Games"
+  },
+  {
+    "id": "30",
+    "title": "Shadow Fight 3",
+    "coverPhoto": "https://i.ibb.co.com/TBLD2YNv/images-q-tbn-ANd9-Gc-Sb-ZIOw9o2-XZ-l332-LHEAxqbug3uv-VSx-YBNLA-s.jpg",
+    "category": "Fighting",
+    "downloadLink": "https://nekki.com/games/shadow-fight-3",
+    "description": "Cinematic martial arts RPG with fluid combat animations, weapon customization, and epic storyline.",
+    "ratings": "4.4",
+    "developer": "Nekki"
+  },
+  {
+    "id": "31",
+    "title": "Homescapes",
+    "coverPhoto": "https://i.ibb.co.com/vCg4V0v3/0-YVi-Kl-Vl-WZx-DBy-QB.jpg",
+    "category": "Puzzle",
+    "downloadLink": "https://playrix.com/homescapes",
+    "description": "Match-3 puzzle game where you renovate rooms, unlock new areas, and follow an engaging story.",
+    "ratings": "4.3",
+    "developer": "Playrix"
+  },
+  {
+    "id": "32",
+    "title": "Dragon City Mobile",
+    "coverPhoto": "https://i.ibb.co.com/gL1nW0Mf/279483-dragon-city-android-front-cover.webp",
+    "category": "Simulation",
+    "downloadLink": "https://www.socialpoint.es/dragon-city",
+    "description": "Breed, collect, and train dragons to create the ultimate dragon city and battle other players.",
+    "ratings": "4.4",
+    "developer": "Social Point"
+  },
+  {
+    "id": "33",
+    "title": "Call of Duty: Warzone Mobile",
+    "coverPhoto": "https://i.ibb.co.com/K3y3bPD/Warzone-Keyart-Horiz-Helicopter-1-scaled.jpg",
+    "category": "Battle Royale",
+    "downloadLink": "https://www.callofduty.com/warzonemobile",
+    "description": "Massive battle royale experience on mobile with authentic Call of Duty gameplay and Verdansk map.",
+    "ratings": "4.5",
+    "developer": "Activision"
+  },
+  {
+    "id": "34",
+    "title": "Plants vs. Zombies 2",
+    "coverPhoto": "https://i.ibb.co.com/8nSx92QG/mqdefault.jpg",
+    "category": "Tower Defense",
+    "downloadLink": "https://www.ea.com/games/plants-vs-zombies/plants-vs-zombies-2",
+    "description": "Tower defense game where you travel through time defending your lawn against zombies with unique plants.",
+    "ratings": "4.4",
+    "developer": "Electronic Arts"
+  },
+  {
+    "id": "35",
+    "title": "Slither.io",
+    "coverPhoto": "https://i.ibb.co.com/DfGzQmSD/cover-1587331280441.jpg",
+    "category": "Arcade",
+    "downloadLink": "https://slither.io",
+    "description": "Control a snake to eat glowing orbs, grow longer, and eliminate other players in this multiplayer game.",
+    "ratings": "4.2",
+    "developer": "Lowtech Studios"
+  },
+  {
+    "id": "36",
+    "title": "Hay Day",
+    "coverPhoto": "https://i.ibb.co.com/YBf9YNgm/Za8u0-Ch-NK-3m-Z3rn-Lc-Bir-RBTz-LYTdqaa-An63-Ha9q-KZi-Dp-b-F-5u7-OGfv-Wb1dg88-Wtt-Kw.png",
+    "category": "Simulation",
+    "downloadLink": "https://supercell.com/en/games/hayday",
+    "description": "Build and manage your dream farm, grow crops, raise animals, and trade with neighbors.",
+    "ratings": "4.5",
+    "developer": "Supercell"
+  },
+  {
+    "id": "37",
+    "title": "Tower of Fantasy",
+    "coverPhoto": "https://i.ibb.co.com/3m8MnxtS/Tower-Of-Fantasy-cover.jpg",
+    "category": "RPG",
+    "downloadLink": "https://www.toweroffantasy-global.com",
+    "description": "Open-world MMORPG with sci-fi anime aesthetic, featuring exploration, combat, and character customization.",
+    "ratings": "4.1",
+    "developer": "Hotta Studio"
+  },
+  {
+    "id": "38",
+    "title": "FIFA Mobile",
+    "coverPhoto": "https://i.ibb.co.com/Hfn0r3ZC/646c253ce1010.png",
+    "category": "Sports",
+    "downloadLink": "https://www.ea.com/games/fifa/fifa-mobile",
+    "description": "Build your ultimate football team with real players, compete in leagues, and experience console-like gameplay.",
+    "ratings": "4.3",
+    "developer": "Electronic Arts"
+  },
+  {
+    "id": "39",
+    "title": "Crossy Road",
+    "coverPhoto": "https://i.ibb.co.com/VW3RXGzt/Crossy-Road-Banner.webp",
+    "category": "Arcade",
+    "downloadLink": "https://www.crossyroad.com",
+    "description": "Endless arcade hopper where you guide characters across roads, rivers, and train tracks.",
+    "ratings": "4.5",
+    "developer": "Hipster Whale"
+  },
+  {
+    "id": "40",
+    "title": "Evony: The King's Return",
+    "coverPhoto": "https://i.ibb.co.com/HfLRrtMN/maxresdefault.jpg",
+    "category": "Strategy",
+    "downloadLink": "https://www.evonygame.com",
+    "description": "Build your empire, train troops, and conquer enemy kingdoms in this real-time strategy MMO.",
+    "ratings": "4.2",
+    "developer": "Top Games"
+  },
+  {
+    "id": "41",
+    "title": "Marvel Contest of Champions",
+    "coverPhoto": "https://i.ibb.co.com/fd3mxNYL/capsule-616x353.jpg",
+    "category": "Fighting",
+    "downloadLink": "https://playcontestofchampions.com",
+    "description": "Collect Marvel superheroes and villains, build your ultimate team, and battle through the Marvel Universe.",
+    "ratings": "4.3",
+    "developer": "Kabam"
+  },
+  {
+    "id": "42",
+    "title": "Fruit Ninja",
+    "coverPhoto": "https://i.ibb.co.com/995Ptw1z/images-q-tbn-ANd9-Gc-Sd-XVz-Crf-YUvk1l-KM7-Bl-Pj8s2xqip4-m-HVb-XA-s.jpg",
+    "category": "Arcade",
+    "downloadLink": "https://fruitninja.com",
+    "description": "Slice flying fruit with your finger while avoiding bombs in this addictive arcade game.",
+    "ratings": "4.4",
+    "developer": "Halfbrick Studios"
+  },
+  {
+    "id": "43",
+    "title": "Archero",
+    "coverPhoto": "https://i.ibb.co.com/bj58LY3Z/xu-Lndc-So-UDlsu-OL6-Nmj-XKReu4a-Doi9-Kf-X918c-GGQG8sf-Ve38um-Kt4cyj-ZW-ytisw-Q1zal-EOR1-Wu-OH4-ZWRy.webp",
+    "category": "Action",
+    "downloadLink": "https://www.habby.com/game/archero",
+    "description": "Roguelike archer game with unique skill combinations, challenging bosses, and endless dungeons.",
+    "ratings": "4.4",
+    "developer": "Habby"
+  },
+  {
+    "id": "44",
+    "title": "Toon Blast",
+    "coverPhoto": "https://i.ibb.co.com/qYFc3Hj1/AIdro-m-Yy-G30q5-PWoh-D9u-DND7-HMeb5-Rjph354z-Wf-Df-Qz4-prd-Q-s900-c-k-c0x00ffffff-no-rj.jpg",
+    "category": "Puzzle",
+    "downloadLink": "https://peakgames.com/toonblast",
+    "description": "Match cubes of the same color and create powerful combos to clear challenging puzzle levels.",
+    "ratings": "4.5",
+    "developer": "Peak Games"
+  },
+  {
+    "id": "45",
+    "title": "Diablo Immortal",
+    "coverPhoto": "https://i.ibb.co.com/wZHm4NpW/images-q-tbn-ANd9-Gc-Sw-V-V33-IEz-C16-SW83ro-Wb-Yh-W-wy-Xn-Uebh-C9w-s.jpg",
+    "category": "RPG",
+    "downloadLink": "https://diabloimmortal.blizzard.com",
+    "description": "Demon-slaying action RPG set in the world of Sanctuary with dungeon raids and PvP battles.",
+    "ratings": "4.0",
+    "developer": "Blizzard Entertainment"
+  },
+  {
+    "id": "46",
+    "title": "Jetpack Joyride",
+    "coverPhoto": "https://i.ibb.co.com/MmXCcbZ/Jetpack-Joyride-i-OS.png",
+    "category": "Endless Runner",
+    "downloadLink": "https://halfbrick.com/games/jetpack-joyride",
+    "description": "Fly through labs with powerful jetpacks, dodge hazards, and collect coins in this action-packed runner.",
+    "ratings": "4.5",
+    "developer": "Halfbrick Studios"
+  },
+  {
+    "id": "47",
+    "title": "Last Shelter: Survival",
+    "coverPhoto": "https://i.ibb.co.com/kVhc69Ps/UNk4-X4-n-BYJp-LCha-FOZr-Gmo-Zr8n-CRNFW87-Ge-Ed-Vvu-PJe-LSOP0-Iau8xw-WVm-ZRck9-REA.jpg",
+    "category": "Strategy",
+    "downloadLink": "https://www.lastshelter.com",
+    "description": "Post-apocalyptic strategy game where you build a shelter, recruit heroes, and fight zombie hordes.",
+    "ratings": "4.2",
+    "developer": "Long Tech Network"
+  },
+  {
+    "id": "48",
+    "title": "Sonic Dash",
+    "coverPhoto": "https://i.ibb.co.com/0p9TgXZF/MV5-BMTk1-MTFi-ZDkt-ZTY2-NC00-ZWE0-LThk-Ym-Qt-Njc4-Njlk-NDk4-Yz-Y5-Xk-Ey-Xk-Fqc-Gc-V1-FMjpg-UX1000.jpg",
+    "category": "Endless Runner",
+    "downloadLink": "https://www.sonicdash.com",
+    "description": "Run at lightning speed as Sonic through stunning 3D environments while collecting rings.",
+    "ratings": "4.3",
+    "developer": "SEGA"
+  },
+  {
+    "id": "49",
+    "title": "Arena of Valor",
+    "coverPhoto": "https://i.ibb.co.com/Z1BfVH52/MV5-BZTc5-Nzk2-MGIt-Y2-Mw-Ny00-NDVk-LWJk-ZGIt-NTU3-Yjlk-MWVj-Mjc4-Xk-Ey-Xk-Fqc-Gc-V1.jpg",
+    "category": "MOBA",
+    "downloadLink": "https://www.arenaofvalor.com",
+    "description": "5v5 multiplayer online battle arena with diverse heroes, strategic gameplay, and competitive ranked matches.",
+    "ratings": "4.2",
+    "developer": "TiMi Studios"
+  },
+  {
+    "id": "50",
+    "title": "Words With Friends 2",
+    "coverPhoto": "https://i.ibb.co.com/wTyXk6n/Words-With-Friends-2.jpg",
+    "category": "Word",
+    "downloadLink": "https://www.wordswithfriends.com",
+    "description": "Social word game where you challenge friends and family to word-building competitions and puzzles.",
+    "ratings": "4.4",
+    "developer": "Zynga"
+  },
+  {
+    "id": "51",
+    "title": "Zombie Tsunami",
+    "coverPhoto": "https://i.ibb.co.com/DfFNQB10/MV5-BNGQ2-M2-Vh-Ym-Qt-N2-Yw-OS00-ZTQz-LTk2-ZTct-Yzlj-Yj-Y3-Nm-U5-YWJj-Xk-Ey-Xk-Fqc-Gc-V1-FMjpg-UX100.jpg",
+    "category": "Endless Runner",
+    "downloadLink": "https://www.mobigame.net/zombie-tsunami",
+    "description": "Lead a zombie horde through cities, turning civilians into zombies and causing mayhem.",
+    "ratings": "4.3",
+    "developer": "Mobigame"
+  },
+  {
+    "id": "52",
+    "title": "King of Avalon",
+    "coverPhoto": "https://i.ibb.co.com/kVJ30Hgf/capsule-616x353.jpg",
+    "category": "Strategy",
+    "downloadLink": "https://www.kingofavalon.com",
+    "description": "Raise dragons, build armies, and battle for the throne in this medieval strategy MMO.",
+    "ratings": "4.2",
+    "developer": "FunPlus"
+  },
+  {
+    "id": "53",
+    "title": "Doodle Jump",
+    "coverPhoto": "https://i.ibb.co.com/gM8sjyF8/LFWq3yz-Tn-Unbdb-WX4-RL-87-GK9-z-Glvxts-BIYX531-Tk-XX2vyl-Zn-Rm8-Szl-Yyw05-E0-Ykl-KI.png",
+    "category": "Arcade",
+    "downloadLink": "https://www.doodlejump.com",
+    "description": "Guide the Doodler up platforms by tilting your device while avoiding monsters and obstacles.",
+    "ratings": "4.4",
+    "developer": "Lima Sky"
+  },
+  {
+    "id": "54",
+    "title": "Angry Birds Friends",
+    "coverPhoto": "https://i.ibb.co.com/B59tJHtN/Angry-Birds-Friends.png",
+    "category": "Puzzle",
+    "downloadLink": "https://www.rovio.com/games/angry-birds-friends",
+    "description": "Compete against friends in weekly tournaments with new levels and special power-ups.",
+    "ratings": "4.3",
+    "developer": "Rovio Entertainment"
+  },
+  {
+    "id": "55",
+    "title": "Merge Dragons",
+    "coverPhoto": "https://i.ibb.co.com/7tt0vZBT/images-q-tbn-ANd9-Gc-RMuk5-F3r-Tpy-X5h-Wr-Goy4ci60-EBd-Ott-HTU6-A-s.jpg",
+    "category": "Puzzle",
+    "downloadLink": "https://gramgames.com/merge-dragons",
+    "description": "Match and merge objects to heal a magical land and discover mythical creatures and treasures.",
+    "ratings": "4.4",
+    "developer": "Gram Games"
+  },
+  {
+    "id": "56",
+    "title": "AFK Arena",
+    "coverPhoto": "https://i.ibb.co.com/Rkg8GR2K/slogimg2-no-m.jpg",
+    "category": "RPG",
+    "downloadLink": "https://www.afkarena.com",
+    "description": "Idle RPG where heroes level up automatically, featuring strategic team building and epic battles.",
+    "ratings": "4.5",
+    "developer": "Lilith Games"
+  },
+  {
+    "id": "57",
+    "title": "Bubble Witch 3 Saga",
+    "coverPhoto": "https://i.ibb.co.com/b5t0ydvw/81l9j-Bj-G7p-L.png",
+    "category": "Puzzle",
+    "downloadLink": "https://king.com/game/bubblewitch3",
+    "description": "Pop bubbles to defeat evil Wilbur in this magical bubble shooter adventure with stunning graphics.",
+    "ratings": "4.3",
+    "developer": "King"
+  },
+  {
+    "id": "58",
+    "title": "NBA 2K Mobile",
+    "coverPhoto": "https://i.ibb.co.com/Swd0Pqdx/images-q-tbn-ANd9-Gc-SRHPUn-OTS-0xctrx-XJXf-A4-BFxk3vl46p-Q1uw-s.jpg",
+    "category": "Sports",
+    "downloadLink": "https://nba.2k.com/2kmobile",
+    "description": "Build your dream NBA team with authentic players and compete in realistic basketball gameplay.",
+    "ratings": "4.2",
+    "developer": "2K Sports"
+  },
+  {
+    "id": "59",
+    "title": "Bloons TD 6",
+    "coverPhoto": "https://i.ibb.co.com/jvyRkysx/images-q-tbn-ANd9-Gc-Tyl-GZv5-Bl-QMhwr-Nu-XOt-H6um-JRt2-ECFo-Sf-Mw-s.jpg",
+    "category": "Tower Defense",
+    "downloadLink": "https://ninjakiwi.com/Games/Mobile/Bloons-TD-6.html",
+    "description": "Strategic tower defense with monkey towers, unique upgrades, and challenging balloon-popping action.",
+    "ratings": "4.6",
+    "developer": "Ninja Kiwi"
+  },
+  {
+    "id": "60",
+    "title": "Lords Mobile",
+    "coverPhoto": "https://i.ibb.co.com/RGMqty8Z/lords-mobile-1rq8b.png",
+    "category": "Strategy",
+    "downloadLink": "https://lordsmobile.igg.com",
+    "description": "Build an empire, train troops, and battle millions of players in this real-time strategy game.",
+    "ratings": "4.3",
+    "developer": "IGG"
+  },
+  {
+    "id": "61",
+    "title": "Mario Kart Tour",
+    "coverPhoto": "https://i.ibb.co.com/FLzLtqqM/Mario-Kart-Tour-artwork.png",
+    "category": "Racing",
+    "downloadLink": "https://mariokarttour.com",
+    "description": "Race as Mario and friends on iconic tracks from around the world with simple one-finger controls.",
+    "ratings": "4.2",
+    "developer": "Nintendo"
+  },
+  {
+    "id": "62",
+    "title": "Summoners War",
+    "coverPhoto": "https://i.ibb.co.com/BVhvtkKp/capsule-616x353.jpg",
+    "category": "RPG",
+    "downloadLink": "https://summonerswar.com",
+    "description": "Collect over 1000 monsters, build strategic teams, and battle in this turn-based RPG.",
+    "ratings": "4.3",
+    "developer": "Com2uS"
+  },
+  {
+    "id": "63",
+    "title": "Cooking Fever",
+    "coverPhoto": "https://i.ibb.co.com/wrz7C0h3/x3z-Lirn-Qq-Q2-LJ064-Ak6n-FV2o-NUoj-Vqby7g-HHUj-SMc0a-Qm0-RQimhc-GU6-On-KQW-b-to-w648-h364-rw.webp",
+    "category": "Simulation",
+    "downloadLink": "https://nordcurrent.com/games/cooking-fever",
+    "description": "Manage restaurants, cook delicious dishes, and serve customers in this fast-paced time management game.",
+    "ratings": "4.5",
+    "developer": "Nordcurrent"
+  },
+  {
+    "id": "64",
+    "title": "Cut the Rope 2",
+    "coverPhoto": "https://i.ibb.co.com/Kchqv2kD/mc-Tu-R3-Tna-IY8-OMD1k-Gg-Uhr-I2-Q-x-H8-YXu6z-PS78pimfnh-Rlpxhi-Pmph7-Dbmu-F62-Zdw.png",
+    "category": "Puzzle",
+    "downloadLink": "https://www.cuttherope.net/games/cut-the-rope-2",
+    "description": "Help Om Nom collect candy by cutting ropes and solving physics-based puzzles with adorable Nommies.",
+    "ratings": "4.4",
+    "developer": "ZeptoLab"
+  },
+  {
+    "id": "65",
+    "title": "Stardew Valley",
+    "coverPhoto": "https://i.ibb.co.com/sdTt67cN/Logo-of-Stardew-Valley.png",
+    "category": "Simulation",
+    "downloadLink": "https://www.stardewvalley.net",
+    "description": "Farm, fish, mine, and build relationships in this peaceful countryside RPG with endless activities.",
+    "ratings": "4.8",
+    "developer": "ConcernedApe"
+  },
+  {
+    "id": "66",
+    "title": "Angry Birds Epic",
+    "coverPhoto": "https://i.ibb.co.com/RkS9HB8S/images-q-tbn-ANd9-Gc-RAS0-Vb-MOev-Eh-SI9-NOw-D5-B8v-QC2g-Bn-Ap-EOy-WQ-s.jpg",
+    "category": "RPG",
+    "downloadLink": "https://www.rovio.com/games/angry-birds-epic",
+    "description": "Turn-based RPG adventure featuring Angry Birds characters with crafting, weapons, and epic battles.",
+    "ratings": "4.3",
+    "developer": "Rovio Entertainment"
+  },
+  {
+    "id": "67",
+    "title": "Golf Clash",
+    "coverPhoto": "https://i.ibb.co.com/S4CgNCMm/gametiles-com-playdemic-golf-android5.jpg",
+    "category": "Sports",
+    "downloadLink": "https://playdemic.com/golf-clash",
+    "description": "Real-time multiplayer golf game with simple swipe controls and competitive tournaments.",
+    "ratings": "4.4",
+    "developer": "Playdemic"
+  },
+  {
+    "id": "68",
+    "title": "Real Racing 3",
+    "coverPhoto": "https://i.ibb.co.com/n8MkqkrF/bg-banner23.jpg",
+    "category": "Racing",
+    "downloadLink": "https://www.ea.com/games/real-racing/real-racing-3",
+    "description": "Realistic racing simulation with licensed cars, real tracks, and stunning graphics.",
+    "ratings": "4.5",
+    "developer": "Electronic Arts"
+  },
+  {
+    "id": "69",
+    "title": "Township",
+    "coverPhoto": "https://i.ibb.co.com/fdQPW3Gp/screen-0-jpg-fakeurl-1-type.jpg",
+    "category": "Simulation",
+    "downloadLink": "https://playrix.com/township",
+    "description": "Build your dream town by farming, trading, and developing infrastructure in this city-building game.",
+    "ratings": "4.4",
+    "developer": "Playrix"
+  },
+  {
+    "id": "70",
+    "title": "Idle Heroes",
+    "coverPhoto": "https://i.ibb.co.com/kVZ3jhBS/Hs1ic-A4suz-VUKQLWr-Aq3u-Uc9-Vw-H4-Uo-Kv-XVy-MEs-Pn-EHQm-VAe3u-Wq9j-X5-P09-Xhvj-Pepos-Agoh-H3g38-Rr.png",
+    "category": "RPG",
+    "downloadLink": "https://www.idleheroes.com",
+    "description": "Collect epic heroes and watch them battle automatically in this idle RPG adventure.",
+    "ratings": "4.3",
+    "developer": "DHGAMES"
+  },
+  {
+    "id": "71",
+    "title": "CSR Racing 2",
+    "coverPhoto": "https://i.ibb.co.com/WW33xB4q/Jdy-Ixgdogvbvd7ivz-R-gg-LIVsz-Gtx-Ej-U1-HA1vp-AFe-Hh-NM0e-BQKjhw-I8q3-YSu-RDP2kf55yd-Y-r-PVPFv5hz-YI.jpg",
+    "category": "Racing",
+    "downloadLink": "https://www.csrracing.com",
+    "description": "Drag racing game with stunning graphics, customizable supercars, and online multiplayer races.",
+    "ratings": "4.5",
+    "developer": "Zynga"
+  },
+  {
+    "id": "72",
+    "title": "Boom Beach",
+    "coverPhoto": "https://i.ibb.co.com/kV455Yh2/XRCVAc-T1-Vwo-KBJMwf7-WX2r1-XOBBPp5-MQNn-G9-Cw-Brj-Qkfr-Tm-TLoh-YB9d-SBg-SOLXd-HPg-w526-h296-rw.webp",
+    "category": "Strategy",
+    "downloadLink": "https://supercell.com/en/games/boombeach",
+    "description": "Combat strategy game where you fight evil on tropical islands with troops and gunboat weaponry.",
+    "ratings": "4.4",
+    "developer": "Supercell"
+  },
+  {
+    "id": "73",
+    "title": "Sky: Children of the Light",
+    "coverPhoto": "https://i.ibb.co.com/NgC2khSC/capsule-616x353.jpg",
+    "category": "Adventure",
+    "downloadLink": "https://thatskygame.com",
+    "description": "Enchanting social adventure game where you explore beautiful realms and connect with others.",
+    "ratings": "4.7",
+    "developer": "thatgamecompany"
+  },
+  {
+    "id": "74",
+    "title": "Empires & Puzzles",
+    "coverPhoto": "https://i.ibb.co.com/xqT2jTXg/8-Ajj3-Rs9pa-xg3dlc7ye-Df87h04mw-Zt-Bj5is-QWxd-Ao-RUa-POs-CQL1s-N5-Ts1-Vhn-P2g-k-I.png",
+    "category": "Puzzle",
+    "downloadLink": "https://www.empiresandpuzzles.com",
+    "description": "Match-3 RPG hybrid with base building, hero collecting, and strategic puzzle battles.",
+    "ratings": "4.5",
+    "developer": "Zynga"
+  },
+  {
+    "id": "75",
+    "title": "Marvel Strike Force",
+    "coverPhoto": "https://i.ibb.co.com/1JbScbQR/AUm-Ak-CX6-G2-VJjwtyt-G-X9-o-L1-zo-ALHqnmf-ZWpvlk8s0g-EQp-Ggi-kjlld19xoc5u-w526-h296-rw.webp",
+    "category": "RPG",
+    "downloadLink": "https://www.marvelstrikeforce.com",
+    "description": "Squad-based RPG featuring Marvel superheroes and villains in cinematic turn-based combat.",
+    "ratings": "4.3",
+    "developer": "Scopely"
+  },
+  {
+    "id": "76",
+    "title": "World of Tanks Blitz",
+    "coverPhoto": "https://i.ibb.co.com/RpRx1XZh/capsule-616x353.jpg",
+    "category": "Action",
+    "downloadLink": "https://wotblitz.com",
+    "description": "Multiplayer tank combat game with over 400 vehicles and strategic 7v7 battles.",
+    "ratings": "4.4",
+    "developer": "Wargaming"
+  },
+  {
+    "id": "77",
+    "title": "The Sims Mobile",
+    "coverPhoto": "https://i.ibb.co.com/TxX32ZF8/tsm.jpg",
+    "category": "Simulation",
+    "downloadLink": "https://www.ea.com/games/the-sims/the-sims-mobile",
+    "description": "Create unique Sims, build dream homes, and live out stories in this life simulation game.",
+    "ratings": "4.2",
+    "developer": "Electronic Arts"
+  },
+  {
+    "id": "78",
+    "title": "Top War: Battle Game",
+    "coverPhoto": "https://i.ibb.co.com/nMPdbB3w/images-q-tbn-ANd9-Gc-Tf-OTS8-R-h4hou4w-Jk9u-IMchh-Id3mbg-PEZc1g-s.jpg",
+    "category": "Strategy",
+    "downloadLink": "https://www.topwar.com",
+    "description": "Innovative merge strategy game where you combine units and buildings to create powerful armies.",
+    "ratings": "4.3",
+    "developer": "Topwar Studio"
+  },
+  {
+    "id": "79",
+    "title": "My Talking Tom 2",
+    "coverPhoto": "https://i.ibb.co.com/xSKKM2y5/9ea-Sk-z-Lvj5-E0m-R2-B0x-G-y9-ZJ-m-PZAx-C3-IAh-OTZn-L9h-Qs-NQVMf-WKr-Zwy05oiht-ZHBd-Y.png",
+    "category": "Casual",
+    "downloadLink": "https://outfit7.com/apps/my-talking-tom-2",
+    "description": "Virtual pet game where you care for Tom, play mini-games, and watch him repeat your words.",
+    "ratings": "4.4",
+    "developer": "Outfit7"
+  },
+  {
+    "id": "80",
+    "title": "Plague Inc.",
+    "coverPhoto": "https://i.ibb.co.com/Q7sPQFcr/Ahhh-I8-JGijt-Ku-O8x-OP-q-Uz-Ov-Ik7-R7x-BIKALKW-P7-DV7jz-Wtvo2-Lrf-C0081-XMc85-NGe-BK.png",
+    "category": "Strategy",
+    "downloadLink": "https://www.ndemiccreations.com/en/22-plague-inc",
+    "description": "Strategic simulation where you evolve a pathogen to infect and wipe out humanity.",
+    "ratings": "4.5",
+    "developer": "Ndemic Creations"
+  },
+  {
+    "id": "81",
+    "title": "Hearthstone",
+    "coverPhoto": "https://i.ibb.co.com/LzLCyYkR/default-4fff3c606c794dc03a915b9071f562d3.jpg",
+    "category": "Card Game",
+    "downloadLink": "https://playhearthstone.com",
+    "description": "Collectible card game set in the Warcraft universe with strategic deck building and battles.",
+    "ratings": "4.3",
+    "developer": "Blizzard Entertainment"
+  },
+  {
+    "id": "82",
+    "title": "Subway Surfers World Tour",
+    "coverPhoto": "https://i.ibb.co.com/GXXwN9h/hq720.jpg",
+    "category": "Endless Runner",
+    "downloadLink": "https://www.subwaysurfers.com",
+    "description": "Travel to cities around the world collecting special items and characters in endless running action.",
+    "ratings": "4.5",
+    "developer": "SYBO Games"
+  },
+  {
+    "id": "83",
+    "title": "Star Wars: Galaxy of Heroes",
+    "coverPhoto": "https://i.ibb.co.com/0yHk0S61/Star-Wars-Galaxy-of-Heroes.jpg",
+    "category": "RPG",
+    "downloadLink": "https://www.ea.com/games/starwars/galaxy-of-heroes",
+    "description": "Collect iconic Star Wars characters and create legendary squads in turn-based RPG battles.",
+    "ratings": "4.4",
+    "developer": "Electronic Arts"
+  },
+  {
+    "id": "84",
+    "title": "Merge Mansion",
+    "coverPhoto": "https://i.ibb.co.com/99J09Bxj/maxresdefault.jpg",
+    "category": "Puzzle",
+    "downloadLink": "https://www.mergemansion.com",
+    "description": "Merge items to restore a mysterious mansion and uncover family secrets in this puzzle adventure.",
+    "ratings": "4.5",
+    "developer": "Metacore"
+  },
+  {
+    "id": "85",
+    "title": "Monument Valley",
+    "coverPhoto": "https://i.ibb.co.com/jP5wRsfY/monument-valley-1gys5.jpg",
+    "category": "Puzzle",
+    "downloadLink": "https://www.monumentvalleygame.com",
+    "description": "Navigate impossible architecture and optical illusions in this award-winning artistic puzzle game.",
+    "ratings": "4.7",
+    "developer": "ustwo games"
+  },
+  {
+    "id": "86",
+    "title": "Battle Cats",
+    "coverPhoto": "https://i.ibb.co.com/XQYstk2/K3-NHocpde-PX8a-GFZrv-Tqoi-T15jqy-Hn-Qw0-DPIHt5-Nl-Rz2-Jh-VLw18-H-g3glrqus-Gws-oo-w526-h296-rw.webp",
+    "category": "Tower Defense",
+    "downloadLink": "https://www.ponos.net/battle-cats",
+    "description": "Deploy quirky cat units to defend your base in this humorous tower defense strategy game.",
+    "ratings": "4.5",
+    "developer": "PONOS"
+  },
+  {
+    "id": "87",
+    "title": "Project Makeover",
+    "coverPhoto": "https://i.ibb.co.com/4w0spRPH/images-q-tbn-ANd9-Gc-RJBdrs-EL7-Fp-Q-z79-I6565-ES4pf-s-Njwr-G9-FQ-s.jpg",
+    "category": "Puzzle",
+    "downloadLink": "https://www.projectmakeover.com",
+    "description": "Transform lives with makeovers while solving match-3 puzzles in this fashionable game.",
+    "ratings": "4.4",
+    "developer": "Magic Tavern"
+  },
+  {
+    "id": "88",
+    "title": "Mini Militia",
+    "coverPhoto": "https://i.ibb.co.com/KxNWrKGd/Mini-Militia-cover.png",
+    "category": "Action",
+    "downloadLink": "https://www.miniclip.com/games/mini-militia",
+    "description": "Fast-paced multiplayer shooter with jetpacks, numerous weapons, and intense combat action.",
+    "ratings": "4.3",
+    "developer": "Miniclip"
+  },
+  {
+    "id": "89",
+    "title": "Traffic Rider",
+    "coverPhoto": "https://i.ibb.co.com/bgy5p4Hr/590-Afl-Dt-h-W2t85-Cit-ODJPJd-Ri-MMRn2c-SF0v-YNfs-Bpjm895x1z-Dy0npb-D7-Il-DCvm-Nv-I.png",
+    "category": "Racing",
+    "downloadLink": "https://www.skgames.com.tr/traffic-rider",
+    "description": "First-person motorcycle racing game with realistic engine sounds and challenging traffic.",
+    "ratings": "4.5",
+    "developer": "Soner Kara"
+  },
+  {
+    "id": "90",
+    "title": "Family Island",
+    "coverPhoto": "https://i.ibb.co.com/1YxhJhbF/M5j-Ht-Kt-I02-LBp-CRdf-MYi1di-SDg-HR-Yu-Vv-B8vlgy-S68vvad63-I7-B7ie8lz5-OTLQ1375w-Ls-RJt-s900-c-k-c0.jpg",
+    "category": "Simulation",
+    "downloadLink": "https://playrix.com/familyisland",
+    "description": "Stone Age farming adventure where you help a family survive and thrive on a mysterious island.",
+    "ratings": "4.4",
+    "developer": "Playrix"
+  },
+  {
+    "id": "91",
+    "title": "Beatstar",
+    "coverPhoto": "https://i.ibb.co.com/3mTnxp3b/images-q-tbn-ANd9-Gc-SDa-Ndv-E-UEE5gva-O8-XVc51h-KQUbsi-Kq8-Ft-SQ-s.jpg",
+    "category": "Music",
+    "downloadLink": "https://www.beatstar.com",
+    "description": "Tap to the rhythm of popular songs in this music game with extensive soundtrack library.",
+    "ratings": "4.6",
+    "developer": "Space Ape Games"
+  },
+  {
+    "id": "92",
+    "title": "Mortal Kombat Mobile",
+    "coverPhoto": "https://i.ibb.co.com/d4nF2y45/WB-HUB-1200x678-MK-Mobile-1-190709.png",
+    "category": "Fighting",
+    "downloadLink": "https://www.mortalkombat.com/mobile",
+    "description": "Assemble a team of iconic Mortal Kombat fighters and execute brutal fatalities in mobile battles.",
+    "ratings": "4.3",
+    "developer": "Warner Bros"
+  },
+  {
+    "id": "93",
+    "title": "Sword Art Online: Integral Factor",
+    "coverPhoto": "https://i.ibb.co.com/pvpPBLr5/capsule-616x353.jpg",
+    "category": "RPG",
+    "downloadLink": "https://sao-if.global",
+    "description": "MMORPG based on the anime series with real-time combat and expansive virtual world exploration.",
+    "ratings": "4.2",
+    "developer": "Bandai Namco"
+  },
+  {
+    "id": "94",
+    "title": "Adventure Capitalist",
+    "coverPhoto": "https://i.ibb.co.com/hFqthscr/Ad-Venture-Capitalist-2014-video-game.png",
+    "category": "Simulation",
+    "downloadLink": "https://www.kongregate.com/games/HyperHippoGames/adventure-capitalist",
+    "description": "Idle clicker game where you build a business empire from lemonade stands to space ventures.",
+    "ratings": "4.4",
+    "developer": "Hyper Hippo"
+  },
+  {
+    "id": "95",
+    "title": "Dragonvale",
+    "coverPhoto": "https://i.ibb.co.com/xSv6Drkp/Dragon-Vale-App-Icon.png",
+    "category": "Simulation",
+    "downloadLink": "https://www.dragonvale.com",
+    "description": "Breed and raise magical dragons in floating islands with hundreds of unique dragon species.",
+    "ratings": "4.5",
+    "developer": "DECA Games"
+  },
+  {
+    "id": "96",
+    "title": "Parking Jam 3D",
+    "coverPhoto": "https://i.ibb.co.com/3995hgwK/9k-Rd5-Nh8-Obpt-MZOq-YG0-IKSe-UGJe4-YYQlgj-U01yingy-TMP6-Kfn-Fi-Ucy-FGTCCuav-NJA.png",
+    "category": "Puzzle",
+    "downloadLink": "https://popcore.com/parking-jam-3d",
+    "description": "Solve parking lot puzzles by strategically moving cars to clear the way in this brain teaser.",
+    "ratings": "4.3",
+    "developer": "Popcore Games"
+  },
+  {
+    "id": "97",
+    "title": "Terraria",
+    "coverPhoto": "https://i.ibb.co.com/7PGSjVm/250px-Terraria-Steam-artwork.jpg",
+    "category": "Sandbox",
+    "downloadLink": "https://terraria.org",
+    "description": "2D sandbox adventure with exploration, crafting, building, and combat against diverse creatures.",
+    "ratings": "4.6",
+    "developer": "Re-Logic"
+  },
+  {
+    "id": "98",
+    "title": "Zenonia 5",
+    "coverPhoto": "https://i.ibb.co.com/ksB2zM2z/8-F08-PQ5-V-p-Ipw-Iklmd-Tt2p-H-g-Bl-SWZz-LPhz-Jb3rls-GFSe-HKes-BRy-Gq-Rhmshtnu6-TN0.png",
+    "category": "RPG",
+    "downloadLink": "https://www.gamevil.com/games/view/70",
+    "description": "Action RPG with anime-style graphics, character classes, and epic fantasy storyline.",
+    "ratings": "4.2",
+    "developer": "Gamevil"
+  },
+  {
+    "id": "99",
+    "title": "Lost Island: Blast Adventure",
+    "coverPhoto": "https://i.ibb.co.com/Z1NcZ4Gv/30uj2-Yg-ADvdz7th-HQHZwevlr-Ajpo035f-O4-CL8yib-Op-Ayulwg-Udb-G7-Klh-RJt-Qv59s-SQ.jpg",
+    "category": "Puzzle",
+    "downloadLink": "https://www.plarium.com/en/games/lost-island",
+    "description": "Match colorful tiles to rebuild a beautiful island paradise and uncover hidden treasures.",
+    "ratings": "4.4",
+    "developer": "Plarium"
+  },
+  {
+    "id": "100",
+    "title": "Worms 3",
+    "coverPhoto": "https://i.ibb.co.com/B2hjjzmH/Eq-K4-Rpm-Yd-Jc-X9c-Mpt-WSm-Ox-AYlm-Nv-TNk-HT4n-D2-P0-K6bvc-V1-Rfr-Num-F3zl-Yy-RWFl-YJI-w526-h296-rw.webp",
+    "category": "Strategy",
+    "downloadLink": "https://www.team17.com/games/worms-3",
+    "description": "Turn-based strategy game with artillery-wielding worms, destructible terrain, and zany weapons.",
+    "ratings": "4.3",
+    "developer": "Team17"
+  }
+]

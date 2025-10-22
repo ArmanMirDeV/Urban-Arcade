@@ -20,7 +20,8 @@ const Navbar = () => {
     </>
   );
   return (
-    <div>
+      <header>
+           <div>
       <div className="navbar bg-base-100 shadow-sm">
         <div className="navbar-start">
           <div className="dropdown">
@@ -66,6 +67,7 @@ const Navbar = () => {
           </div> */}
       </div>
     </div>
+   </header>
   );
 };
 
