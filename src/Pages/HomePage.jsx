@@ -4,7 +4,7 @@ import NewsLetter from '../Components/NewsLetter';
 
 const HomePage = () => {
     return (
-        <div>
+        <div  > 
             
             <Banner />
             

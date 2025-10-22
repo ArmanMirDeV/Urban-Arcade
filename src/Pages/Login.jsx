@@ -1,5 +1,5 @@
-import React, { use, useState } from "react";
-import { Link } from "react-router";
+import React, { use, useRef, useState } from "react";
+import { Link, useNavigate } from "react-router";
 import MyContainer from "../Components/MyContainer";
 import { FaEye } from "react-icons/fa6";
 import { IoEyeOff } from "react-icons/io5";
@@ -10,6 +10,14 @@ const Login = () => {
   
 
   const { signIn, user, logOut } = use(AuthContext);
+
+    const emailRef = useRef();
+    const navigate = useNavigate();
+
+   const handleForgetPassword = () => {
+     const email = emailRef.current.value;
+     navigate("/forget-Pass", { state: { email } });
+   };
   
   const handleLogOut = () => {
     console.log("log out btn clicked");
@@ -89,7 +97,9 @@ const Login = () => {
 
                     <h2 className="text-2xl">{user?.name || "Name"}</h2>
                     <p>{user?.email || "Email"}</p>
-                    <button onClick={handleLogOut} className="my-btn">Log Out</button>
+                    <button onClick={handleLogOut} className="my-btn">
+                      Log Out
+                    </button>
                   </div>
                 ) : (
                   <form onSubmit={handleLogIn} className="space-y-5">
@@ -100,6 +110,7 @@ const Login = () => {
                     <div>
                       <label className="block text-sm mb-1">Email</label>
                       <input
+                        ref={emailRef}
                         type="email"
                         name="email"
                         // value={email}
@@ -126,6 +137,7 @@ const Login = () => {
                     </div>
 
                     <button
+                      onClick={handleForgetPassword}
                       className="hover:underline cursor-pointer"
                       type="button"
                     >

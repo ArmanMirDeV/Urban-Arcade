@@ -5,9 +5,9 @@ import Footer from '../Components/Footer';
 
 const MainLayout = () => {
     return (
-      <div>
+      <div className="bg-gradient-to-br from-blue-200 via-indigo-200 to-purple-200">
         <Navbar />
-        <div className=" max-w-screen-xl mx-auto w-full px-4  md:px-8 lg:px-12 py-4  md:py-8 lg:py-12 flex-1">
+        <div className=" max-w-screen-xl mx-auto w-full px-4  md:px-8 lg:px-12 py-4  md:py-8 lg:py-12 flex-1 ">
           <Outlet />
         </div>
 
