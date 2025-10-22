@@ -3,19 +3,34 @@ import { NavLink } from "react-router";
 import logo from "../assets/arcade-machine.png";
 
 const Navbar = () => {
+
+
+     const linkClasses = ({ isActive }) =>
+       isActive
+         ? "text-purple-600 border-b-2 border-purple-600 pb-1"
+         : "text-gray-600 hover:text-purple-600";
+
   const links = (
     <>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink className={linkClasses} to="/">
+          Home
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/my-profile">My Profile</NavLink>
+        <NavLink className={linkClasses} to="/my-profile">
+          My Profile
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/login">LogIn</NavLink>
+        <NavLink className={linkClasses} to="/login">
+          LogIn
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/registration">Registration</NavLink>
+        <NavLink className={linkClasses} to="/registration">
+          Registration
+        </NavLink>
       </li>
     </>
   );

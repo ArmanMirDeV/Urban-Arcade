@@ -1,9 +1,13 @@
 import React from 'react';
+import Banner from '../Components/Banner';
+import NewsLetter from '../Components/NewsLetter';
 
 const HomePage = () => {
     return (
         <div>
-            <h2>This is home page</h2>
+            <Banner />
+            <NewsLetter />
+            
         </div>
     );
 };
