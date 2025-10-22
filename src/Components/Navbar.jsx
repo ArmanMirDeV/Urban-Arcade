@@ -79,7 +79,7 @@ const Navbar = () => {
                 {links}
                 {user ? (
                   <div className="mt-5">
-                    <p>{user?.name || "Name"}</p>
+                    <p>{user?.displayName || "Name"}</p>
                     <li
                       className="btn bg-purple-300 hover:pointer "
                       onClick={handleLogOut}
@@ -125,7 +125,7 @@ const Navbar = () => {
                         user?.photoURL ||
                         "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
                       }
-                      alt="user image"
+                      alt="user"
                     />
                   </Link>
                   <button

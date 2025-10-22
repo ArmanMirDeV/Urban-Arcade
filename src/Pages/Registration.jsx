@@ -5,23 +5,24 @@ import { Link } from "react-router";
 import MyContainer from "../Components/MyContainer";
 import { AuthContext } from "../Provider/AuthProvider";
 import { toast } from "react-toastify";
+import { updateProfile } from "firebase/auth";
+
+
 
 const Registration = () => {
   const [show, setShow] = useState(false);
+  const { createUser, setUser, handleGoogle } = use(AuthContext);
 
-  const { createUser, setUser } = use(AuthContext);
-  
+
 
   const handleRegister = (e) => {
     e.preventDefault();
 
     const form = e.target;
-
     const name = form.name.value;
     const photo = form.photo.value;
     const email = form.email.value;
     const password = form.password.value;
-
 
     const strongRegEx =
       /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z0-9]).{6,}$/;
@@ -33,40 +34,74 @@ const Registration = () => {
       return;
     }
 
+    
+
+
     createUser(email, password)
       .then((result) => {
         const user = result.user;
-        // console.log(user);
-        setUser(user);
-        toast.success("User Created Successfully")
+       
 
+      
+        updateProfile(user, {
+          displayName: name,
+          photoURL: photo,
+        })
+          .then(() => {
+            setUser({
+              ...user,
+              displayName: name,
+              photoURL: photo,
+            });
+            toast.success("User Created Successfully 🎉");
+            form.reset();
+          })
+          .catch((error) => {
+            toast.error("Failed to update profile: " + error.message);
+          });
       })
       .catch((error) => {
-       if (error.code == "auth/email-already-in-use") {
-         toast.error("User already exists");
-       } else if (error.code === "auth/invalid-email") {
-         toast.error("Please enter a valid email address.");
-       } else if (error.code === "auth/operation-not-allowed") {
-         toast.error(
-           "Email/password sign-up is not enabled in Firebase settings."
-         );
-       } else if (error.code === "auth/weak-password") {
-         toast.error("Password is too weak — must be at least 6 characters.");
-       } else if (error.code === "auth/missing-password") {
-         toast.error("Please provide a password.");
-       } else if (error.code === "auth/missing-email") {
-         toast.error("Please provide an email address.");
-       } else if (error.code === "auth/network-request-failed") {
-         toast.error("Network error — please check your internet connection.");
-       } else if (error.code === "auth/too-many-requests") {
-         toast.error("Too many attempts. Please try again later.");
-       } else if (error.code === "auth/internal-error") {
-         toast.error("Internal server error. Try again later.");
-       } else if (error.code === "auth/invalid-credential") {
-         toast.error("Invalid credentials. Please check your details.");
-       } else {
-         toast.error(error.message);
-       }
+        if (error.code == "auth/email-already-in-use") {
+          toast.error("User already exists");
+        } else if (error.code === "auth/invalid-email") {
+          toast.error("Please enter a valid email address.");
+        } else if (error.code === "auth/operation-not-allowed") {
+          toast.error(
+            "Email/password sign-up is not enabled in Firebase settings."
+          );
+        } else if (error.code === "auth/weak-password") {
+          toast.error("Password is too weak — must be at least 6 characters.");
+        } else if (error.code === "auth/missing-password") {
+          toast.error("Please provide a password.");
+        } else if (error.code === "auth/missing-email") {
+          toast.error("Please provide an email address.");
+        } else if (error.code === "auth/network-request-failed") {
+          toast.error("Network error — please check your internet connection.");
+        } else if (error.code === "auth/too-many-requests") {
+          toast.error("Too many attempts. Please try again later.");
+        } else if (error.code === "auth/internal-error") {
+          toast.error("Internal server error. Try again later.");
+        } else if (error.code === "auth/invalid-credential") {
+          toast.error("Invalid credentials. Please check your details.");
+        } else {
+          toast.error(error.message);
+        }
+      });
+  };
+
+
+  const handleGoogleSignIn = () => {
+    handleGoogle()
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+
+        toast.success("Sign in Successful");
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        toast.error(errorMessage, errorCode);
       });
   };
 
@@ -97,7 +132,6 @@ const Registration = () => {
 
             <form onSubmit={handleRegister} className="space-y-4">
               <div>
-                {/* Name Field */}
                 <label className="block text-sm font-medium mb-1">Name</label>
                 <input
                   required
@@ -107,8 +141,8 @@ const Registration = () => {
                   className="input input-bordered w-full bg-white/20 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-pink-400"
                 />
               </div>
+
               <div>
-                {/* Photo Field */}
                 <label className="block text-sm font-medium mb-1">Photo</label>
                 <input
                   required
@@ -120,7 +154,6 @@ const Registration = () => {
               </div>
 
               <div>
-                {/* Email Field */}
                 <label className="block text-sm font-medium mb-1">Email</label>
                 <input
                   required
@@ -132,7 +165,6 @@ const Registration = () => {
               </div>
 
               <div className="relative">
-                {/* Password Field */}
                 <label className="block text-sm font-medium mb-1">
                   Password
                 </label>
@@ -154,7 +186,9 @@ const Registration = () => {
               <button type="submit" className="my-btn">
                 Register
               </button>
+
               <button
+                onClick={handleGoogleSignIn}
                 type="button"
                 className="flex items-center justify-center gap-3 bg-white text-gray-800 px-5 py-2 rounded-lg w-full font-semibold hover:bg-gray-100 transition-colors cursor-pointer"
               >

@@ -1,5 +1,5 @@
 import React, { use, useRef, useState } from "react";
-import { Link, useNavigate } from "react-router";
+import { Link, useLocation, useNavigate } from "react-router";
 import MyContainer from "../Components/MyContainer";
 import { FaEye } from "react-icons/fa6";
 import { IoEyeOff } from "react-icons/io5";
@@ -8,8 +8,10 @@ import { toast } from "react-toastify";
 
 const Login = () => {
   const [show, setShow] = useState(false);
+  const { signIn, user, logOut, handleGoogle } = use(AuthContext);
+  const location = useLocation();
 
-  const { signIn, user, logOut } = use(AuthContext);
+ 
 
   const emailRef = useRef();
   const navigate = useNavigate();
@@ -19,8 +21,27 @@ const Login = () => {
     navigate("/forget-Pass", { state: { email } });
   };
 
+
+  const handleGoogleSignIn = () => {
+    handleGoogle()
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+
+        navigate(`${location.state ? location.state : "/"}`);
+        toast.success("Sign in Successful");
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        toast.error(errorMessage, errorCode);
+      });
+  }
+
+
+
   const handleLogOut = () => {
-    console.log("log out btn clicked");
+    
     logOut()
       .then(() => {
         toast.success("Logged Out");
@@ -43,6 +64,7 @@ const Login = () => {
         const user = result.user;
         console.log(user);
         
+        navigate(`${location.state ? location.state : "/"}`);
         toast.success("Sign in Successful");
       })
       .catch((error) => {
@@ -95,7 +117,7 @@ const Login = () => {
                     />
                   </div>
 
-                  <h2 className="text-2xl">{user?.name || "Name"}</h2>
+                  <h2 className="text-2xl">{user?.displayName || "Name"}</h2>
                   <p>{user?.email || "Email"}</p>
                   <button onClick={handleLogOut} className="my-btn">
                     Log Out
@@ -156,7 +178,8 @@ const Login = () => {
                   </div>
 
                   {/* Google Signin */}
-                  <button
+                    <button 
+                      onClick={handleGoogleSignIn}
                     type="button"
                     className="flex items-center justify-center gap-3 bg-white text-gray-800 px-5 py-2 rounded-lg w-full font-semibold hover:bg-gray-100 transition-colors cursor-pointer"
                   >
