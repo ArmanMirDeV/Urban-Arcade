@@ -8,11 +8,13 @@ import Registration from "../Pages/Registration";
 import GameDetails from "../Pages/GameDetails";
 import AllGames from "../Pages/AllGames";
 import ForgetPass from "../Pages/ForgetPass";
+import NotFound from "../Pages/NotFound";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
+    errorElement: <NotFound/>,
     children: [
       {
         index: true,
@@ -44,7 +46,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/forget-Pass",
-        element: <ForgetPass />
+        element: <ForgetPass />,
       },
     ],
   },
