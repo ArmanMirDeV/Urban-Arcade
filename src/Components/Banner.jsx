@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
 const Banner = () => {
   return (
     <div>
-      <h2>Banner Here</h2>
+      Banner
     </div>
   );
 };
