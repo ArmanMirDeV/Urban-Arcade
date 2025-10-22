@@ -1,8 +1,11 @@
-import React from "react";
+import React, { use } from "react";
 import { NavLink } from "react-router";
 import logo from "../assets/arcade-machine.png";
+import { AuthContext } from "../Provider/AuthProvider";
 
 const Navbar = () => {
+
+    const { user } = use(AuthContext);
 
 
      const linkClasses = ({ isActive }) =>
@@ -36,6 +39,7 @@ const Navbar = () => {
   );
   return (
       <header>
+          <div>{user && user.email }</div>
            <div>
       <div className="navbar bg-base-100 shadow-sm">
         <div className="navbar-start">
