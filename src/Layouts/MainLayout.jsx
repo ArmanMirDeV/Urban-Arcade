@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { use } from 'react';
 import { Outlet } from 'react-router';
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
+import { AuthContext } from '../Provider/AuthProvider';
+import Loading from '../Pages/Loading';
 
 const MainLayout = () => {
+
+  const { loading } = use(AuthContext);
+  if (loading) {
+    return <Loading />
+  }
+
     return (
       <div className="bg-gradient-to-br from-blue-200 via-indigo-200 to-purple-200">
         <Navbar />

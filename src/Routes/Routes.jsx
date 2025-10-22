@@ -9,12 +9,13 @@ import GameDetails from "../Pages/GameDetails";
 import AllGames from "../Pages/AllGames";
 import ForgetPass from "../Pages/ForgetPass";
 import NotFound from "../Pages/NotFound";
+import PrivateRoute from "../Provider/PrivateRoute";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
-    errorElement: <NotFound/>,
+    errorElement: <NotFound />,
     children: [
       {
         index: true,
@@ -38,11 +39,19 @@ export const router = createBrowserRouter([
       },
       {
         path: "/game/:id",
-        element: <GameDetails></GameDetails>,
+        element: (
+          <PrivateRoute>
+            <GameDetails></GameDetails>
+          </PrivateRoute>
+        ),
       },
       {
         path: "/all-games",
-        element: <AllGames />,
+        element: (
+          <PrivateRoute>
+            <AllGames />
+          </PrivateRoute>
+        ),
       },
       {
         path: "/forget-Pass",

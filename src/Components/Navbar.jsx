@@ -1,5 +1,5 @@
 import React, { use } from "react";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import logo from "../assets/arcade-machine.png";
 import { AuthContext } from "../Provider/AuthProvider";
 import { toast } from "react-toastify";
@@ -40,7 +40,7 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink className={linkClasses} to="/my-profile">
-          My Profile
+           Profile
         </NavLink>
       </li>
     </>
@@ -88,13 +88,13 @@ const Navbar = () => {
                     </li>
                   </div>
                 ) : (
-                  <div >
+                  <div>
                     <li>
                       <NavLink className={linkClasses} to="/login">
                         LogIn
                       </NavLink>
                     </li>
-                    <li >
+                    <li>
                       <NavLink className={linkClasses} to="/registration">
                         Registration
                       </NavLink>
@@ -117,14 +117,17 @@ const Navbar = () => {
             <ul className="menu menu-horizontal px-1">
               {links}
               {user ? (
-                <div className=" flex justify-center items-center" >
-                  <img className="h-10 w-10"
-                    src={
-                      user?.photoURL ||
-                      "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
-                    }
-                    alt="user image"
-                  />
+                <div className=" flex justify-center items-center">
+                  <Link to="/my-profile">
+                    <img
+                      className="h-10 w-10"
+                      src={
+                        user?.photoURL ||
+                        "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
+                      }
+                      alt="user image"
+                    />
+                  </Link>
                   <button
                     onClick={handleLogOut}
                     className="btn ml-5 bg-purple-300 hover:pointer"

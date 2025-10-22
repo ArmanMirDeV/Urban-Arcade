@@ -30,7 +30,7 @@ const AllGames = () => {
             <img
               src={game.coverPhoto}
               alt={game.title}
-              className="w-full object-fill h-48 "
+              className="w-full object-cover h-48 "
             />
             <div className="p-4">
               <h3 className="text-xl font-semibold mb-2">{game.title}</h3>
