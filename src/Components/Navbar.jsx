@@ -37,6 +37,11 @@ const Navbar = () => {
           My Profile
         </NavLink>
       </li>
+      <li>
+        <NavLink className={linkClasses} to="/game-details">
+          Game Details
+        </NavLink>
+      </li>
     </>
   );
   return (
@@ -72,23 +77,23 @@ const Navbar = () => {
               >
                 {links}
                 {user ? (
-                  <div>
-                    <p>{user.name}</p>
+                  <div className="mt-5">
+                    <p>{user?.name || "Name"}</p>
                     <li
-                      className="btn mt-5 bg-purple-300 hover:pointer "
+                      className="btn bg-purple-300 hover:pointer "
                       onClick={handleLogOut}
                     >
                       Log Out
                     </li>
                   </div>
                 ) : (
-                  <div>
+                  <div >
                     <li>
                       <NavLink className={linkClasses} to="/login">
                         LogIn
                       </NavLink>
                     </li>
-                    <li>
+                    <li >
                       <NavLink className={linkClasses} to="/registration">
                         Registration
                       </NavLink>
@@ -111,14 +116,23 @@ const Navbar = () => {
             <ul className="menu menu-horizontal px-1">
               {links}
               {user ? (
-                <button
-                  onClick={handleLogOut}
-                  className="btn ml-5 bg-purple-300 hover:pointer"
-                >
-                  Log Out
-                </button>
+                <div className=" flex justify-center items-center" >
+                  <img className="h-10 w-10"
+                    src={
+                      user?.photoURL ||
+                      "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
+                    }
+                    alt="user image"
+                  />
+                  <button
+                    onClick={handleLogOut}
+                    className="btn ml-5 bg-purple-300 hover:pointer"
+                  >
+                    Log Out
+                  </button>
+                </div>
               ) : (
-                <div>
+                <div className="flex justify-center items-center">
                   <li>
                     <NavLink className={linkClasses} to="/login">
                       LogIn

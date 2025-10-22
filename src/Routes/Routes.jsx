@@ -5,6 +5,7 @@ import Login from "../Pages/Login";
 import Register from "../Pages/Registration";
 import MyProfile from "../Pages/MyProfile";
 import Registration from "../Pages/Registration";
+import GameDetails from "../Pages/GameDetails";
 
 export const router = createBrowserRouter([
     {
@@ -28,6 +29,11 @@ export const router = createBrowserRouter([
             {
                 path: "/registration",
                 element: <Registration />
+            },
+            {
+                path: "/game-details/:id",
+                element: <GameDetails></GameDetails>,
+                // loader: () => fetch("/games.json")
             }
         
         ]
