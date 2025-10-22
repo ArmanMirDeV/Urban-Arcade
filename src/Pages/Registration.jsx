@@ -1,17 +1,17 @@
-import React, { use, useState } from 'react';
-import { FaEye } from 'react-icons/fa6';
-import { IoEyeOff } from 'react-icons/io5';
-import { Link } from 'react-router';
-import MyContainer from '../Components/MyContainer';
-import { AuthContext } from '../Provider/AuthProvider';
+import React, { use, useState } from "react";
+import { FaEye } from "react-icons/fa6";
+import { IoEyeOff } from "react-icons/io5";
+import { Link } from "react-router";
+import MyContainer from "../Components/MyContainer";
+import { AuthContext } from "../Provider/AuthProvider";
+import { toast } from "react-toastify";
 
 const Registration = () => {
   const [show, setShow] = useState(false);
 
-
   const { createUser, setUser } = use(AuthContext);
-
   
+
   const handleRegister = (e) => {
     e.preventDefault();
 
@@ -21,22 +21,54 @@ const Registration = () => {
     const photo = form.photo.value;
     const email = form.email.value;
     const password = form.password.value;
-    
+
+
+    const strongRegEx =
+      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z0-9]).{6,}$/;
+
+    if (!strongRegEx.test(password)) {
+      toast.error(
+        "Password must contain at least one uppercase letter (A–Z) and one special character(@#$)"
+      );
+      return;
+    }
+
     createUser(email, password)
-      .then(result => {
+      .then((result) => {
         const user = result.user;
         // console.log(user);
-        setUser(user)
-        
+        setUser(user);
+        toast.success("User Created Successfully")
+
       })
       .catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
-        alert(errorMessage, errorCode)
-    })
-    
-  
-  }
+       if (error.code == "auth/email-already-in-use") {
+         toast.error("User already exists");
+       } else if (error.code === "auth/invalid-email") {
+         toast.error("Please enter a valid email address.");
+       } else if (error.code === "auth/operation-not-allowed") {
+         toast.error(
+           "Email/password sign-up is not enabled in Firebase settings."
+         );
+       } else if (error.code === "auth/weak-password") {
+         toast.error("Password is too weak — must be at least 6 characters.");
+       } else if (error.code === "auth/missing-password") {
+         toast.error("Please provide a password.");
+       } else if (error.code === "auth/missing-email") {
+         toast.error("Please provide an email address.");
+       } else if (error.code === "auth/network-request-failed") {
+         toast.error("Network error — please check your internet connection.");
+       } else if (error.code === "auth/too-many-requests") {
+         toast.error("Too many attempts. Please try again later.");
+       } else if (error.code === "auth/internal-error") {
+         toast.error("Internal server error. Try again later.");
+       } else if (error.code === "auth/invalid-credential") {
+         toast.error("Invalid credentials. Please check your details.");
+       } else {
+         toast.error(error.message);
+       }
+      });
+  };
 
   return (
     <div className="min-h-[96vh] flex items-center justify-center bg-gradient-to-br from-indigo-400 via-purple-400 to-pink-400 relative overflow-hidden rounded-xl">

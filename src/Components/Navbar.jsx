@@ -2,6 +2,7 @@ import React, { use } from "react";
 import { NavLink } from "react-router";
 import logo from "../assets/arcade-machine.png";
 import { AuthContext } from "../Provider/AuthProvider";
+import { toast } from "react-toastify";
 
 const Navbar = () => {
     const { user, logOut } = use(AuthContext);
@@ -11,10 +12,10 @@ const Navbar = () => {
         console.log("log out btn clicked");
         logOut()
             .then(() => {
-            alert("Logged Out")
+            toast.success("Logged Out")
             })
             .catch((error) => {
-            console.log(error);
+            toast.error(error.message)
             
         })
         

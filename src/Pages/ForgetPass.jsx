@@ -2,15 +2,16 @@ import React, { use, useEffect, useRef } from "react";
 import MyContainer from "../Components/MyContainer";
 import { Link, useLocation } from "react-router";
 import { AuthContext } from "../Provider/AuthProvider";
+import { toast } from "react-toastify";
 
 const ForgetPass = () => {
   const location = useLocation();
-  const emailRef = useRef(null); // pre-fill email
+  const emailRef = useRef(null); 
   const { resetPassword } = use(AuthContext);
 
   useEffect(() => {
     if (location.state?.email && emailRef.current) {
-      emailRef.current.value = location.state.email; // pre-fill email
+      emailRef.current.value = location.state.email; 
     }
   }, [location.state]);
 
@@ -20,10 +21,10 @@ const ForgetPass = () => {
     if (!email) return alert("Please enter your email!");
     try {
       await resetPassword(email);
-      alert("Password reset email sent!");
+      toast.success("Password reset email sent!");
       window.location.href = "https://mail.google.com/";
     } catch (err) {
-      alert(err.message);
+      toast.error(err.message);
     }
   };
 
