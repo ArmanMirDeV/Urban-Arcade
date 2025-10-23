@@ -1,27 +1,35 @@
 import React, { createContext, useEffect, useState } from "react";
 import app from "../FireBase/firebase.config";
+import {
+  createUserWithEmailAndPassword,
+  getAuth,
+  GoogleAuthProvider,
+  onAuthStateChanged,
+  sendPasswordResetEmail,
+  signInWithEmailAndPassword,
+  signInWithPopup,
+  signOut,
+} from "firebase/auth";
+
 export const AuthContext = createContext();
-import { createUserWithEmailAndPassword, getAuth,  GoogleAuthProvider,  onAuthStateChanged, sendPasswordResetEmail, signInWithEmailAndPassword, signInWithPopup, signOut } from "firebase/auth";
-
-
 const auth = getAuth(app);
 
-const AuthProvider = ({children}) => {
+const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
-const [loading , setLoading] = useState(true)
+  const [loading, setLoading] = useState(true);
 
-   const googleProvider = new GoogleAuthProvider();
+  const googleProvider = new GoogleAuthProvider();
+
+  // Corrected Google sign-in
   const handleGoogle = () => {
-    signInWithPopup(auth, googleProvider);
-  };
-  
-  const resetPassword = (email) => {    
-    sendPasswordResetEmail(auth, email)
+    setLoading(true);
+    return signInWithPopup(auth, googleProvider);
   };
 
+  const resetPassword = (email) => {
+    return sendPasswordResetEmail(auth, email);
+  };
 
-
-// Create user with email and password
   const createUser = (email, password) => {
     setLoading(true);
     return createUserWithEmailAndPassword(auth, email, password);
@@ -29,35 +37,20 @@ const [loading , setLoading] = useState(true)
 
   const signIn = (email, password) => {
     setLoading(true);
-    return signInWithEmailAndPassword(auth, email, password)
-    
-  }
-
-  
-
-  
-
+    return signInWithEmailAndPassword(auth, email, password);
+  };
 
   const logOut = () => {
-   return signOut(auth)
-}
-
-
+    return signOut(auth);
+  };
 
   useEffect(() => {
     const unSubscribe = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
       setLoading(false);
     });
-    return () => {
-      unSubscribe();
-    };
-  }, [])
-  
-
-
-
-
+    return () => unSubscribe();
+  }, []);
 
   const authData = {
     user,
@@ -71,13 +64,9 @@ const [loading , setLoading] = useState(true)
     handleGoogle,
   };
 
-
-
-
-
-    return <AuthContext value={authData}>
-      {children}
-  </AuthContext>;
+  return (
+    <AuthContext.Provider value={authData}>{children}</AuthContext.Provider>
+  );
 };
 
 export default AuthProvider;

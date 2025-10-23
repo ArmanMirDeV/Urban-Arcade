@@ -1,4 +1,4 @@
-import React, { useRef, useState, use } from "react";
+import React, { useRef, useState, useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router";
 import { FaEye, FaGoogle } from "react-icons/fa";
 import { IoEyeOff } from "react-icons/io5";
@@ -7,10 +7,28 @@ import { toast } from "react-toastify";
 
 const Login = () => {
   const [show, setShow] = useState(false);
-  const { user, signIn, logOut, handleGoogle } = use(AuthContext);
+  const { user, signIn, logOut, handleGoogle } = useContext(AuthContext);
   const navigate = useNavigate();
   const location = useLocation();
   const emailRef = useRef();
+
+  //  Handle Google Login
+  const handleGoogleSignIn = () => {
+    handleGoogle()
+      .then((result) => {
+        toast.success("Sign in Successful");
+
+        const user = result.user;
+        console.log(user);
+
+        navigate(location.state ? location.state : "/");
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        toast.error(`${errorMessage} (${errorCode})`);
+      });
+  };
 
   //  Handle Email Login
   const handleLogin = (e) => {
@@ -27,22 +45,6 @@ const Login = () => {
       })
       .catch((err) => toast.error(err.message));
   };
-
-  //  Handle Google Login
- const handleGoogleSignIn = () => {
-   handleGoogle().then((result) => {
-       const user = result.user;
-       console.log(user);
-
-       navigate(`${location.state ? location.state : "/"}`);
-       toast.success("Sign in Successful");
-     })
-     .catch((error) => {
-       const errorCode = error.code;
-       const errorMessage = error.message;
-       toast.error(errorMessage, errorCode);
-     });
- };
 
   //  Handle Logout
   const handleLogout = () => {
