@@ -8,14 +8,14 @@ const NewsLetter = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (!email) {
-      setMessage("Please enter your email.");
+    if (!email.trim()) {
+      setMessage("⚠️ Please enter your email address.");
       return;
     }
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
-      setMessage("Enter a valid email address.");
+      setMessage("❌ Please enter a valid email address.");
       return;
     }
 
@@ -23,10 +23,9 @@ const NewsLetter = () => {
     setMessage("");
 
     try {
-      // Simulate server request
+      // Simulate async submission
       await new Promise((resolve) => setTimeout(resolve, 1000));
-
-      setMessage(" You’ve successfully subscribed!");
+      setMessage("✅ You’ve successfully subscribed!");
       setEmail("");
     } catch (error) {
       console.error(error);
@@ -37,37 +36,53 @@ const NewsLetter = () => {
   };
 
   return (
-    <section className="bg-gradient-to-br from-indigo-400 via-purple-400 to-pink-400 text-white py-16 px-6 text-center rounded-2xl shadow-lg max-w-4xl mx-auto">
-      <h2 className="text-3xl font-bold mb-3">Subscribe to Our Newsletter</h2>
-      <p className="text-gray-300 mb-6">
-        Get the latest updates, exclusive content, and news directly to your
-        inbox.
+    <section className="max-w-4xl mx-auto my-16 px-6 py-12 text-center rounded-3xl bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e] text-white shadow-[0_0_25px_rgba(147,51,234,0.4)] border border-white/10">
+      <h2 className="text-4xl font-bold mb-4 font-mono text-purple-400">
+        Subscribe to Our Newsletter
+      </h2>
+      <p className="text-gray-300 mb-8">
+        Get exclusive gaming updates, developer news, and featured releases
+        straight to your inbox.
       </p>
 
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col sm:flex-row gap-3 justify-center"
+        className="flex flex-col sm:flex-row justify-center gap-4 max-w-2xl mx-auto"
       >
         <input
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="Enter your email"
-          className="p-3 rounded-md bg-white text-gray-900 flex-1 focus:outline-none"
+          placeholder="Enter your email..."
+          className="w-full sm:flex-1 p-3 rounded-md bg-white/10 text-white placeholder-gray-400 border border-white/20 focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
           required
         />
         <button
           type="submit"
           disabled={loading}
-          className={`${
-            loading ? "bg-indigo-400" : "bg-indigo-600 hover:bg-indigo-700"
-          } transition-colors px-6 py-3 rounded-md font-semibold`}
+          className={`px-6 py-3 rounded-md font-semibold transition-colors ${
+            loading
+              ? "bg-purple-500/60 cursor-not-allowed"
+              : "bg-purple-600 hover:bg-purple-700"
+          }`}
         >
           {loading ? "Subscribing..." : "Subscribe"}
         </button>
       </form>
 
-      {message && <p className="mt-4 text-sm text-yellow-300">{message}</p>}
+      {message && (
+        <p
+          className={`mt-5 text-sm ${
+            message.includes("✅")
+              ? "text-green-400"
+              : message.includes("❌")
+              ? "text-red-400"
+              : "text-yellow-400"
+          }`}
+        >
+          {message}
+        </p>
+      )}
     </section>
   );
 };
