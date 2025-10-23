@@ -1,162 +1,166 @@
-import React, { use } from "react";
+import React, { useContext } from "react";
 import { Link, NavLink } from "react-router";
-import logo from "../assets/arcade-machine.png";
 import { AuthContext } from "../Provider/AuthProvider";
 import { toast } from "react-toastify";
+import logo from "../assets/arcade-machine.png";
+import { FaHome, FaGamepad, FaUser } from "react-icons/fa";
+import { CiLogin } from "react-icons/ci";
+import { SiGnuprivacyguard } from "react-icons/si";
 
 const Navbar = () => {
-    const { user, logOut } = use(AuthContext);
+  const { user, logOut } = useContext(AuthContext);
 
+  
+   
 
-    const handleLogOut = () => {
-        console.log("log out btn clicked");
-        logOut()
-            .then(() => {
-            toast.success("Logged Out")
-            })
-            .catch((error) => {
-            toast.error(error.message)
-            
-        })
-        
-    };
+  const handleLogOut = () => {
+    logOut()
+      .then(() => toast.success("Logged Out"))
+      .catch((error) => toast.error(error.message));
+  };
 
+  // Neon NavLink style with icons
   const linkClasses = ({ isActive }) =>
     isActive
-      ? "text-purple-600 border-b-2 border-purple-600 pb-1"
-      : "text-gray-600 hover:text-purple-600";
+      ? "flex items-center gap-2 text-pink-400 border-b-2 border-pink-500 pb-1 drop-shadow-[0_0_10px_#e100ff]"
+      : "flex items-center gap-2 text-gray-300 hover:text-pink-400 transition";
 
   const links = (
     <>
       <li>
         <NavLink className={linkClasses} to="/">
-          Home
+          <FaHome className="text-lg" /> Home
         </NavLink>
       </li>
       <li>
         <NavLink className={linkClasses} to="/all-games">
-         All Games
+          <FaGamepad className="text-lg" /> All Games
         </NavLink>
       </li>
       <li>
-        <NavLink className={linkClasses} to="/my-profile">
-           Profile
+        <NavLink  className={linkClasses} to="/my-profile">
+          <FaUser className="text-lg" /> Profile
         </NavLink>
       </li>
     </>
   );
+
   return (
-    <header>
-      <div>
-        <div className="navbar bg-base-100 shadow-sm">
-          <div className="navbar-start">
-            <div className="dropdown">
-              <div
-                tabIndex={0}
-                role="button"
-                className="btn btn-ghost lg:hidden"
+    <header className="relative z-50">
+      {/* Neon background */}
+      <div className="navbar bg-gradient-to-r from-[#0f0c29] via-[#302b63] to-[#24243e] shadow-[0_0_20px_#7f00ff,0_0_40px_#e100ff] border-b border-purple-500/20">
+        <div className="navbar-start">
+          {/* Mobile dropdown */}
+          <div className="dropdown">
+            <div
+              tabIndex={0}
+              role="button"
+              className="btn btn-ghost lg:hidden text-white"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  {" "}
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 6h16M4 12h8m-8 6h16"
-                  />{" "}
-                </svg>
-              </div>
-              <ul
-                tabIndex="-1"
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
-              >
-                {links}
-                {user ? (
-                  <div className="mt-5">
-                    <p>{user?.displayName || "Name"}</p>
-                    <li
-                      className="btn bg-purple-300 hover:pointer "
-                      onClick={handleLogOut}
-                    >
-                      Log Out
-                    </li>
-                  </div>
-                ) : (
-                  <div>
-                    <li>
-                      <NavLink className={linkClasses} to="/login">
-                        LogIn
-                      </NavLink>
-                    </li>
-                    <li>
-                      <NavLink className={linkClasses} to="/registration">
-                        Registration
-                      </NavLink>
-                    </li>
-                  </div>
-                )}
-              </ul>
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
             </div>
-            <div className="flex items-center justify-center rounded-2xl gap-3">
-              <img className="h-12 w-12" src={logo} alt="logo" />
-              <NavLink
-                to="/"
-                className="btn btn-ghost font-mono text-xl text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500"
-              >
-                URBAN_ARCADE
-              </NavLink>
-            </div>
-          </div>
-          <div className="navbar-end hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
+
+            <ul
+              tabIndex="-1"
+              className="menu menu-sm dropdown-content bg-[#1a1a2e] text-white rounded-box z-10 mt-3 w-52 p-2 shadow-[0_0_15px_#8b5cf6]"
+            >
               {links}
               {user ? (
-                <div className=" flex justify-center items-center">
-                  <Link to="/my-profile">
-                    <img
-                      className="h-10 w-10"
-                      src={
-                        user?.photoURL ||
-                        "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
-                      }
-                      alt="user"
-                    />
-                  </Link>
-                  <button
+                <div className="mt-4 border-t border-purple-500/30 pt-3">
+                  <p className="text-sm mb-2">{user?.displayName || "Name"}</p>
+                  <li
+                    className="btn bg-pink-500 hover:bg-pink-600 text-white"
                     onClick={handleLogOut}
-                    className="btn ml-5 bg-purple-300 hover:pointer"
                   >
                     Log Out
-                  </button>
+                  </li>
                 </div>
               ) : (
-                <div className="flex justify-center items-center">
+                <div>
                   <li>
                     <NavLink className={linkClasses} to="/login">
-                      LogIn
+                      Login
                     </NavLink>
                   </li>
                   <li>
                     <NavLink className={linkClasses} to="/registration">
-                      Registration
+                      Register
                     </NavLink>
                   </li>
                 </div>
               )}
-              <li></li>
             </ul>
           </div>
-          {/* <div className="navbar-end">
-            <a className="btn">Button</a>
-          </div> */}
+
+          {/* Logo and title */}
+          <div className="flex items-center gap-3">
+            <img
+              className="h-12 w-12 drop-shadow-[0_0_10px_#8b5cf6]"
+              src={logo}
+              alt="logo"
+            />
+            <NavLink
+              to="/"
+              className="font-mono text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 drop-shadow-[0_0_8px_#8b5cf6]"
+            >
+              URBAN_ARCADE
+            </NavLink>
+          </div>
+        </div>
+
+        {/* Desktop menu */}
+        <div className="navbar-end hidden lg:flex">
+          <ul className="menu menu-horizontal px-1 flex items-center gap-4">
+            {links}
+            {user ? (
+              <div className="flex items-center gap-4 ml-6">
+                <Link to="/my-profile">
+                  <img
+                    className="h-10 w-10 rounded-full border-2 border-pink-500 shadow-[0_0_10px_#e100ff]"
+                    src={
+                      user?.photoURL ||
+                      "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
+                    }
+                    alt="user"
+                  />
+                </Link>
+                <button
+                  onClick={handleLogOut}
+                  className="px-3 py-1.5 rounded-md bg-gradient-to-r from-pink-500 to-purple-600 hover:from-purple-600 hover:to-pink-500 text-sm font-bold shadow-[0_0_10px_#e100ff] transition"
+                >
+                  Log Out
+                </button>
+              </div>
+            ) : (
+              <div className="flex gap-4 ml-6">
+                <NavLink className={linkClasses} to="/login">
+                  <CiLogin className="text-lg"></CiLogin> Login
+                </NavLink>
+                <NavLink className={linkClasses} to="/registration">
+                  <SiGnuprivacyguard className="text-lg"></SiGnuprivacyguard>
+                  Register
+                </NavLink>
+              </div>
+            )}
+          </ul>
         </div>
       </div>
+
+      {/* Optional neon glow layer behind navbar */}
+      <div className="absolute top-0 left-0 w-full h-full blur-3xl opacity-30 bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 -z-10 animate-pulse"></div>
     </header>
   );
 };
