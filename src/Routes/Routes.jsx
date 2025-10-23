@@ -11,6 +11,7 @@ import ForgetPass from "../Pages/ForgetPass";
 import NotFound from "../Pages/NotFound";
 import PrivateRoute from "../Provider/PrivateRoute";
 import UpdateProfile from "../Pages/UpdateProfile";
+import Events from "../Pages/Events";
 
 export const router = createBrowserRouter([
   {
@@ -65,6 +66,10 @@ export const router = createBrowserRouter([
       {
         path: "/update-user",
         element: <UpdateProfile />,
+      },
+      {
+        path: "/events",
+        element: <Events />
       },
     ],
   },
