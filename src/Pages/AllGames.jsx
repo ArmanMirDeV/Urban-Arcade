@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router";
-
+import { FaStar } from "react-icons/fa";
 
 const AllGames = () => {
   const [games, setGames] = useState([]);
@@ -10,7 +10,7 @@ const AllGames = () => {
     fetch("/games.json")
       .then((res) => res.json())
       .then((data) => setGames(data))
-      .catch((err) => console.error(err));
+      .catch((err) => console.error("Error loading games:", err));
   }, []);
 
   const handleClick = (id) => {
@@ -18,40 +18,78 @@ const AllGames = () => {
   };
 
   return (
-    <div className="px-6 py-10">
-      <h2 className="text-3xl font-bold mb-8 text-center">All Games</h2>
-      <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-6">
-        {games.map((game) => (
-          <div
-            key={game.id}
-            className="bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer hover:scale-105 transform transition duration-300"
-            onClick={() => handleClick(game.id)}
-          >
-            <img
-              src={game.coverPhoto}
-              alt={game.title}
-              className="w-full object-cover h-48 "
-            />
-            <div className="p-4">
-              <h3 className="text-xl font-semibold mb-2">{game.title}</h3>
-              <p className="text-gray-600 mb-1">Category: {game.category}</p>
-              <p className="text-gray-600 mb-1">Developer: {game.developer}</p>
-              <p className="text-yellow-500 font-bold mb-2">
-                Rating: {game.ratings}
-              </p>
-              <a
-                href={game.downloadLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
+    <section className="min-h-screen rounded-2xl bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e] text-white py-16 px-6">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-12 bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-transparent drop-shadow-[0_0_10px_#a855f7]">
+          All Games Library
+        </h2>
+
+        {games.length === 0 ? (
+          <p className="text-center text-white/70 text-lg">Loading games...</p>
+        ) : (
+          <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
+            {games.map((game) => (
+              <div
+                key={game.id}
+                onClick={() => handleClick(game.id)}
+                className="group bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl overflow-hidden hover:shadow-[0_0_25px_#a855f7] hover:-translate-y-2 transform transition-all duration-300 cursor-pointer"
               >
-                Download
-              </a>
-            </div>
+                <div className="relative">
+                  <img
+                    src={game.coverPhoto}
+                    alt={game.title}
+                    loading="lazy"
+                    className="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute top-3 right-3 bg-black/60 px-2 py-1 rounded-md flex items-center gap-1 text-yellow-400 text-sm font-semibold">
+                    <FaStar className="text-yellow-400" /> {game.ratings}
+                  </div>
+                </div>
+
+                <div className="p-5">
+                  <h3 className="text-xl font-bold mb-2 text-white truncate">
+                    {game.title}
+                  </h3>
+                  <p className="text-sm text-gray-300 mb-1">
+                    <span className="font-semibold text-pink-400">
+                      Category:
+                    </span>{" "}
+                    {game.category}
+                  </p>
+                  <p className="text-sm text-gray-300 mb-3">
+                    <span className="font-semibold text-purple-400">
+                      Developer:
+                    </span>{" "}
+                    {game.developer}
+                  </p>
+
+                  <div className="flex justify-between items-center mt-3">
+                    <a
+                      href={game.downloadLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm bg-gradient-to-r from-pink-500 to-purple-600 hover:from-purple-600 hover:to-pink-500 text-white font-semibold px-4 py-1.5 rounded-full shadow-[0_0_10px_#e100ff] transition"
+                      onClick={(e) => e.stopPropagation()}
+                    >
+                      Download
+                    </a>
+                    <button
+                      className="text-sm text-blue-400 underline hover:text-blue-300"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        handleClick(game.id);
+                      }}
+                    >
+                      View Details
+                    </button>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
-        ))}
+        )}
       </div>
-    </div>
+    </section>
   );
 };
 
