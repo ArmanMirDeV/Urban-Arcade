@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { PiGameControllerFill } from "react-icons/pi";
 import { useNavigate } from "react-router";
 
 const PopularGames = () => {
@@ -29,8 +30,8 @@ const PopularGames = () => {
 
   return (
     <section className="px-6 py-12 text-white">
-      <h2 className="text-4xl font-bold text-center mb-10 font-mono tracking-wide">
-        🎮 Popular Games
+      <h2 className="text-4xl text-pink-300  flex font-bold justify-center items-center mb-10 font-mono gap-10 tracking-wide">
+        Popular Games  <PiGameControllerFill />
       </h2>
 
       {games.length === 0 ? (
