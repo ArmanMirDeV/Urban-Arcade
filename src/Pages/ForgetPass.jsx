@@ -69,16 +69,8 @@ const ForgetPass = () => {
                 </div>
 
                 <button type="button" onClick={handleReset} className="my-btn">
-                  Reset
+                  Reset Password
                 </button>
-
-                <button
-                  className="hover:underline cursor-pointer"
-                  type="button"
-                >
-                  <Link to="/login">Log In</Link>
-                </button>
-
                 {/* Divider */}
                 <div className="flex items-center justify-center gap-2 my-2">
                   <div className="h-px w-16 bg-white/30"></div>
@@ -86,18 +78,21 @@ const ForgetPass = () => {
                   <div className="h-px w-16 bg-white/30"></div>
                 </div>
 
-                {/* Google Signin */}
-                <button
-                  type="button"
-                  className="flex items-center justify-center gap-3 bg-white text-gray-800 px-5 py-2 rounded-lg w-full font-semibold hover:bg-gray-100 transition-colors cursor-pointer"
-                >
-                  <img
-                    src="https://www.svgrepo.com/show/475656/google-color.svg"
-                    alt="google"
-                    className="w-5 h-5"
-                  />
-                  Continue with Google
-                </button>
+                <div className="text-center">
+                  <button
+                    className="hover:underline cursor-pointer mt-3  "
+                    type="button"
+                  >
+                    <Link to="/login">Log In</Link>
+                  </button>
+                </div>
+
+                {/* Divider */}
+                <div className="flex items-center justify-center gap-2 my-2">
+                  <div className="h-px w-16 bg-white/30"></div>
+                  <span className="text-sm text-white/70">or</span>
+                  <div className="h-px w-16 bg-white/30"></div>
+                </div>
 
                 <p className="text-center text-sm text-white/80 mt-3">
                   Don’t have an account?{" "}
