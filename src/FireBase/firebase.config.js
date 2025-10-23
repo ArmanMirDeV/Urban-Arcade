@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDQ6-VPP8L_0RoZfXyalhYDNEjsC2hoIkM",
-  authDomain: "urban-arcade-8fc90.firebaseapp.com",
-  projectId: "urban-arcade-8fc90",
-  storageBucket: "urban-arcade-8fc90.firebasestorage.app",
-  messagingSenderId: "58846991229",
-  appId: "1:58846991229:web:a32baa6820391ee5fb3214",
+  apiKey:import.meta.env.VITE_apiKey,
+  authDomain:import.meta.env.VITE_authDomain,
+  projectId:import.meta.env.VITE_projectId,
+  storageBucket:import.meta.env.VITE_storageBucket,
+  messagingSenderId:import.meta.env.VITE_messagingSenderId,
+  appId:import.meta.env.VITE_appId,
 };
 
 // Initialize Firebase
