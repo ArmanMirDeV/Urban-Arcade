@@ -146,7 +146,16 @@ const Navbar = () => {
             {links}
             {user ? (
               <div className="mt-4 border-t border-purple-500/30 pt-3">
-                <p className="text-sm mb-2">{user?.displayName || "Name"}</p>
+                <Link  to="/my-profile">
+                  <img
+                    className="h-10 m-2 w-10 rounded-full border-2 border-pink-500 shadow-[0_0_10px_#e100ff]"
+                    src={
+                      user?.photoURL ||
+                      "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
+                    }
+                    alt="user"
+                  />
+                </Link>
                 <li
                   className="btn bg-pink-500 hover:bg-pink-600 text-white"
                   onClick={handleLogOut}
@@ -158,12 +167,12 @@ const Navbar = () => {
               <>
                 <li>
                   <NavLink className={linkClasses} to="/login">
-                    Login
+                    <CiLogin className="text-lg" /> Login
                   </NavLink>
                 </li>
                 <li>
                   <NavLink className={linkClasses} to="/registration">
-                    Register
+                    <SiGnuprivacyguard className="text-lg" /> Register
                   </NavLink>
                 </li>
               </>
