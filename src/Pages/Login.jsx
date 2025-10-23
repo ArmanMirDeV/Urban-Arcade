@@ -12,7 +12,7 @@ const Login = () => {
   const location = useLocation();
   const emailRef = useRef();
 
-  // 🔹 Handle Email Login
+  //  Handle Email Login
   const handleLogin = (e) => {
     e.preventDefault();
     const email = e.target.email.value;
@@ -22,13 +22,13 @@ const Login = () => {
       .then((result) => {
         const user = result.user;
         console.log(user);
-        toast.success("Welcome back, gamer! 🎮");
+        toast.success("Welcome back, gamer! ");
         navigate(`${location.state ? location.state : "/"}`);
       })
       .catch((err) => toast.error(err.message));
   };
 
-  // 🔹 Handle Google Login
+  //  Handle Google Login
  const handleGoogleSignIn = () => {
    handleGoogle().then((result) => {
        const user = result.user;
@@ -44,14 +44,14 @@ const Login = () => {
      });
  };
 
-  // 🔹 Handle Logout
+  //  Handle Logout
   const handleLogout = () => {
     logOut()
       .then(() => toast.success("Logged out successfully "))
       .catch((err) => toast.error(err.message));
   };
 
-  // 🔹 Handle Forget Password
+  //  Handle Forget Password
   const handleForgetPassword = () => {
     const email = emailRef.current.value;
     navigate("/forget-pass", { state: { email } });

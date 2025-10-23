@@ -48,7 +48,7 @@ const UpdateProfile = () => {
             Update Your Profile
           </h2>
           <p className="text-sm text-gray-300">
-            Customize your arcade identity 👾
+            Customize your arcade identity 
           </p>
         </div>
 

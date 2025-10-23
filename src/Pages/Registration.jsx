@@ -106,7 +106,7 @@ const Registration = () => {
           </div>
 
           {/* Password */}
-          <div className="relative">
+          <div className=" relative">
             <label className="block text-sm mb-1">Password</label>
             <input
               required
@@ -116,8 +116,9 @@ const Registration = () => {
               className="input input-bordered w-full bg-white/10 text-white placeholder-white/60 border border-purple-500/30 focus:ring-2 focus:ring-pink-500 focus:outline-none"
             />
             <span
+              
               onClick={() => setShow(!show)}
-              className="absolute right-[10px] top-[36px] cursor-pointer"
+              className="absolute  right-[10px] top-[36px] cursor-pointer"
             >
               {show ? <FaEye /> : <IoEyeOff />}
             </span>

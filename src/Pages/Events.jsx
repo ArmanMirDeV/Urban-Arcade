@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router";
 
 const Events = () => {
   const [events, setEvents] = useState([]);
@@ -65,9 +66,11 @@ const Events = () => {
                 <strong>Time:</strong> {event.time}
               </p>
               <p className="text-gray-200 mb-4">{event.description}</p>
-              <button className="px-4 py-2 bg-pink-500 hover:bg-purple-500 text-white rounded-lg font-semibold shadow-lg transition">
-                Register
-              </button>
+              <Link to="/registration" >
+                <button className="px-4 py-2 bg-pink-500 hover:bg-purple-500 text-white rounded-lg font-semibold shadow-lg transition">
+                  Register
+                </button>
+              </Link>
             </div>
           </motion.div>
         ))}

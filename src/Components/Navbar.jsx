@@ -7,6 +7,7 @@ import { FaHome, FaGamepad, FaUser } from "react-icons/fa";
 import { CiLogin } from "react-icons/ci";
 import { SiGnuprivacyguard } from "react-icons/si";
 import { motion } from "framer-motion";
+import { MdEmojiEvents } from "react-icons/md";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
@@ -42,7 +43,7 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink className={linkClasses} to="/events">
-          <FaUser className="text-lg" /> Events
+          <MdEmojiEvents className="text-lg"></MdEmojiEvents>Events
         </NavLink>
       </li>
     </>
