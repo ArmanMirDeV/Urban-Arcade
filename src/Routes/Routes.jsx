@@ -45,19 +45,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "/game/:id",
-        element: (
-          <PrivateRoute>
-            <GameDetails></GameDetails>
-          </PrivateRoute>
-        ),
+        element: <GameDetails></GameDetails>,
       },
       {
         path: "/all-games",
-        element: (
-          <PrivateRoute>
-            <AllGames />
-          </PrivateRoute>
-        ),
+        element: <AllGames />,
       },
       {
         path: "/forget-Pass",
@@ -69,7 +61,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/events",
-        element: <Events />
+        element: <Events />,
       },
     ],
   },
