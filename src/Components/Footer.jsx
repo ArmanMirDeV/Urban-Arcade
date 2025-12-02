@@ -1,17 +1,15 @@
 import React from "react";
 import logo from "../assets/arcade-machine.png";
 import { FaFacebook, FaLinkedin, FaXTwitter } from "react-icons/fa6";
+import Logo from "./Logo";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#02182B] text-gray-300 px-8 py-6">
+    <footer className="bg-[#02182B] max-w-7xl mx-auto rounded-2xl m-4 text-gray-300 px-8 py-6">
       {/* Top section */}
       <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-6">
         {/* Logo + Name */}
-        <div className="flex items-center gap-3">
-          <img src={logo} alt="Hero.io Logo" className="w-10 h-10" />
-          <h2 className="text-lg font-semibold">URBAN_ARCADE</h2>
-        </div>
+        <Logo />
 
         {/* Social Links */}
         <div className="text-center md:text-right">

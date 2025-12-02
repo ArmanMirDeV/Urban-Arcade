@@ -2,12 +2,12 @@ import React, { useContext, useState } from "react";
 import { Link, NavLink } from "react-router";
 import { AuthContext } from "../Provider/AuthProvider";
 import { toast } from "react-toastify";
-import logo from "../assets/arcade-machine.png";
 import { FaHome, FaGamepad, FaUser } from "react-icons/fa";
 import { CiLogin } from "react-icons/ci";
 import { SiGnuprivacyguard } from "react-icons/si";
 import { motion } from "framer-motion";
 import { MdEmojiEvents } from "react-icons/md";
+import Logo from "./Logo";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
@@ -36,11 +36,13 @@ const Navbar = () => {
           <FaGamepad className="text-lg" /> All Games
         </NavLink>
       </li>
-      <li>
-        <NavLink className={linkClasses} to="/my-profile">
-          <FaUser className="text-lg" /> Profile
-        </NavLink>
-      </li>
+      {user && (
+        <li>
+          <NavLink className={linkClasses} to="/my-profile">
+            <FaUser className="text-lg" /> Profile
+          </NavLink>
+        </li>
+      )}
       <li>
         <NavLink className={linkClasses} to="/events">
           <MdEmojiEvents className="text-lg"></MdEmojiEvents>Events
@@ -50,34 +52,10 @@ const Navbar = () => {
   );
 
   return (
-    <header className="relative z-50">
-      <div className="navbar bg-gradient-to-r from-[#0f0c29] via-[#302b63] to-[#24243e] shadow-[0_0_20px_#7f00ff,0_0_40px_#e100ff] border-b border-purple-500/20 px-4">
-        {/* Logo */}
-        <div className="flex items-center justify-start w-full lg:w-auto">
-          <NavLink to="/" className="flex items-center gap-2">
-            <motion.img
-              src={logo}
-              alt="logo"
-              className="rounded-full border border-pink-400 drop-shadow-[0_0_10px_#8b5cf6] h-10 w-10 sm:h-12 sm:w-12"
-              animate={{ rotate: [0, 10, -10, 0], scale: [1, 1.2, 1, 1.1] }}
-              transition={{
-                repeat: Infinity,
-                repeatType: "loop",
-                duration: 3,
-                ease: "easeInOut",
-              }}
-            />
-            <motion.div
-              initial={{ opacity: 0, x: 50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1.5, ease: "easeOut" }}
-            >
-              <div className="font-mono font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 text-lg sm:text-xl">
-                URBAN_ARCADE
-              </div>
-            </motion.div>
-          </NavLink>
-        </div>
+    <header className="relative max-w-7xl mx-auto  z-50">
+      <div className="navbar bg-gradient-to-r rounded-3xl m-2 from-[#0f0c29] via-[#302b63] to-[#24243e] shadow-[0_0_20px_#7f00ff,0_0_40px_#e100ff] border-b border-purple-500/20 px-4">
+         
+        <Logo />
 
         {/* Desktop Menu on Right */}
         <div className="navbar-end hidden lg:flex flex-1 justify-end">
@@ -146,7 +124,7 @@ const Navbar = () => {
             {links}
             {user ? (
               <div className="mt-4 border-t border-purple-500/30 pt-3">
-                <Link  to="/my-profile">
+                <Link to="/my-profile">
                   <img
                     className="h-10 m-2 w-10 rounded-full border-2 border-pink-500 shadow-[0_0_10px_#e100ff]"
                     src={

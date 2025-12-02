@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { PiGameControllerFill } from "react-icons/pi";
-import { useNavigate } from "react-router";
+import { Link, useNavigate } from "react-router";
 
 const PopularGames = () => {
   const [games, setGames] = useState([]);
@@ -31,13 +31,13 @@ const PopularGames = () => {
   return (
     <section className="px-6 py-12 text-white">
       <h2 className="text-4xl text-pink-300  flex font-bold justify-center items-center mb-10 font-mono gap-10 tracking-wide">
-        Popular Games  <PiGameControllerFill />
+        Popular Games <PiGameControllerFill />
       </h2>
 
       {games.length === 0 ? (
         <p className="text-center text-gray-300">Loading popular games...</p>
       ) : (
-        <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           {games.map((game) => (
             <div
               key={game.id}
@@ -66,6 +66,14 @@ const PopularGames = () => {
           ))}
         </div>
       )}
+      <Link to="/all-games" className=" flex items-center justify-center mt-10">
+        <button
+          className="  btn m-2 p-2 bg-purple-400  text-3xl text-center cursor-pointer hover:scale-105 hover:shadow-purple-500/40 transition-transform duration-300
+      "
+        >
+          Explore More
+        </button>
+      </Link>
     </section>
   );
 };

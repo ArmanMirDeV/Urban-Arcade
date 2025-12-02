@@ -36,7 +36,7 @@ const NewsLetter = () => {
   };
 
   return (
-    <section className="max-w-4xl mx-auto my-16 px-6 py-12 text-center rounded-3xl bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e] text-white shadow-[0_0_25px_rgba(147,51,234,0.4)] border border-white/10">
+    <section className="max-w-7xl mx-auto  py-12 text-center rounded-3xl bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e] text-white shadow-[0_0_25px_rgba(147,51,234,0.4)] border border-white/10">
       <h2 className="text-4xl font-bold mb-4 font-mono text-purple-400">
         Subscribe to Our Newsletter
       </h2>
