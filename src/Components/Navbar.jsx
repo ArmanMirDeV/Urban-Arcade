@@ -37,13 +37,7 @@ const Navbar = () => {
           <FaGamepad className="text-lg" /> All Games
         </NavLink>
       </li>
-      {user && (
-        <li>
-          <NavLink className={linkClasses} to="/my-profile">
-            <FaUser className="text-lg" /> Profile
-          </NavLink>
-        </li>
-      )}
+
       <li>
         <NavLink className={linkClasses} to="/events">
           <MdEmojiEvents className="text-lg"></MdEmojiEvents>Events
@@ -54,6 +48,13 @@ const Navbar = () => {
           <FcAbout className="text-lg "></FcAbout>About Us
         </NavLink>
       </li>
+      {user && (
+        <li>
+          <NavLink className={linkClasses} to="/my-profile">
+            <FaUser className="text-lg" /> Profile
+          </NavLink>
+        </li>
+      )}
     </>
   );
 
