@@ -1,174 +1,2452 @@
 [
-  {"id": "1",
+  {
+    "id": "1",
     "title": "Call of Duty: Mobile",
     "coverPhoto": "https://i.ibb.co.com/SXNfnN64/GBa-Wlaevq4-CA0x-N13-QYl-Ise-Em-L2inz-VEx9z3-HBBJPNb-IQml-ZLg-A9lj-pfb-Y4h3-XVa5-Xvuns3-ORa-WSEvk8-I.jpg",
     "category": "FPS",
     "downloadLink": "https://www.callofduty.com/mobile",
-    "description": "Experience iconic multiplayer maps and modes from the Call of Duty franchise, optimized for mobile with console-quality graphics.",
-    "ratings": "4.6",
-    "developer": "Activision"
-   
-  },
+    "description": "Experience iconic multiplayer maps and modes from the Call of Duty franchise, optimized for mobile with console-quality graphics. Play Battle Royale, Team Deathmatch, or Zombies on the go!",
+    "ratings": 4.6,
+    "developer": "Activision",
+    "publisher": "Activision Publishing, Inc.",
+    "releaseDate": "2019-10-01",
+    "platforms": ["iOS", "Android"],
+    "multiplayer": true,
+    "gameModes": [
+      "Battle Royale",
+      "Team Deathmatch",
+      "Zombie Mode",
+      "Ranked Matches",
+      "Clans"
+    ],
+    "size": "2 GB",
+    "language": [
+      "English",
+      "French",
+      "German",
+      "Spanish",
+      "Chinese",
+      "Japanese",
+      "Korean",
+      "Russian"
+    ],
+    "ageRating": "16+",
+    "tags": [
+      "FPS",
+      "Shooter",
+      "Multiplayer",
+      "Action",
+      "Battle Royale",
+      "Mobile",
+      "Esports",
+      "Competitive",
+      "Free-to-Play"
+    ],
+    "price": "Free with in-app purchases",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 9 / Android 5.1",
+        "RAM": "2 GB",
+        "Storage": "2 GB",
+        "Processor": "ARM Cortex-A53",
+        "GPU": "Adreno 506 / Mali-T830"
+      },
+      "recommended": {
+        "OS": "iOS 11 / Android 8.0",
+        "RAM": "4 GB",
+        "Storage": "4 GB",
+        "Processor": "Octa-core 2.0 GHz",
+        "GPU": "Adreno 620 / Mali-G76"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=YourGameTrailer",
+    "screenshots": [
+      "https://i.ytimg.com/vi/HY350NWyeSk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAzDyHZZDca7qi4v7BICtaFPxX0tQ",
+      "https://images.squarespace-cdn.com/content/v1/58af450eb3db2b0582612f1d/1574235600878-89O2J69L16OZAKSH60DO/Screenshot+2019-11-20+at+9.39.42.png",
+      "https://www.pcwelt.de/wp-content/uploads/2023/04/4229160_original.jpg?quality=50&strip=all",
+      "https://www.activision.com/content/dam/atvi/activision/atvi-touchui/activision/games/game-details/call-of-duty/mobile/cod-mobile-2.jpg",
+      "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201909/Call_of_Duty_Mobile__15_.jpeg",
+      "https://i.ytimg.com/vi/Le4bTxEQhmo/maxresdefault.jpg"
+    ],
+    "awards": [
+      "Best Mobile FPS 2020",
+      "Editor's Choice 2021",
+      "Top Battle Royale Game 2022"
+    ],
+    "achievements": [
+      "Top 1 Battle Royale Wins",
+      "10M+ Downloads in First Month",
+      "Ranked #1 in Action Games Category",
+      "Over 100M Active Players Globally"
+    ],
+    "communityRating": {
+      "totalReviews": 125000,
+      "positive": 87,
+      "negative": 13
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/callofduty",
+      "discord": "https://discord.gg/callofduty",
+      "facebook": "https://www.facebook.com/callofduty",
+      "instagram": "https://www.instagram.com/callofduty/"
+    },
+    "releaseNotes": [
+      "New Battle Royale map added",
+      "New weapons and skins",
+      "Improved graphics on older devices",
+      "Bug fixes and performance improvements"
+    ],
+    "support": {
+      "email": "support@callofduty.com",
+      "website": "https://www.callofduty.com/help",
+      "liveChat": true,
+      "faqLink": "https://www.callofduty.com/help/faq"
+    },
+    "isFeatured": true,
+    "leaderboards": [
+      { "mode": "Battle Royale", "topScore": 9800 },
+      { "mode": "Team Deathmatch", "topScore": 25000 }
+    ],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "Halloween Special",
+        "startDate": "2025-10-20",
+        "endDate": "2025-11-05",
+        "description": "Special skins, challenges, and rewards for Halloween."
+      },
+      {
+        "id": "ev2",
+        "name": "Winter Royale",
+        "startDate": "2025-12-15",
+        "endDate": "2026-01-10",
+        "description": "Compete in the winter event and unlock exclusive items."
+      }
+    ],
+    "meta": {
+      "createdAt": "2025-01-01T12:00:00Z",
+      "updatedAt": "2025-11-01T12:00:00Z",
+      "views": 1523400,
+      "favorites": 45000,
+      "downloads": 12000000
+    },
+    "seo": {
+      "keywords": [
+        "Call of Duty Mobile",
+        "FPS Mobile Game",
+        "Multiplayer Shooter",
+        "Battle Royale Mobile"
+      ],
+      "description": "Call of Duty: Mobile is a free-to-play FPS game with multiplayer modes, Battle Royale, and console-quality graphics on mobile devices.",
+      "slug": "call-of-duty-mobile"
+    }
+  }
+,
   {
     "id": "2",
-    "title": "Player Unknowns Battle Ground: PUBG",
-    "coverPhoto": "https://i.ibb.co.com/NnV1wdKW/63c80ec040d89.png",
+    "title": "Player Unknown's Battlegrounds: PUBG",
+    "coverPhoto": "https://i.ibb.co/NnV1wdKW/63c80ec040d89.png",
     "category": "FPS",
     "downloadLink": "https://www.pubgmobile.com/en-US/home.shtml",
     "description": "PUBG Mobile is a fast-paced battle royale game where players fight for survival, strategy, and victory on dynamic maps.",
-    "ratings": "4.5",
-    "developer": "Krafton"
-  },
+    "ratings": 4.5,
+    "developer": "Krafton",
+    "publisher": "Krafton Inc.",
+    "releaseDate": "2018-03-19",
+    "platforms": ["iOS", "Android"],
+    "multiplayer": true,
+    "gameModes": [
+      "Battle Royale",
+      "Arcade",
+      "Team Deathmatch",
+      "Classic Matches",
+      "Clans"
+    ],
+    "size": "2.5 GB",
+    "language": [
+      "English",
+      "Chinese",
+      "Korean",
+      "Japanese",
+      "Spanish",
+      "French",
+      "German",
+      "Portuguese",
+      "Russian"
+    ],
+    "ageRating": "16+",
+    "tags": [
+      "FPS",
+      "Shooter",
+      "Multiplayer",
+      "Action",
+      "Battle Royale",
+      "Mobile",
+      "Esports",
+      "Competitive",
+      "Free-to-Play"
+    ],
+    "price": "Free with in-app purchases",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 9 / Android 5.1",
+        "RAM": "2 GB",
+        "Storage": "2.5 GB",
+        "Processor": "ARM Cortex-A53",
+        "GPU": "Adreno 506 / Mali-T830"
+      },
+      "recommended": {
+        "OS": "iOS 11 / Android 8.0",
+        "RAM": "4 GB",
+        "Storage": "4 GB",
+        "Processor": "Octa-core 2.0 GHz",
+        "GPU": "Adreno 620 / Mali-G76"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=YOURPUBGTRAILER",
+    "screenshots": [
+      "https://i.ibb.co/XYZ1.png",
+      "https://i.ibb.co/XYZ2.png",
+      "https://i.ibb.co/XYZ3.png",
+      "https://i.ibb.co/XYZ4.png",
+      "https://i.ibb.co/XYZ5.png"
+    ],
+    "awards": [
+      "Best Mobile Game 2019",
+      "Editor's Choice 2020",
+      "Top Battle Royale Game 2021"
+    ],
+    "achievements": [
+      "Over 100M Downloads in First Year",
+      "Ranked #1 in Action Games Globally",
+      "Top 1 Battle Royale Wins",
+      "Over 500M Active Players Worldwide"
+    ],
+    "communityRating": {
+      "totalReviews": 200000,
+      "positive": 90,
+      "negative": 10
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/PUBGMOBILE",
+      "discord": "https://discord.gg/pubgmobile",
+      "facebook": "https://www.facebook.com/PUBGMOBILE",
+      "instagram": "https://www.instagram.com/pubgmobile/"
+    },
+    "releaseNotes": [
+      "New maps and seasonal events",
+      "Improved graphics and performance",
+      "New weapons, skins, and vehicles",
+      "Bug fixes and matchmaking improvements"
+    ],
+    "support": {
+      "email": "support@pubgmobile.com",
+      "website": "https://www.pubgmobile.com/help",
+      "liveChat": true,
+      "faqLink": "https://www.pubgmobile.com/help/faq"
+    },
+    "isFeatured": true,
+    "leaderboards": [
+      { "mode": "Battle Royale", "topScore": 12000 },
+      { "mode": "Team Deathmatch", "topScore": 30000 }
+    ],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "Survivor Royale",
+        "startDate": "2025-09-01",
+        "endDate": "2025-09-30",
+        "description": "Special seasonal event with new skins and rewards."
+      },
+      {
+        "id": "ev2",
+        "name": "Winter Royale",
+        "startDate": "2025-12-15",
+        "endDate": "2026-01-10",
+        "description": "Compete in the winter event and unlock exclusive items."
+      }
+    ],
+    "meta": {
+      "createdAt": "2025-01-10T12:00:00Z",
+      "updatedAt": "2025-11-01T12:00:00Z",
+      "views": 1800000,
+      "favorites": 60000,
+      "downloads": 15000000
+    },
+    "seo": {
+      "keywords": [
+        "PUBG Mobile",
+        "FPS Mobile Game",
+        "Battle Royale",
+        "Mobile Shooter",
+        "Multiplayer Mobile Game"
+      ],
+      "description": "PUBG Mobile is a free-to-play battle royale FPS game with multiplayer modes, intense action, and competitive mobile gameplay.",
+      "slug": "pubg-mobile"
+    }
+  }
+,
   {
     "id": "3",
     "title": "Mobile Legends: Bang Bang",
-    "coverPhoto": "https://i.ibb.co.com/84G4PrYc/mobilelegends-1696089976653.jpg",
+    "coverPhoto": "https://i.ibb.co/84G4PrYc/mobilelegends-1696089976653.jpg",
     "category": "MOBA",
     "downloadLink": "https://m.mobilelegends.com",
     "description": "A competitive 5v5 MOBA game featuring unique heroes, strategic team battles, and fast-paced 10-minute matches.",
-    "ratings": "4.3",
-    "developer": "Moonton"
-  },
+    "ratings": 4.3,
+    "developer": "Moonton",
+    "publisher": "Moonton",
+    "releaseDate": "2016-07-14",
+    "platforms": ["iOS", "Android"],
+    "multiplayer": true,
+    "gameModes": ["5v5 Ranked", "Classic", "Brawl", "Custom", "Arcade"],
+    "size": "1.8 GB",
+    "language": [
+      "English",
+      "Chinese",
+      "Indonesian",
+      "Malay",
+      "Thai",
+      "Vietnamese",
+      "Spanish",
+      "French",
+      "German"
+    ],
+    "ageRating": "12+",
+    "tags": [
+      "MOBA",
+      "Multiplayer",
+      "Action",
+      "Strategy",
+      "Competitive",
+      "Mobile",
+      "Esports",
+      "Free-to-Play"
+    ],
+    "price": "Free with in-app purchases",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 10 / Android 5.0",
+        "RAM": "2 GB",
+        "Storage": "1.8 GB",
+        "Processor": "ARM Cortex-A53",
+        "GPU": "Adreno 506 / Mali-T830"
+      },
+      "recommended": {
+        "OS": "iOS 12 / Android 8.0",
+        "RAM": "4 GB",
+        "Storage": "2.5 GB",
+        "Processor": "Octa-core 2.0 GHz",
+        "GPU": "Adreno 620 / Mali-G76"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=YOURMLBBTRAILER",
+    "screenshots": [
+      "https://i.ibb.co/MLBB1.png",
+      "https://i.ibb.co/MLBB2.png",
+      "https://i.ibb.co/MLBB3.png",
+      "https://i.ibb.co/MLBB4.png",
+      "https://i.ibb.co/MLBB5.png"
+    ],
+    "awards": [
+      "Best Mobile Game 2017",
+      "Top MOBA Game 2018",
+      "Esports Game of the Year 2019"
+    ],
+    "achievements": [
+      "Over 100M Downloads Globally",
+      "Ranked #1 in MOBA Games Category",
+      "Over 50M Active Players Monthly",
+      "Hosted Global Esports Tournaments"
+    ],
+    "communityRating": {
+      "totalReviews": 180000,
+      "positive": 85,
+      "negative": 15
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/mobilelegends",
+      "discord": "https://discord.gg/mobilelegends",
+      "facebook": "https://www.facebook.com/mobilelegends",
+      "instagram": "https://www.instagram.com/mobilelegends/"
+    },
+    "releaseNotes": [
+      "New heroes added",
+      "Updated skins and cosmetics",
+      "Improved matchmaking and game balance",
+      "Bug fixes and performance improvements"
+    ],
+    "support": {
+      "email": "support@mobilelegends.com",
+      "website": "https://m.mobilelegends.com/help",
+      "liveChat": true,
+      "faqLink": "https://m.mobilelegends.com/help/faq"
+    },
+    "isFeatured": true,
+    "leaderboards": [
+      { "mode": "5v5 Ranked", "topScore": 15000 },
+      { "mode": "Classic", "topScore": 12000 }
+    ],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "Anniversary Event",
+        "startDate": "2025-07-10",
+        "endDate": "2025-07-31",
+        "description": "Special skins, heroes, and in-game rewards for the anniversary."
+      },
+      {
+        "id": "ev2",
+        "name": "Winter Festival",
+        "startDate": "2025-12-15",
+        "endDate": "2026-01-05",
+        "description": "Limited-time winter skins, quests, and rewards."
+      }
+    ],
+    "meta": {
+      "createdAt": "2025-01-10T12:00:00Z",
+      "updatedAt": "2025-11-01T12:00:00Z",
+      "views": 1450000,
+      "favorites": 52000,
+      "downloads": 13000000
+    },
+    "seo": {
+      "keywords": [
+        "Mobile Legends",
+        "MOBA Mobile Game",
+        "5v5 MOBA",
+        "Multiplayer Mobile Game",
+        "Esports Mobile Game"
+      ],
+      "description": "Mobile Legends: Bang Bang is a free-to-play 5v5 MOBA game for mobile devices, featuring fast-paced action, unique heroes, and competitive multiplayer battles.",
+      "slug": "mobile-legends-bang-bang"
+    }
+  }
+,
   {
     "id": "4",
     "title": "Genshin Impact",
-    "coverPhoto": "https://i.ibb.co.com/Y7jRj0Z0/30935168a0f21b6710dc2bd7bb37c23ed937fb9fa747d84c.jpg",
+    "coverPhoto": "https://i.ibb.co/Y7jRj0Z0/30935168a0f21b6710dc2bd7bb37c23ed937fb9fa747d84c.jpg",
     "category": "RPG",
     "downloadLink": "https://genshin.hoyoverse.com",
     "description": "An open-world action RPG with stunning visuals, elemental combat system, and a vast world of Teyvat to explore.",
-    "ratings": "4.7",
-    "developer": "HoYoverse"
-  },
+    "ratings": 4.7,
+    "developer": "HoYoverse",
+    "publisher": "HoYoverse",
+    "releaseDate": "2020-09-28",
+    "platforms": ["iOS", "Android", "PC", "PlayStation 4", "PlayStation 5"],
+    "multiplayer": true,
+    "gameModes": [
+      "Open World Exploration",
+      "Co-op Multiplayer",
+      "Story Quests",
+      "Events",
+      "Daily Commissions"
+    ],
+    "size": "12 GB",
+    "language": [
+      "English",
+      "Chinese",
+      "Japanese",
+      "Korean",
+      "French",
+      "German",
+      "Spanish",
+      "Russian",
+      "Portuguese",
+      "Thai",
+      "Vietnamese",
+      "Indonesian"
+    ],
+    "ageRating": "12+",
+    "tags": [
+      "RPG",
+      "Open World",
+      "Action",
+      "Adventure",
+      "Gacha",
+      "Multiplayer",
+      "Fantasy",
+      "Exploration",
+      "Free-to-Play"
+    ],
+    "price": "Free with in-app purchases",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 9 / Android 7.0 / Windows 7 SP1",
+        "RAM": "4 GB",
+        "Storage": "12 GB",
+        "Processor": "Intel Core i3 / Qualcomm Snapdragon 845",
+        "GPU": "Intel HD Graphics 4000 / Adreno 630"
+      },
+      "recommended": {
+        "OS": "iOS 12 / Android 9.0 / Windows 10",
+        "RAM": "8 GB",
+        "Storage": "15 GB",
+        "Processor": "Intel Core i5 / Qualcomm Snapdragon 855",
+        "GPU": "NVIDIA GeForce GTX 1060 / Adreno 640"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=0QnXoQk9u3k",
+    "screenshots": [
+      "https://i.ibb.co/Genshin1.png",
+      "https://i.ibb.co/Genshin2.png",
+      "https://i.ibb.co/Genshin3.png",
+      "https://i.ibb.co/Genshin4.png",
+      "https://i.ibb.co/Genshin5.png"
+    ],
+    "awards": [
+      "Best Mobile Game 2020",
+      "Best RPG 2021",
+      "Top Free-to-Play Game 2022"
+    ],
+    "achievements": [
+      "Over 50M Downloads in First Month",
+      "Ranked #1 RPG in Multiple Regions",
+      "Over 100M Active Players Globally",
+      "Hosted Multiple Global Events and Tournaments"
+    ],
+    "communityRating": {
+      "totalReviews": 210000,
+      "positive": 90,
+      "negative": 10
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/GenshinImpact",
+      "discord": "https://discord.gg/genshinimpact",
+      "facebook": "https://www.facebook.com/GenshinImpact",
+      "instagram": "https://www.instagram.com/genshinimpact/"
+    },
+    "releaseNotes": [
+      "New regions and quests added",
+      "New characters and weapons",
+      "Gameplay optimizations and bug fixes",
+      "Improved graphics performance across devices"
+    ],
+    "support": {
+      "email": "support@genshin.hoyoverse.com",
+      "website": "https://genshin.hoyoverse.com/en/support",
+      "liveChat": true,
+      "faqLink": "https://genshin.hoyoverse.com/en/support/faq"
+    },
+    "isFeatured": true,
+    "leaderboards": [
+      { "mode": "Adventure Rank", "topScore": 60 },
+      { "mode": "Spiral Abyss", "topScore": 100 }
+    ],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "Lantern Rite Festival",
+        "startDate": "2025-02-01",
+        "endDate": "2025-02-20",
+        "description": "Celebrate the Lantern Rite with limited-time quests, rewards, and skins."
+      },
+      {
+        "id": "ev2",
+        "name": "Summer Paradise",
+        "startDate": "2025-07-01",
+        "endDate": "2025-07-20",
+        "description": "Special summer-themed events and rewards for players."
+      }
+    ],
+    "meta": {
+      "createdAt": "2025-01-15T12:00:00Z",
+      "updatedAt": "2025-11-01T12:00:00Z",
+      "views": 2500000,
+      "favorites": 95000,
+      "downloads": 20000000
+    },
+    "seo": {
+      "keywords": [
+        "Genshin Impact",
+        "Open World RPG",
+        "Action RPG Mobile",
+        "Multiplayer RPG Game",
+        "Free-to-Play RPG"
+      ],
+      "description": "Genshin Impact is a free-to-play open-world action RPG with elemental combat, exploration, and multiplayer co-op, set in the world of Teyvat.",
+      "slug": "genshin-impact"
+    }
+  }
+,
   {
     "id": "5",
     "title": "Free Fire",
-    "coverPhoto": "https://i.ibb.co.com/3YsHxh3h/y4gfgfr.jpg",
+    "coverPhoto": "https://i.ibb.co/3YsHxh3h/y4gfgfr.jpg",
     "category": "Battle Royale",
     "downloadLink": "https://ff.garena.com",
     "description": "A survival shooter game with 10-minute matches, featuring unique characters with special abilities and intense firefights.",
-    "ratings": "4.2",
-    "developer": "Garena"
-  },
+    "ratings": 4.2,
+    "developer": "Garena",
+    "publisher": "Garena International",
+    "releaseDate": "2017-12-04",
+    "platforms": ["iOS", "Android"],
+    "multiplayer": true,
+    "gameModes": [
+      "Battle Royale",
+      "Clash Squad",
+      "Ranked Matches",
+      "Events",
+      "Special Modes"
+    ],
+    "size": "1.5 GB",
+    "language": [
+      "English",
+      "Spanish",
+      "Portuguese",
+      "French",
+      "Indonesian",
+      "Thai",
+      "Vietnamese",
+      "Arabic",
+      "Russian",
+      "Chinese"
+    ],
+    "ageRating": "12+",
+    "tags": [
+      "Battle Royale",
+      "Shooter",
+      "Multiplayer",
+      "Action",
+      "Survival",
+      "Mobile",
+      "Esports",
+      "Free-to-Play",
+      "Competitive"
+    ],
+    "price": "Free with in-app purchases",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 9 / Android 4.0",
+        "RAM": "1 GB",
+        "Storage": "1.5 GB",
+        "Processor": "Quad-core 1.2 GHz",
+        "GPU": "Adreno 306 / Mali-T720"
+      },
+      "recommended": {
+        "OS": "iOS 11 / Android 7.0",
+        "RAM": "2 GB",
+        "Storage": "2 GB",
+        "Processor": "Octa-core 2.0 GHz",
+        "GPU": "Adreno 506 / Mali-G71"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=k1QdOdZQBOA",
+    "screenshots": [
+      "https://i.ibb.co/FreeFire1.png",
+      "https://i.ibb.co/FreeFire2.png",
+      "https://i.ibb.co/FreeFire3.png",
+      "https://i.ibb.co/FreeFire4.png",
+      "https://i.ibb.co/FreeFire5.png"
+    ],
+    "awards": [
+      "Best Mobile Game 2019",
+      "Top Battle Royale Game 2020",
+      "Esports Mobile Game of the Year 2021"
+    ],
+    "achievements": [
+      "Over 500M Downloads Globally",
+      "Hosted Major Esports Tournaments",
+      "Ranked #1 in Battle Royale Category Multiple Times",
+      "Over 100M Daily Active Players"
+    ],
+    "communityRating": {
+      "totalReviews": 180000,
+      "positive": 85,
+      "negative": 15
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/FreeFire",
+      "discord": "https://discord.gg/freefire",
+      "facebook": "https://www.facebook.com/FreeFire",
+      "instagram": "https://www.instagram.com/freefire/"
+    },
+    "releaseNotes": [
+      "New characters and skins added",
+      "Gameplay balance improvements",
+      "Bug fixes and performance optimization",
+      "Special event modes introduced"
+    ],
+    "support": {
+      "email": "support@garena.com",
+      "website": "https://ff.garena.com/help",
+      "liveChat": true,
+      "faqLink": "https://ff.garena.com/help/faq"
+    },
+    "isFeatured": true,
+    "leaderboards": [
+      { "mode": "Battle Royale", "topScore": 9500 },
+      { "mode": "Clash Squad", "topScore": 20000 }
+    ],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "Booyah Day",
+        "startDate": "2025-06-01",
+        "endDate": "2025-06-10",
+        "description": "Special rewards and events celebrating Booyah Day."
+      },
+      {
+        "id": "ev2",
+        "name": "Winter Survival",
+        "startDate": "2025-12-10",
+        "endDate": "2026-01-05",
+        "description": "Compete in winter-themed challenges and unlock exclusive items."
+      }
+    ],
+    "meta": {
+      "createdAt": "2025-01-20T12:00:00Z",
+      "updatedAt": "2025-11-01T12:00:00Z",
+      "views": 1800000,
+      "favorites": 75000,
+      "downloads": 50000000
+    },
+    "seo": {
+      "keywords": [
+        "Free Fire",
+        "Battle Royale Mobile",
+        "Shooter Game",
+        "Mobile Esports Game",
+        "Survival Shooter"
+      ],
+      "description": "Free Fire is a fast-paced battle royale mobile game featuring intense firefights, unique characters, and short, action-packed matches.",
+      "slug": "free-fire"
+    }
+  }
+,
   {
     "id": "6",
     "title": "Clash of Clans",
-    "coverPhoto": "https://i.ibb.co.com/4wrn6f94/y6-04-BPPI4-DOXXBb-Gwe-G9t-MOz5-Gf-Og-WDe-IHSTzo8l-QYRll-A-X6-I-Dx1x1x-Dp-W2wi-Dn-Zf-Nt-PQ-s900-c-k.jpg",
+    "coverPhoto": "https://i.ibb.co/4wrn6f94/y6-04-BPPI4-DOXXBb-Gwe-G9t-MOz5-Gf-Og-WDe-IHSTzo8l-QYRll-A-X6-I-Dx1x1x-Dp-W2wi-Dn-Zf-Nt-PQ-s900-c-k.jpg",
     "category": "Strategy",
     "downloadLink": "https://supercell.com/en/games/clashofclans",
     "description": "Build your village, raise a clan, and compete in epic Clan Wars in this strategic combat game.",
-    "ratings": "4.5",
-    "developer": "Supercell"
-  },
+    "ratings": 4.5,
+    "developer": "Supercell",
+    "publisher": "Supercell",
+    "releaseDate": "2012-08-02",
+    "platforms": ["iOS", "Android"],
+    "multiplayer": true,
+    "gameModes": [
+      "Clan Wars",
+      "Single Player Campaign",
+      "Multiplayer Raids",
+      "Events",
+      "Friendly Battles"
+    ],
+    "size": "150 MB",
+    "language": [
+      "English",
+      "French",
+      "German",
+      "Spanish",
+      "Portuguese",
+      "Japanese",
+      "Korean",
+      "Chinese",
+      "Russian",
+      "Arabic"
+    ],
+    "ageRating": "10+",
+    "tags": [
+      "Strategy",
+      "Base Building",
+      "Multiplayer",
+      "Clan",
+      "War",
+      "Mobile",
+      "Competitive",
+      "Free-to-Play"
+    ],
+    "price": "Free with in-app purchases",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 9 / Android 4.1",
+        "RAM": "1 GB",
+        "Storage": "150 MB",
+        "Processor": "Dual-core 1.2 GHz",
+        "GPU": "Adreno 305 / Mali-T720"
+      },
+      "recommended": {
+        "OS": "iOS 11 / Android 7.0",
+        "RAM": "2 GB",
+        "Storage": "300 MB",
+        "Processor": "Quad-core 1.8 GHz",
+        "GPU": "Adreno 506 / Mali-G71"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=HcM7o3t7l1M",
+    "screenshots": [
+      "https://i.ibb.co/Clash1.png",
+      "https://i.ibb.co/Clash2.png",
+      "https://i.ibb.co/Clash3.png",
+      "https://i.ibb.co/Clash4.png",
+      "https://i.ibb.co/Clash5.png"
+    ],
+    "awards": [
+      "Best Strategy Game 2013",
+      "Top Mobile Game 2015",
+      "Esports Mobile Strategy Award 2018"
+    ],
+    "achievements": [
+      "Over 500M Downloads Globally",
+      "Ranked #1 Strategy Game Multiple Times",
+      "Top Clan Wars Competitions",
+      "Over 100M Active Players Monthly"
+    ],
+    "communityRating": {
+      "totalReviews": 220000,
+      "positive": 88,
+      "negative": 12
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/ClashOfClans",
+      "discord": "https://discord.gg/clashofclans",
+      "facebook": "https://www.facebook.com/ClashofClans",
+      "instagram": "https://www.instagram.com/clashofclans/"
+    },
+    "releaseNotes": [
+      "New troop and hero updates",
+      "Clan Games and Seasonal Challenges",
+      "Bug fixes and performance improvements",
+      "Enhanced graphics for high-end devices"
+    ],
+    "support": {
+      "email": "support@supercell.com",
+      "website": "https://supercell.com/en/help",
+      "liveChat": true,
+      "faqLink": "https://supercell.com/en/help/clash-of-clans"
+    },
+    "isFeatured": true,
+    "leaderboards": [
+      { "mode": "Clan Wars", "topScore": 9800 },
+      { "mode": "Raids", "topScore": 25000 }
+    ],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "Seasonal Clash Challenge",
+        "startDate": "2025-11-01",
+        "endDate": "2025-11-30",
+        "description": "Participate in seasonal challenges to earn exclusive rewards."
+      },
+      {
+        "id": "ev2",
+        "name": "Clan Championship",
+        "startDate": "2025-12-10",
+        "endDate": "2026-01-05",
+        "description": "Compete with clans worldwide for top rankings and rewards."
+      }
+    ],
+    "meta": {
+      "createdAt": "2025-01-15T12:00:00Z",
+      "updatedAt": "2025-11-01T12:00:00Z",
+      "views": 2000000,
+      "favorites": 90000,
+      "downloads": 50000000
+    },
+    "seo": {
+      "keywords": [
+        "Clash of Clans",
+        "Strategy Mobile Game",
+        "Base Building Game",
+        "Clan Wars",
+        "Mobile Strategy"
+      ],
+      "description": "Clash of Clans is a free-to-play strategy mobile game where players build villages, form clans, and compete in epic Clan Wars.",
+      "slug": "clash-of-clans"
+    }
+  }
+,
   {
     "id": "7",
     "title": "Candy Crush Saga",
-    "coverPhoto": "https://i.ibb.co.com/gZKVbWp9/wu1gv8x-OAbuqnke-R-j-TGH-f850dt50-Tixb-GH54c-F34hey-HH-PSg-Xl-ety52ena5qwc.jpg",
+    "coverPhoto": "https://i.ibb.co/gZKVbWp9/wu1gv8x-OAbuqnke-R-j-TGH-f850dt50-Tixb-GH54c-F34hey-HH-PSg-Xl-ety52ena5qwc.jpg",
     "category": "Puzzle",
     "downloadLink": "https://king.com/game/candycrush",
     "description": "Match colorful candies in this addictive puzzle game with thousands of levels and sweet challenges.",
-    "ratings": "4.4",
-    "developer": "King"
-  },
+    "ratings": 4.4,
+    "developer": "King",
+    "publisher": "King",
+    "releaseDate": "2012-11-14",
+    "platforms": ["iOS", "Android", "Windows"],
+    "multiplayer": false,
+    "gameModes": [
+      "Classic Mode",
+      "Timed Mode",
+      "Daily Challenges",
+      "Events",
+      "Levels with Obstacles"
+    ],
+    "size": "150 MB",
+    "language": [
+      "English",
+      "French",
+      "German",
+      "Spanish",
+      "Portuguese",
+      "Japanese",
+      "Korean",
+      "Chinese",
+      "Russian",
+      "Arabic"
+    ],
+    "ageRating": "4+",
+    "tags": [
+      "Puzzle",
+      "Match-3",
+      "Casual",
+      "Addictive",
+      "Mobile",
+      "Free-to-Play",
+      "Brain Training"
+    ],
+    "price": "Free with in-app purchases",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 9 / Android 4.1",
+        "RAM": "1 GB",
+        "Storage": "150 MB",
+        "Processor": "Dual-core 1 GHz",
+        "GPU": "Adreno 305 / Mali-T720"
+      },
+      "recommended": {
+        "OS": "iOS 11 / Android 7.0",
+        "RAM": "2 GB",
+        "Storage": "200 MB",
+        "Processor": "Quad-core 1.8 GHz",
+        "GPU": "Adreno 506 / Mali-G71"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "screenshots": [
+      "https://i.ibb.co/Candy1.png",
+      "https://i.ibb.co/Candy2.png",
+      "https://i.ibb.co/Candy3.png",
+      "https://i.ibb.co/Candy4.png",
+      "https://i.ibb.co/Candy5.png"
+    ],
+    "awards": [
+      "Best Casual Game 2013",
+      "Editor's Choice 2014",
+      "Top Puzzle Game 2015"
+    ],
+    "achievements": [
+      "Over 1B Downloads Globally",
+      "Thousands of Levels Released",
+      "Top-Ranked in Casual Games Category",
+      "Millions of Daily Active Players"
+    ],
+    "communityRating": {
+      "totalReviews": 180000,
+      "positive": 85,
+      "negative": 15
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/candycrush",
+      "discord": "https://discord.gg/candycrush",
+      "facebook": "https://www.facebook.com/CandyCrush",
+      "instagram": "https://www.instagram.com/candycrushofficial/"
+    },
+    "releaseNotes": [
+      "New levels added",
+      "Seasonal events and challenges",
+      "Bug fixes and performance improvements",
+      "Improved graphics for newer devices"
+    ],
+    "support": {
+      "email": "support@king.com",
+      "website": "https://king.com/help",
+      "liveChat": true,
+      "faqLink": "https://king.com/help/candy-crush"
+    },
+    "isFeatured": true,
+    "leaderboards": [
+      { "mode": "Classic Mode", "topScore": 999999 },
+      { "mode": "Timed Mode", "topScore": 500000 }
+    ],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "Holiday Candy Event",
+        "startDate": "2025-12-15",
+        "endDate": "2026-01-05",
+        "description": "Complete special holiday levels and earn exclusive rewards."
+      },
+      {
+        "id": "ev2",
+        "name": "Weekly Challenges",
+        "startDate": "2025-12-01",
+        "endDate": "2025-12-07",
+        "description": "Participate in weekly challenges to win boosters and candies."
+      }
+    ],
+    "meta": {
+      "createdAt": "2025-01-20T12:00:00Z",
+      "updatedAt": "2025-11-01T12:00:00Z",
+      "views": 2200000,
+      "favorites": 120000,
+      "downloads": 1000000000
+    },
+    "seo": {
+      "keywords": [
+        "Candy Crush Saga",
+        "Puzzle Game Mobile",
+        "Match-3 Game",
+        "Casual Mobile Game",
+        "Addictive Game"
+      ],
+      "description": "Candy Crush Saga is a free-to-play match-3 puzzle game with thousands of levels and exciting challenges on mobile devices.",
+      "slug": "candy-crush-saga"
+    }
+  }
+,
   {
     "id": "8",
     "title": "Among Us",
-    "coverPhoto": "https://i.ibb.co.com/jPdR9317/Among-Us-cover-art.jpg",
+    "coverPhoto": "https://i.ibb.co/jPdR9317/Among-Us-cover-art.jpg",
     "category": "Social Deduction",
     "downloadLink": "https://www.innersloth.com/games/among-us",
     "description": "Play with friends online in this multiplayer game of teamwork and betrayal set in space.",
-    "ratings": "4.1",
-    "developer": "Innersloth"
-  },
+    "ratings": 4.1,
+    "developer": "Innersloth",
+    "publisher": "Innersloth",
+    "releaseDate": "2018-06-15",
+    "platforms": ["iOS", "Android", "Windows", "Nintendo Switch"],
+    "multiplayer": true,
+    "gameModes": [
+      "Online Multiplayer",
+      "Local Multiplayer",
+      "Private Rooms",
+      "Public Rooms"
+    ],
+    "size": "150 MB",
+    "language": [
+      "English",
+      "French",
+      "German",
+      "Spanish",
+      "Portuguese",
+      "Japanese",
+      "Korean",
+      "Chinese",
+      "Russian",
+      "Italian"
+    ],
+    "ageRating": "10+",
+    "tags": [
+      "Social Deduction",
+      "Multiplayer",
+      "Party Game",
+      "Online",
+      "Casual",
+      "Suspense",
+      "Strategy"
+    ],
+    "price": "Free with in-app purchases",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 10 / Android 5.0",
+        "RAM": "1 GB",
+        "Storage": "150 MB",
+        "Processor": "Dual-core 1 GHz",
+        "GPU": "Adreno 305 / Mali-T720"
+      },
+      "recommended": {
+        "OS": "iOS 11 / Android 7.0",
+        "RAM": "2 GB",
+        "Storage": "200 MB",
+        "Processor": "Quad-core 1.8 GHz",
+        "GPU": "Adreno 506 / Mali-G71"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=NSJ1P7H1v5o",
+    "screenshots": [
+      "https://i.ibb.co/Among1.png",
+      "https://i.ibb.co/Among2.png",
+      "https://i.ibb.co/Among3.png",
+      "https://i.ibb.co/Among4.png",
+      "https://i.ibb.co/Among5.png"
+    ],
+    "awards": [
+      "Best Mobile Game 2020",
+      "Top Social Deduction Game 2021",
+      "Editor's Choice 2022"
+    ],
+    "achievements": [
+      "Over 500M Downloads Globally",
+      "Top Party Game in 20+ Countries",
+      "Millions of Daily Active Players",
+      "Popularized Social Deduction Genre"
+    ],
+    "communityRating": {
+      "totalReviews": 95000,
+      "positive": 82,
+      "negative": 18
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/AmongUsGame",
+      "discord": "https://discord.gg/amongus",
+      "facebook": "https://www.facebook.com/AmongUsGame",
+      "instagram": "https://www.instagram.com/amongusgame/"
+    },
+    "releaseNotes": [
+      "New tasks and maps added",
+      "New customization options for characters",
+      "Improved server stability",
+      "Bug fixes and performance improvements"
+    ],
+    "support": {
+      "email": "support@innersloth.com",
+      "website": "https://www.innersloth.com/help",
+      "liveChat": true,
+      "faqLink": "https://www.innersloth.com/help/faq"
+    },
+    "isFeatured": true,
+    "leaderboards": [
+      { "mode": "Online Multiplayer", "topScore": 9999 },
+      { "mode": "Public Rooms", "topScore": 8500 }
+    ],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "Halloween Skins Event",
+        "startDate": "2025-10-20",
+        "endDate": "2025-11-05",
+        "description": "Unlock spooky costumes and themed tasks for Halloween."
+      },
+      {
+        "id": "ev2",
+        "name": "Winter Update Event",
+        "startDate": "2025-12-15",
+        "endDate": "2026-01-10",
+        "description": "Participate in special winter-themed challenges and unlock new skins."
+      }
+    ],
+    "meta": {
+      "createdAt": "2025-02-10T12:00:00Z",
+      "updatedAt": "2025-11-01T12:00:00Z",
+      "views": 1850000,
+      "favorites": 95000,
+      "downloads": 500000000
+    },
+    "seo": {
+      "keywords": [
+        "Among Us",
+        "Social Deduction Game",
+        "Multiplayer Mobile Game",
+        "Party Game",
+        "Online Game"
+      ],
+      "description": "Among Us is a free-to-play multiplayer social deduction game where players work together to complete tasks while uncovering the impostor on a spaceship.",
+      "slug": "among-us"
+    }
+  }
+,
   {
     "id": "9",
     "title": "Subway Surfers",
-    "coverPhoto": "https://i.ibb.co.com/wZw0zJDY/subway-surfers.jpg",
+    "coverPhoto": "https://i.ibb.co/wZw0zJDY/subway-surfers.jpg",
     "category": "Endless Runner",
     "downloadLink": "https://www.subwaysurfers.com",
     "description": "Dash through subway tracks, dodge trains, and collect coins in this colorful endless runner game.",
-    "ratings": "4.5",
-    "developer": "SYBO Games"
-  },
+    "ratings": 4.5,
+    "developer": "SYBO Games",
+    "publisher": "SYBO Games",
+    "releaseDate": "2012-05-24",
+    "platforms": ["iOS", "Android", "Windows"],
+    "multiplayer": false,
+    "gameModes": ["Endless Run", "Daily Challenges", "Missions"],
+    "size": "250 MB",
+    "language": [
+      "English",
+      "French",
+      "German",
+      "Spanish",
+      "Portuguese",
+      "Italian",
+      "Russian",
+      "Japanese",
+      "Korean",
+      "Chinese"
+    ],
+    "ageRating": "10+",
+    "tags": [
+      "Endless Runner",
+      "Arcade",
+      "Action",
+      "Casual",
+      "Adventure",
+      "Mobile",
+      "Fast-Paced",
+      "Coins",
+      "Power-Ups"
+    ],
+    "price": "Free with in-app purchases",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 10 / Android 5.0",
+        "RAM": "1 GB",
+        "Storage": "200 MB",
+        "Processor": "Dual-core 1 GHz",
+        "GPU": "Adreno 305 / Mali-T720"
+      },
+      "recommended": {
+        "OS": "iOS 12 / Android 7.0",
+        "RAM": "2 GB",
+        "Storage": "300 MB",
+        "Processor": "Quad-core 1.8 GHz",
+        "GPU": "Adreno 506 / Mali-G71"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=tb1npnX3H3s",
+    "screenshots": [
+      "https://i.ibb.co/Subway1.png",
+      "https://i.ibb.co/Subway2.png",
+      "https://i.ibb.co/Subway3.png",
+      "https://i.ibb.co/Subway4.png",
+      "https://i.ibb.co/Subway5.png"
+    ],
+    "awards": [
+      "Best Mobile Game 2013",
+      "Top Casual Game 2015",
+      "Editor's Choice 2018"
+    ],
+    "achievements": [
+      "Over 2 Billion Downloads Globally",
+      "Top Endless Runner on App Stores",
+      "Millions of Daily Active Players",
+      "Popular Across 100+ Countries"
+    ],
+    "communityRating": {
+      "totalReviews": 120000,
+      "positive": 89,
+      "negative": 11
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/subwaysurfers",
+      "discord": "https://discord.gg/subwaysurfers",
+      "facebook": "https://www.facebook.com/SubwaySurfers",
+      "instagram": "https://www.instagram.com/subwaysurfers/"
+    },
+    "releaseNotes": [
+      "New city and themes added",
+      "New characters and hoverboards",
+      "Improved graphics and gameplay",
+      "Bug fixes and performance improvements"
+    ],
+    "support": {
+      "email": "support@subwaysurfers.com",
+      "website": "https://www.subwaysurfers.com/support",
+      "liveChat": true,
+      "faqLink": "https://www.subwaysurfers.com/faq"
+    },
+    "isFeatured": true,
+    "leaderboards": [
+      { "mode": "Endless Run", "topScore": 999999 },
+      { "mode": "Daily Challenges", "topScore": 750000 }
+    ],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "World Tour Event",
+        "startDate": "2025-11-01",
+        "endDate": "2025-12-01",
+        "description": "Explore new cities with special challenges and rewards."
+      },
+      {
+        "id": "ev2",
+        "name": "Holiday Special",
+        "startDate": "2025-12-15",
+        "endDate": "2026-01-10",
+        "description": "Collect holiday-themed rewards and limited edition hoverboards."
+      }
+    ],
+    "meta": {
+      "createdAt": "2025-03-05T12:00:00Z",
+      "updatedAt": "2025-11-01T12:00:00Z",
+      "views": 2300000,
+      "favorites": 150000,
+      "downloads": 2000000000
+    },
+    "seo": {
+      "keywords": [
+        "Subway Surfers",
+        "Endless Runner Game",
+        "Arcade Mobile Game",
+        "Casual Runner"
+      ],
+      "description": "Subway Surfers is a fast-paced endless runner game where players dash through subway tracks, dodge obstacles, and collect coins while unlocking characters and boards.",
+      "slug": "subway-surfers"
+    }
+  }
+,
   {
     "id": "10",
     "title": "Roblox",
-    "coverPhoto": "https://i.ibb.co.com/7twZx05s/5348266ea6c5e67b19d6a814cbbb70f6.jpg",
+    "coverPhoto": "https://i.ibb.co/7twZx05s/5348266ea6c5e67b19d6a814cbbb70f6.jpg",
     "category": "Sandbox",
     "downloadLink": "https://www.roblox.com",
     "description": "Explore millions of user-created games and experiences, or create your own worlds in this social gaming platform.",
-    "ratings": "4.3",
-    "developer": "Roblox Corporation"
-  },
+    "ratings": 4.3,
+    "developer": "Roblox Corporation",
+    "publisher": "Roblox Corporation",
+    "releaseDate": "2006-09-01",
+    "platforms": ["iOS", "Android", "Windows", "Mac"],
+    "multiplayer": true,
+    "gameModes": ["Sandbox", "User-Created Games", "Social", "Adventure"],
+    "size": "150 MB",
+    "language": [
+      "English",
+      "French",
+      "German",
+      "Spanish",
+      "Portuguese",
+      "Italian",
+      "Russian",
+      "Japanese",
+      "Korean",
+      "Chinese"
+    ],
+    "ageRating": "10+",
+    "tags": [
+      "Sandbox",
+      "Creative",
+      "Multiplayer",
+      "Social",
+      "Adventure",
+      "MMO",
+      "User-Generated Content",
+      "Games",
+      "Virtual Worlds",
+      "Mobile"
+    ],
+    "price": "Free with in-app purchases",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 10 / Android 5.0 / Windows 7 / Mac OS X 10.9",
+        "RAM": "2 GB",
+        "Storage": "200 MB",
+        "Processor": "Dual-core 1.8 GHz",
+        "GPU": "DirectX 9 compatible / OpenGL 2.1 compatible"
+      },
+      "recommended": {
+        "OS": "iOS 12 / Android 7.0 / Windows 10 / Mac OS X 10.14",
+        "RAM": "4 GB",
+        "Storage": "500 MB",
+        "Processor": "Quad-core 2.5 GHz",
+        "GPU": "DirectX 11 compatible / OpenGL 4.1 compatible"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=5pS2t7DjLoI",
+    "screenshots": [
+      "https://i.ibb.co/Roblox1.png",
+      "https://i.ibb.co/Roblox2.png",
+      "https://i.ibb.co/Roblox3.png",
+      "https://i.ibb.co/Roblox4.png",
+      "https://i.ibb.co/Roblox5.png"
+    ],
+    "awards": [
+      "Best Mobile Game 2015",
+      "Top Sandbox Game 2018",
+      "Most Popular User-Created Platform 2020"
+    ],
+    "achievements": [
+      "Over 200 Million Active Players",
+      "Millions of Games Created",
+      "Ranked #1 Social Gaming Platform",
+      "Over 50 Billion Hours Played Globally"
+    ],
+    "communityRating": {
+      "totalReviews": 500000,
+      "positive": 85,
+      "negative": 15
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/Roblox",
+      "discord": "https://discord.gg/roblox",
+      "facebook": "https://www.facebook.com/Roblox",
+      "instagram": "https://www.instagram.com/roblox/"
+    },
+    "releaseNotes": [
+      "New avatar customization options",
+      "Improved game creation tools",
+      "Bug fixes and performance improvements",
+      "Enhanced social features"
+    ],
+    "support": {
+      "email": "info@roblox.com",
+      "website": "https://www.roblox.com/support",
+      "liveChat": true,
+      "faqLink": "https://en.help.roblox.com/hc/en-us"
+    },
+    "isFeatured": true,
+    "leaderboards": [
+      { "mode": "Top Games Played", "topScore": 1000000 },
+      { "mode": "User Creations", "topScore": 500000 }
+    ],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "Roblox Winter Event",
+        "startDate": "2025-12-01",
+        "endDate": "2026-01-10",
+        "description": "Special winter-themed games, items, and rewards across the platform."
+      },
+      {
+        "id": "ev2",
+        "name": "Roblox Anniversary Celebration",
+        "startDate": "2026-01-15",
+        "endDate": "2026-02-01",
+        "description": "Celebrate Roblox's anniversary with exclusive items, games, and challenges."
+      }
+    ],
+    "meta": {
+      "createdAt": "2025-01-15T12:00:00Z",
+      "updatedAt": "2025-11-01T12:00:00Z",
+      "views": 3200000,
+      "favorites": 500000,
+      "downloads": 1500000000
+    },
+    "seo": {
+      "keywords": [
+        "Roblox",
+        "Sandbox Game",
+        "User-Created Games",
+        "Social Gaming Platform",
+        "Virtual Worlds"
+      ],
+      "description": "Roblox is a social gaming platform where users can play millions of games created by others or create their own virtual worlds, offering endless creativity and multiplayer experiences.",
+      "slug": "roblox"
+    }
+  }
+,
   {
     "id": "11",
     "title": "Minecraft",
-    "coverPhoto": "https://i.ibb.co.com/zHDKrZZr/minecraft-1639513933156.jpg",
+    "coverPhoto": "https://i.ibb.co/zHDKrZZr/minecraft-1639513933156.jpg",
     "category": "Sandbox",
     "downloadLink": "https://www.minecraft.net",
     "description": "Build, explore, and survive in procedurally generated worlds with endless creative possibilities.",
-    "ratings": "4.6",
-    "developer": "Mojang Studios"
-  },
+    "ratings": 4.6,
+    "developer": "Mojang Studios",
+    "publisher": "Mojang Studios",
+    "releaseDate": "2011-11-18",
+    "platforms": [
+      "iOS",
+      "Android",
+      "Windows",
+      "Mac",
+      "Xbox",
+      "PlayStation",
+      "Nintendo Switch"
+    ],
+    "multiplayer": true,
+    "gameModes": [
+      "Survival",
+      "Creative",
+      "Adventure",
+      "Spectator",
+      "Multiplayer Servers"
+    ],
+    "size": "200 MB",
+    "language": [
+      "English",
+      "French",
+      "German",
+      "Spanish",
+      "Portuguese",
+      "Italian",
+      "Russian",
+      "Japanese",
+      "Korean",
+      "Chinese"
+    ],
+    "ageRating": "10+",
+    "tags": [
+      "Sandbox",
+      "Creative",
+      "Survival",
+      "Multiplayer",
+      "Adventure",
+      "Open World",
+      "Building",
+      "Crafting",
+      "Exploration",
+      "Mobile"
+    ],
+    "price": "Paid",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 10 / Android 5.0 / Windows 7 / Mac OS X 10.9",
+        "RAM": "2 GB",
+        "Storage": "250 MB",
+        "Processor": "Dual-core 1.8 GHz",
+        "GPU": "DirectX 9 compatible / OpenGL 2.1 compatible"
+      },
+      "recommended": {
+        "OS": "iOS 12 / Android 7.0 / Windows 10 / Mac OS X 10.14",
+        "RAM": "4 GB",
+        "Storage": "500 MB",
+        "Processor": "Quad-core 2.5 GHz",
+        "GPU": "DirectX 11 compatible / OpenGL 4.1 compatible"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=MmB9b5njVbA",
+    "screenshots": [
+      "https://i.ibb.co/Minecraft1.png",
+      "https://i.ibb.co/Minecraft2.png",
+      "https://i.ibb.co/Minecraft3.png",
+      "https://i.ibb.co/Minecraft4.png",
+      "https://i.ibb.co/Minecraft5.png"
+    ],
+    "awards": [
+      "Best Game 2011",
+      "Top Sandbox Game 2015",
+      "Most Popular Creative Game 2018"
+    ],
+    "achievements": [
+      "Over 200 Million Copies Sold Globally",
+      "Millions of Active Servers",
+      "Ranked #1 Sandbox Game for Over a Decade",
+      "Endless Community Creations"
+    ],
+    "communityRating": {
+      "totalReviews": 1000000,
+      "positive": 90,
+      "negative": 10
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/Minecraft",
+      "discord": "https://discord.gg/minecraft",
+      "facebook": "https://www.facebook.com/Minecraft",
+      "instagram": "https://www.instagram.com/minecraft/"
+    },
+    "releaseNotes": [
+      "New mobs and creatures added",
+      "Enhanced graphics and textures",
+      "Bug fixes and performance improvements",
+      "Expanded crafting recipes and blocks"
+    ],
+    "support": {
+      "email": "help@minecraft.net",
+      "website": "https://www.minecraft.net/help",
+      "liveChat": true,
+      "faqLink": "https://www.minecraft.net/help/faq"
+    },
+    "isFeatured": true,
+    "leaderboards": [
+      { "mode": "Most Creative Builds", "topScore": 5000 },
+      { "mode": "Survival Challenges", "topScore": 3000 }
+    ],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "Minecraft Summer Event",
+        "startDate": "2025-06-01",
+        "endDate": "2025-06-30",
+        "description": "Special summer-themed builds, challenges, and rewards across servers."
+      },
+      {
+        "id": "ev2",
+        "name": "Minecraft Holiday Celebration",
+        "startDate": "2025-12-15",
+        "endDate": "2026-01-10",
+        "description": "Exclusive holiday-themed items, mobs, and adventures."
+      }
+    ],
+    "meta": {
+      "createdAt": "2025-02-01T12:00:00Z",
+      "updatedAt": "2025-11-01T12:00:00Z",
+      "views": 3500000,
+      "favorites": 600000,
+      "downloads": 200000000
+    },
+    "seo": {
+      "keywords": [
+        "Minecraft",
+        "Sandbox Game",
+        "Creative Game",
+        "Survival Game",
+        "Building Game",
+        "Adventure Game"
+      ],
+      "description": "Minecraft is a sandbox game where players can build, explore, and survive in procedurally generated worlds, offering endless creative possibilities and multiplayer adventures.",
+      "slug": "minecraft"
+    }
+  }
+,
   {
     "id": "12",
     "title": "Clash Royale",
-    "coverPhoto": "https://i.ibb.co.com/ymyjwB4H/gn-SC6s8-6-Tjc4uhv-DW7nfr-SJxpbhllz-Yhg-X8y374-N1-LYv-WBStn2-Yhoz-S9-XXaz1-T-Pi2q.png",
+    "coverPhoto": "https://i.ibb.co/ymyjwB4H/gn-SC6s8-6-Tjc4uhv-DW7nfr-SJxpbhllz-Yhg-X8y374-N1-LYv-WBStn2-Yhoz-S9-XXaz1-T-Pi2q.png",
     "category": "Strategy",
     "downloadLink": "https://supercell.com/en/games/clashroyale",
     "description": "Real-time multiplayer battles with collectible cards featuring Clash characters in tower defense gameplay.",
-    "ratings": "4.4",
-    "developer": "Supercell"
-  },
+    "ratings": 4.4,
+    "developer": "Supercell",
+    "publisher": "Supercell",
+    "releaseDate": "2016-03-02",
+    "platforms": ["iOS", "Android"],
+    "multiplayer": true,
+    "gameModes": [
+      "1v1 Battles",
+      "2v2 Battles",
+      "Clan Wars",
+      "Special Events",
+      "Challenges"
+    ],
+    "size": "150 MB",
+    "language": [
+      "English",
+      "French",
+      "German",
+      "Spanish",
+      "Portuguese",
+      "Italian",
+      "Russian",
+      "Japanese",
+      "Korean",
+      "Chinese"
+    ],
+    "ageRating": "10+",
+    "tags": [
+      "Strategy",
+      "Card Game",
+      "Multiplayer",
+      "Tower Defense",
+      "Competitive",
+      "Mobile",
+      "Clan Wars",
+      "Esports"
+    ],
+    "price": "Free with in-app purchases",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 9 / Android 5.0",
+        "RAM": "2 GB",
+        "Storage": "150 MB",
+        "Processor": "Dual-core 1.5 GHz",
+        "GPU": "OpenGL ES 2.0 compatible"
+      },
+      "recommended": {
+        "OS": "iOS 11 / Android 7.0",
+        "RAM": "4 GB",
+        "Storage": "250 MB",
+        "Processor": "Quad-core 2.0 GHz",
+        "GPU": "OpenGL ES 3.0 compatible"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=7E4H6xEj9jY",
+    "screenshots": [
+      "https://i.ibb.co/Clash1.png",
+      "https://i.ibb.co/Clash2.png",
+      "https://i.ibb.co/Clash3.png",
+      "https://i.ibb.co/Clash4.png",
+      "https://i.ibb.co/Clash5.png"
+    ],
+    "awards": [
+      "Best Strategy Game 2016",
+      "Top Mobile Game 2018",
+      "Editor's Choice 2017"
+    ],
+    "achievements": [
+      "Over 500 Million Downloads Globally",
+      "Thousands of Active Clans",
+      "Ranked #1 in Strategy Games Multiple Times",
+      "Millions of Online Multiplayer Battles Daily"
+    ],
+    "communityRating": {
+      "totalReviews": 850000,
+      "positive": 88,
+      "negative": 12
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/ClashRoyale",
+      "discord": "https://discord.gg/clashroyale",
+      "facebook": "https://www.facebook.com/ClashRoyale",
+      "instagram": "https://www.instagram.com/clashroyale/"
+    },
+    "releaseNotes": [
+      "New cards and arenas added",
+      "Balance changes to existing cards",
+      "Bug fixes and performance improvements",
+      "Updated clan war mechanics"
+    ],
+    "support": {
+      "email": "help@supercell.com",
+      "website": "https://supercell.com/en/help/clashroyale",
+      "liveChat": true,
+      "faqLink": "https://supercell.com/en/help/clashroyale/faq"
+    },
+    "isFeatured": true,
+    "leaderboards": [
+      { "mode": "1v1 Battles", "topScore": 6000 },
+      { "mode": "Clan Wars", "topScore": 12000 }
+    ],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "Seasonal Championship",
+        "startDate": "2025-08-01",
+        "endDate": "2025-08-31",
+        "description": "Compete in monthly tournaments and win exclusive rewards."
+      },
+      {
+        "id": "ev2",
+        "name": "Special Card Challenge",
+        "startDate": "2025-12-10",
+        "endDate": "2025-12-31",
+        "description": "Test new cards and strategies in special challenges."
+      }
+    ],
+    "meta": {
+      "createdAt": "2025-03-01T12:00:00Z",
+      "updatedAt": "2025-11-01T12:00:00Z",
+      "views": 2200000,
+      "favorites": 350000,
+      "downloads": 500000000
+    },
+    "seo": {
+      "keywords": [
+        "Clash Royale",
+        "Strategy Card Game",
+        "Multiplayer Mobile Game",
+        "Tower Defense Game"
+      ],
+      "description": "Clash Royale is a real-time strategy card game combining tower defense and collectible cards, offering multiplayer battles, clan wars, and special events on mobile devices.",
+      "slug": "clash-royale"
+    }
+  }
+,
   {
     "id": "13",
     "title": "Pokémon GO",
-    "coverPhoto": "https://i.ibb.co.com/zhKvSBks/Lx-QBOuj-V9-WD4-TG0-Qs-GYtay-ZJd-H0-IM0d3iw-QEYU0o9-W-hhiqnl-XTnpe-XPWddf-Cn-LKo-O9w-KU9-WT2v4qtz-Cf.webp",
+    "coverPhoto": "https://i.ibb.co/zhKvSBks/Lx-QBOuj-V9-WD4-TG0-Qs-GYtay-ZJd-H0-IM0d3iw-QEYU0o9-W-hhiqnl-XTnpe-XPWddf-Cn-LKo-O9w-KU9-WT2v4qtz-Cf.webp",
     "category": "AR",
     "downloadLink": "https://pokemongolive.com",
     "description": "Explore the real world and catch Pokémon using augmented reality technology on your mobile device.",
-    "ratings": "4.1",
-    "developer": "Niantic"
-  },
+    "ratings": 4.1,
+    "developer": "Niantic",
+    "publisher": "Niantic, Inc.",
+    "releaseDate": "2016-07-06",
+    "platforms": ["iOS", "Android"],
+    "multiplayer": true,
+    "gameModes": [
+      "AR Exploration",
+      "Gym Battles",
+      "Raid Battles",
+      "PvP Battles",
+      "Community Events"
+    ],
+    "size": "120 MB",
+    "language": [
+      "English",
+      "French",
+      "German",
+      "Spanish",
+      "Portuguese",
+      "Italian",
+      "Japanese",
+      "Korean",
+      "Chinese",
+      "Russian"
+    ],
+    "ageRating": "10+",
+    "tags": [
+      "AR",
+      "Augmented Reality",
+      "Exploration",
+      "Multiplayer",
+      "Pokemon",
+      "Adventure",
+      "Mobile",
+      "Location-based",
+      "Events"
+    ],
+    "price": "Free with in-app purchases",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 10 / Android 6.0",
+        "RAM": "2 GB",
+        "Storage": "120 MB",
+        "Processor": "Dual-core 1.5 GHz",
+        "GPU": "OpenGL ES 2.0 compatible"
+      },
+      "recommended": {
+        "OS": "iOS 12 / Android 8.0",
+        "RAM": "4 GB",
+        "Storage": "200 MB",
+        "Processor": "Quad-core 2.0 GHz",
+        "GPU": "OpenGL ES 3.0 compatible"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=2sj2iQyBTQs",
+    "screenshots": [
+      "https://i.ibb.co/Px1.png",
+      "https://i.ibb.co/Px2.png",
+      "https://i.ibb.co/Px3.png",
+      "https://i.ibb.co/Px4.png",
+      "https://i.ibb.co/Px5.png"
+    ],
+    "awards": [
+      "Best Mobile Game 2016",
+      "Google Play Editors’ Choice 2016",
+      "People’s Choice Award 2017"
+    ],
+    "achievements": [
+      "Over 1 Billion Downloads Globally",
+      "Millions of Pokémon Caught Daily",
+      "Hundreds of Community Days Annually",
+      "Ranked Top 10 Mobile Games Worldwide"
+    ],
+    "communityRating": {
+      "totalReviews": 980000,
+      "positive": 82,
+      "negative": 18
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/PokemonGoApp",
+      "discord": "https://discord.gg/pokemongo",
+      "facebook": "https://www.facebook.com/pokemongo",
+      "instagram": "https://www.instagram.com/pokemongo/"
+    },
+    "releaseNotes": [
+      "New Pokémon generations added",
+      "Improved AR tracking and performance",
+      "Special seasonal events",
+      "Bug fixes and stability improvements"
+    ],
+    "support": {
+      "email": "support@nianticlabs.com",
+      "website": "https://nianticlabs.com/support/pokemon-go",
+      "liveChat": true,
+      "faqLink": "https://nianticlabs.com/support/pokemon-go/faq"
+    },
+    "isFeatured": true,
+    "leaderboards": [
+      { "mode": "Gym Battles", "topScore": 5000 },
+      { "mode": "Raid Battles", "topScore": 10000 }
+    ],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "Community Day",
+        "startDate": "2025-12-14",
+        "endDate": "2025-12-14",
+        "description": "Catch exclusive Pokémon and earn bonus rewards during the monthly community day."
+      },
+      {
+        "id": "ev2",
+        "name": "Holiday Special Event",
+        "startDate": "2025-12-20",
+        "endDate": "2026-01-05",
+        "description": "Special Pokémon appearances, themed challenges, and limited-time bonuses."
+      }
+    ],
+    "meta": {
+      "createdAt": "2025-01-15T12:00:00Z",
+      "updatedAt": "2025-11-01T12:00:00Z",
+      "views": 1800000,
+      "favorites": 400000,
+      "downloads": 1000000000
+    },
+    "seo": {
+      "keywords": [
+        "Pokemon GO",
+        "AR Game",
+        "Augmented Reality Mobile Game",
+        "Pokemon Catching"
+      ],
+      "description": "Pokémon GO is an AR mobile game where players explore the real world, catch Pokémon, battle in gyms, and participate in global events.",
+      "slug": "pokemon-go"
+    }
+  }
+,
   {
     "id": "14",
     "title": "Brawl Stars",
-    "coverPhoto": "https://i.ibb.co.com/TM4GcMjq/brawl-stars.jpg",
+    "coverPhoto": "https://i.ibb.co/TM4GcMjq/brawl-stars.jpg",
     "category": "MOBA",
     "downloadLink": "https://supercell.com/en/games/brawlstars",
     "description": "Fast-paced 3v3 multiplayer battles and battle royale modes with unique Brawlers and game modes.",
-    "ratings": "4.4",
-    "developer": "Supercell"
-  },
+    "ratings": 4.4,
+    "developer": "Supercell",
+    "publisher": "Supercell",
+    "releaseDate": "2018-12-12",
+    "platforms": ["iOS", "Android"],
+    "multiplayer": true,
+    "gameModes": [
+      "3v3 Bounty",
+      "Gem Grab",
+      "Showdown",
+      "Heist",
+      "Brawl Ball",
+      "Special Events"
+    ],
+    "size": "150 MB",
+    "language": [
+      "English",
+      "French",
+      "German",
+      "Spanish",
+      "Portuguese",
+      "Italian",
+      "Japanese",
+      "Korean",
+      "Chinese",
+      "Russian"
+    ],
+    "ageRating": "9+",
+    "tags": [
+      "MOBA",
+      "Multiplayer",
+      "Action",
+      "Battle Royale",
+      "Mobile",
+      "Competitive",
+      "Supercell"
+    ],
+    "price": "Free with in-app purchases",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 9 / Android 4.4",
+        "RAM": "1 GB",
+        "Storage": "150 MB",
+        "Processor": "Dual-core 1.3 GHz",
+        "GPU": "OpenGL ES 2.0 compatible"
+      },
+      "recommended": {
+        "OS": "iOS 11 / Android 7.0",
+        "RAM": "2 GB",
+        "Storage": "250 MB",
+        "Processor": "Quad-core 1.8 GHz",
+        "GPU": "OpenGL ES 3.0 compatible"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=Z1lA6YZ6p9g",
+    "screenshots": [
+      "https://i.ibb.co/BS1.png",
+      "https://i.ibb.co/BS2.png",
+      "https://i.ibb.co/BS3.png",
+      "https://i.ibb.co/BS4.png",
+      "https://i.ibb.co/BS5.png"
+    ],
+    "awards": [
+      "Best Mobile Game 2019",
+      "Google Play Editors’ Choice 2019",
+      "Top Multiplayer Game 2020"
+    ],
+    "achievements": [
+      "Over 200 Million Downloads Globally",
+      "Multiple Special Brawler Releases Annually",
+      "Ranked Top 10 Mobile MOBA Games",
+      "Frequent Community Events and Challenges"
+    ],
+    "communityRating": {
+      "totalReviews": 650000,
+      "positive": 85,
+      "negative": 15
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/BrawlStars",
+      "discord": "https://discord.gg/brawlstars",
+      "facebook": "https://www.facebook.com/BrawlStars",
+      "instagram": "https://www.instagram.com/brawlstars/"
+    },
+    "releaseNotes": [
+      "New Brawlers and skins added",
+      "Improved matchmaking and performance",
+      "Special seasonal events",
+      "Bug fixes and stability improvements"
+    ],
+    "support": {
+      "email": "support@supercell.com",
+      "website": "https://supercell.com/en/help/brawlstars",
+      "liveChat": true,
+      "faqLink": "https://supercell.com/en/help/brawlstars/faq"
+    },
+    "isFeatured": true,
+    "leaderboards": [
+      { "mode": "Gem Grab", "topScore": 12000 },
+      { "mode": "Showdown", "topScore": 9500 }
+    ],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "Summer Brawl",
+        "startDate": "2025-07-15",
+        "endDate": "2025-07-31",
+        "description": "Special Brawlers and skins available, with bonus rewards for summer challenges."
+      },
+      {
+        "id": "ev2",
+        "name": "Winter Royale",
+        "startDate": "2025-12-10",
+        "endDate": "2026-01-05",
+        "description": "Compete in limited-time game modes and unlock exclusive winter-themed items."
+      }
+    ],
+    "meta": {
+      "createdAt": "2025-01-10T12:00:00Z",
+      "updatedAt": "2025-11-01T12:00:00Z",
+      "views": 1200000,
+      "favorites": 250000,
+      "downloads": 200000000
+    },
+    "seo": {
+      "keywords": [
+        "Brawl Stars",
+        "MOBA Mobile Game",
+        "Multiplayer Action Game",
+        "Supercell Game"
+      ],
+      "description": "Brawl Stars is a free-to-play multiplayer MOBA game with 3v3 battles, Battle Royale modes, and unique Brawlers.",
+      "slug": "brawl-stars"
+    }
+  }
+,
   {
     "id": "15",
     "title": "Apex Legends Mobile",
-    "coverPhoto": "https://i.ibb.co.com/5hPmvxrN/images-q-tbn-ANd9-Gc-SVM1e2-HG6o6z-as-Z1t-JLuxk-Fss-SIa-Hx-Z1j-w-s.jpg",
+    "coverPhoto": "https://i.ibb.co/5hPmvxrN/images-q-tbn-ANd9-Gc-SVM1e2-HG6o6z-as-Z1t-JLuxk-Fss-SIa-Hx-Z1j-w-s.jpg",
     "category": "Battle Royale",
     "downloadLink": "https://www.ea.com/games/apex-legends/apex-legends-mobile",
     "description": "Tactical squad-based battle royale with unique Legends, each with powerful abilities and playstyles.",
-    "ratings": "4.3",
-    "developer": "Electronic Arts"
-  },
+    "ratings": 4.3,
+    "developer": "Electronic Arts",
+    "publisher": "Electronic Arts",
+    "releaseDate": "2022-05-17",
+    "platforms": ["iOS", "Android"],
+    "multiplayer": true,
+    "gameModes": [
+      "Battle Royale",
+      "Arenas",
+      "Ranked Matches",
+      "Limited-Time Events"
+    ],
+    "size": "2.5 GB",
+    "language": [
+      "English",
+      "French",
+      "German",
+      "Spanish",
+      "Portuguese",
+      "Japanese",
+      "Korean",
+      "Chinese",
+      "Russian"
+    ],
+    "ageRating": "16+",
+    "tags": [
+      "Battle Royale",
+      "Shooter",
+      "Multiplayer",
+      "Squad",
+      "Action",
+      "Mobile",
+      "Competitive",
+      "FPS",
+      "Free-to-Play"
+    ],
+    "price": "Free with in-app purchases",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 11 / Android 7.0",
+        "RAM": "3 GB",
+        "Storage": "2.5 GB",
+        "Processor": "Quad-core 1.8 GHz",
+        "GPU": "Adreno 530 / Mali-G71"
+      },
+      "recommended": {
+        "OS": "iOS 13 / Android 9.0",
+        "RAM": "4 GB",
+        "Storage": "3 GB",
+        "Processor": "Octa-core 2.0 GHz",
+        "GPU": "Adreno 630 / Mali-G76"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=YOUR_TRAILER_LINK",
+    "screenshots": [
+      "https://i.ibb.co/ALX1.png",
+      "https://i.ibb.co/ALX2.png",
+      "https://i.ibb.co/ALX3.png",
+      "https://i.ibb.co/ALX4.png",
+      "https://i.ibb.co/ALX5.png"
+    ],
+    "awards": [
+      "Top Mobile Shooter 2022",
+      "Google Play Best Game 2022",
+      "Editor's Choice 2022"
+    ],
+    "achievements": [
+      "Over 10 Million Downloads in First Month",
+      "Ranked #1 in Battle Royale Category",
+      "Multiple Seasonal Legends Released",
+      "Global Competitive Tournaments"
+    ],
+    "communityRating": {
+      "totalReviews": 450000,
+      "positive": 82,
+      "negative": 18
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/PlayApexMobile",
+      "discord": "https://discord.gg/apexlegends",
+      "facebook": "https://www.facebook.com/ApexLegends",
+      "instagram": "https://www.instagram.com/apexlegends/"
+    },
+    "releaseNotes": [
+      "New Legends added",
+      "Seasonal Battle Pass updates",
+      "Improved matchmaking and performance",
+      "Bug fixes and stability improvements"
+    ],
+    "support": {
+      "email": "support@ea.com",
+      "website": "https://help.ea.com/en/apex-legends/apex-legends-mobile",
+      "liveChat": true,
+      "faqLink": "https://help.ea.com/en/apex-legends/apex-legends-mobile/faq"
+    },
+    "isFeatured": true,
+    "leaderboards": [
+      { "mode": "Battle Royale", "topScore": 9800 },
+      { "mode": "Arenas", "topScore": 4500 }
+    ],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "Season 10 Launch",
+        "startDate": "2025-06-01",
+        "endDate": "2025-06-30",
+        "description": "New map updates, Legends, and exclusive rewards for Season 10."
+      },
+      {
+        "id": "ev2",
+        "name": "Winter Showdown",
+        "startDate": "2025-12-15",
+        "endDate": "2026-01-10",
+        "description": "Compete in seasonal challenges and unlock exclusive winter-themed items."
+      }
+    ],
+    "meta": {
+      "createdAt": "2025-02-01T12:00:00Z",
+      "updatedAt": "2025-11-01T12:00:00Z",
+      "views": 980000,
+      "favorites": 180000,
+      "downloads": 12000000
+    },
+    "seo": {
+      "keywords": [
+        "Apex Legends Mobile",
+        "Battle Royale Mobile Game",
+        "Squad Shooter",
+        "Mobile FPS"
+      ],
+      "description": "Apex Legends Mobile is a free-to-play squad-based battle royale with unique Legends, powerful abilities, and competitive gameplay.",
+      "slug": "apex-legends-mobile"
+    }
+  }
+,
   {
     "id": "16",
     "title": "Asphalt 9: Legends",
-    "coverPhoto": "https://i.ibb.co.com/0j2KSNx4/70c58382cbf141504b8933e53befbb5a615d324c64fcb24f514c9ef28772a957.jpg",
+    "coverPhoto": "https://i.ibb.co/0j2KSNx4/70c58382cbf141504b8933e53befbb5a615d324c64fcb24f514c9ef28772a957.jpg",
     "category": "Racing",
     "downloadLink": "https://www.asphalt.com",
     "description": "Arcade racing game featuring hypercars, stunning visuals, and intense multiplayer racing action.",
-    "ratings": "4.5",
-    "developer": "Gameloft"
-  },
+    "ratings": 4.5,
+    "developer": "Gameloft",
+    "publisher": "Gameloft",
+    "releaseDate": "2018-07-26",
+    "platforms": ["iOS", "Android"],
+    "multiplayer": true,
+    "gameModes": [
+      "Career",
+      "Multiplayer",
+      "Time Trials",
+      "Events",
+      "Seasonal Challenges"
+    ],
+    "size": "3 GB",
+    "language": [
+      "English",
+      "French",
+      "German",
+      "Spanish",
+      "Portuguese",
+      "Japanese",
+      "Korean",
+      "Chinese",
+      "Russian"
+    ],
+    "ageRating": "12+",
+    "tags": [
+      "Racing",
+      "Arcade",
+      "Multiplayer",
+      "Cars",
+      "Mobile",
+      "Competitive",
+      "Free-to-Play",
+      "Hypercars",
+      "Events"
+    ],
+    "price": "Free with in-app purchases",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 10 / Android 6.0",
+        "RAM": "2 GB",
+        "Storage": "3 GB",
+        "Processor": "Quad-core 1.5 GHz",
+        "GPU": "Adreno 505 / Mali-T720"
+      },
+      "recommended": {
+        "OS": "iOS 12 / Android 8.0",
+        "RAM": "4 GB",
+        "Storage": "3 GB",
+        "Processor": "Octa-core 2.0 GHz",
+        "GPU": "Adreno 618 / Mali-G72"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=YOUR_TRAILER_LINK",
+    "screenshots": [
+      "https://i.ibb.co/AS1.png",
+      "https://i.ibb.co/AS2.png",
+      "https://i.ibb.co/AS3.png",
+      "https://i.ibb.co/AS4.png",
+      "https://i.ibb.co/AS5.png"
+    ],
+    "awards": [
+      "Best Mobile Racing Game 2019",
+      "Editor's Choice 2019",
+      "Top Racing Game 2020"
+    ],
+    "achievements": [
+      "Over 100 Million Downloads Globally",
+      "Multiple Seasonal Championships",
+      "Top Mobile Racing Game Rankings",
+      "Frequent Updates with New Cars and Tracks"
+    ],
+    "communityRating": {
+      "totalReviews": 350000,
+      "positive": 88,
+      "negative": 12
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/asphalt",
+      "discord": "https://discord.gg/asphalt",
+      "facebook": "https://www.facebook.com/asphalt",
+      "instagram": "https://www.instagram.com/asphalt/"
+    },
+    "releaseNotes": [
+      "New hypercars added",
+      "New tracks and seasonal events",
+      "Improved graphics and performance",
+      "Bug fixes and stability improvements"
+    ],
+    "support": {
+      "email": "support@gameloft.com",
+      "website": "https://www.gameloft.com/help",
+      "liveChat": true,
+      "faqLink": "https://www.gameloft.com/help/faq"
+    },
+    "isFeatured": true,
+    "leaderboards": [
+      { "mode": "Multiplayer", "topScore": 9800 },
+      { "mode": "Time Trials", "topScore": 12000 }
+    ],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "Summer Racing Fiesta",
+        "startDate": "2025-06-10",
+        "endDate": "2025-07-05",
+        "description": "Compete in special summer races to unlock exclusive cars and rewards."
+      },
+      {
+        "id": "ev2",
+        "name": "Winter Drift Challenge",
+        "startDate": "2025-12-15",
+        "endDate": "2026-01-10",
+        "description": "Join winter-themed races and collect limited edition vehicles."
+      }
+    ],
+    "meta": {
+      "createdAt": "2025-03-01T12:00:00Z",
+      "updatedAt": "2025-11-01T12:00:00Z",
+      "views": 850000,
+      "favorites": 120000,
+      "downloads": 8000000
+    },
+    "seo": {
+      "keywords": [
+        "Asphalt 9 Legends",
+        "Racing Mobile Game",
+        "Arcade Racing",
+        "Multiplayer Racing"
+      ],
+      "description": "Asphalt 9: Legends is a free-to-play arcade racing game with hypercars, multiplayer racing, and stunning graphics for mobile devices.",
+      "slug": "asphalt-9-legends"
+    }
+  }
+,
   {
     "id": "17",
     "title": "Gardenscapes",
-    "coverPhoto": "https://i.ibb.co.com/B2TYwDsC/gardenscapes-lifetime-revenue-one-half-billion.jpg",
+    "coverPhoto": "https://i.ibb.co/B2TYwDsC/gardenscapes-lifetime-revenue-one-half-billion.jpg",
     "category": "Puzzle",
     "downloadLink": "https://playrix.com/gardenscapes",
     "description": "Solve match-3 puzzles to restore a beautiful garden, unlock new areas, and meet charming characters.",
-    "ratings": "4.3",
-    "developer": "Playrix"
-  },
+    "ratings": 4.3,
+    "developer": "Playrix",
+    "publisher": "Playrix",
+    "releaseDate": "2016-09-08",
+    "platforms": ["iOS", "Android"],
+    "multiplayer": false,
+    "gameModes": [
+      "Match-3 Puzzles",
+      "Story Mode",
+      "Daily Challenges",
+      "Events"
+    ],
+    "size": "500 MB",
+    "language": [
+      "English",
+      "French",
+      "German",
+      "Spanish",
+      "Portuguese",
+      "Russian",
+      "Japanese",
+      "Chinese",
+      "Korean"
+    ],
+    "ageRating": "4+",
+    "tags": [
+      "Puzzle",
+      "Match-3",
+      "Casual",
+      "Singleplayer",
+      "Mobile",
+      "Story-driven",
+      "Events",
+      "Free-to-Play"
+    ],
+    "price": "Free with in-app purchases",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 10 / Android 5.0",
+        "RAM": "1 GB",
+        "Storage": "500 MB",
+        "Processor": "Dual-core 1.0 GHz",
+        "GPU": "Adreno 304 / Mali-400"
+      },
+      "recommended": {
+        "OS": "iOS 12 / Android 8.0",
+        "RAM": "2 GB",
+        "Storage": "1 GB",
+        "Processor": "Quad-core 1.5 GHz",
+        "GPU": "Adreno 506 / Mali-T720"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=YOUR_TRAILER_LINK",
+    "screenshots": [
+      "https://i.ibb.co/Gardenscapes1.png",
+      "https://i.ibb.co/Gardenscapes2.png",
+      "https://i.ibb.co/Gardenscapes3.png",
+      "https://i.ibb.co/Gardenscapes4.png",
+      "https://i.ibb.co/Gardenscapes5.png"
+    ],
+    "awards": [
+      "Best Casual Game 2017",
+      "Top Match-3 Game 2018",
+      "Editor's Choice 2019"
+    ],
+    "achievements": [
+      "500 Million Downloads Globally",
+      "Over 1 Billion Puzzles Solved",
+      "Top Casual Game Rankings",
+      "Regular Seasonal Updates with New Events"
+    ],
+    "communityRating": {
+      "totalReviews": 95000,
+      "positive": 85,
+      "negative": 15
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/playrixgames",
+      "discord": "https://discord.gg/playrix",
+      "facebook": "https://www.facebook.com/playrixgames",
+      "instagram": "https://www.instagram.com/playrixgames/"
+    },
+    "releaseNotes": [
+      "New garden areas and decorations added",
+      "New characters and storylines",
+      "Performance improvements and bug fixes",
+      "Special seasonal events"
+    ],
+    "support": {
+      "email": "support@playrix.com",
+      "website": "https://playrix.com/help",
+      "liveChat": true,
+      "faqLink": "https://playrix.com/help/faq"
+    },
+    "isFeatured": true,
+    "leaderboards": [{ "mode": "Daily Challenge", "topScore": 9800 }],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "Spring Garden Festival",
+        "startDate": "2025-03-20",
+        "endDate": "2025-04-10",
+        "description": "Complete puzzles and earn exclusive decorations for your garden."
+      },
+      {
+        "id": "ev2",
+        "name": "Halloween Special",
+        "startDate": "2025-10-20",
+        "endDate": "2025-11-05",
+        "description": "Limited-time puzzles and spooky-themed rewards."
+      }
+    ],
+    "meta": {
+      "createdAt": "2025-04-01T12:00:00Z",
+      "updatedAt": "2025-11-01T12:00:00Z",
+      "views": 420000,
+      "favorites": 85000,
+      "downloads": 5000000
+    },
+    "seo": {
+      "keywords": [
+        "Gardenscapes",
+        "Match-3 Puzzle Game",
+        "Casual Mobile Game",
+        "Garden Restoration"
+      ],
+      "description": "Gardenscapes is a free-to-play puzzle game where players restore gardens, solve match-3 puzzles, and enjoy story-driven gameplay on mobile devices.",
+      "slug": "gardenscapes"
+    }
+  }
+,
   {
     "id": "18",
     "title": "RAID: Shadow Legends",
@@ -176,9 +2454,139 @@
     "category": "RPG",
     "downloadLink": "https://plarium.com/en/games/raid-shadow-legends",
     "description": "Epic dark fantasy RPG with hundreds of champions, strategic turn-based combat, and stunning visuals.",
-    "ratings": "4.2",
-    "developer": "Plarium"
-  },
+    "ratings": 4.2,
+    "developer": "Plarium",
+    "publisher": "Plarium Global Ltd",
+    "releaseDate": "2018-02-01",
+    "platforms": ["iOS", "Android", "PC"],
+    "multiplayer": true,
+    "gameModes": [
+      "Campaign",
+      "Arena PvP",
+      "Clan Boss Battles",
+      "Dungeons",
+      "Events"
+    ],
+    "size": "1.5 GB",
+    "language": [
+      "English",
+      "French",
+      "German",
+      "Spanish",
+      "Russian",
+      "Portuguese",
+      "Japanese",
+      "Korean",
+      "Chinese"
+    ],
+    "ageRating": "12+",
+    "tags": [
+      "RPG",
+      "Turn-based",
+      "Strategy",
+      "Multiplayer",
+      "Fantasy",
+      "Mobile",
+      "PC",
+      "Collectible",
+      "Gacha"
+    ],
+    "price": "Free with in-app purchases",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 10 / Android 5.0 / Windows 7",
+        "RAM": "2 GB",
+        "Storage": "1.5 GB",
+        "Processor": "Dual-core 1.5 GHz",
+        "GPU": "Adreno 304 / Mali-400 / Integrated GPU"
+      },
+      "recommended": {
+        "OS": "iOS 12 / Android 8.0 / Windows 10",
+        "RAM": "4 GB",
+        "Storage": "2 GB",
+        "Processor": "Quad-core 2.0 GHz",
+        "GPU": "Adreno 506 / Mali-T720 / Dedicated GPU"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=YOUR_TRAILER_LINK",
+    "screenshots": [
+      "https://i.ibb.co/RAID1.png",
+      "https://i.ibb.co/RAID2.png",
+      "https://i.ibb.co/RAID3.png",
+      "https://i.ibb.co/RAID4.png",
+      "https://i.ibb.co/RAID5.png"
+    ],
+    "awards": ["Best Mobile RPG 2019", "Top Strategy Game 2020"],
+    "achievements": [
+      "Over 200 Champions Collected",
+      "Top 1 RPG in 10+ Countries",
+      "Regular PvP Tournaments",
+      "Over 50 Million Downloads Globally"
+    ],
+    "communityRating": {
+      "totalReviews": 78000,
+      "positive": 82,
+      "negative": 18
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/RAIDShadowLegends",
+      "discord": "https://discord.gg/raidshadowlegends",
+      "facebook": "https://www.facebook.com/raidshadowlegends",
+      "instagram": "https://www.instagram.com/raidshadowlegends/"
+    },
+    "releaseNotes": [
+      "New Champions added",
+      "Improved graphics and performance",
+      "Bug fixes and gameplay balance adjustments",
+      "Seasonal events and rewards"
+    ],
+    "support": {
+      "email": "support@plarium.com",
+      "website": "https://plarium.com/help",
+      "liveChat": true,
+      "faqLink": "https://plarium.com/help/faq"
+    },
+    "isFeatured": true,
+    "leaderboards": [
+      { "mode": "Arena PvP", "topScore": 12500 },
+      { "mode": "Clan Boss", "topScore": 9800 }
+    ],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "Winter Festival",
+        "startDate": "2025-12-20",
+        "endDate": "2026-01-10",
+        "description": "Special holiday challenges and rewards for all players."
+      },
+      {
+        "id": "ev2",
+        "name": "Arena Championship",
+        "startDate": "2025-11-15",
+        "endDate": "2025-11-30",
+        "description": "Compete in the PvP arena for top leaderboard positions and exclusive prizes."
+      }
+    ],
+    "meta": {
+      "createdAt": "2025-05-01T12:00:00Z",
+      "updatedAt": "2025-11-01T12:00:00Z",
+      "views": 620000,
+      "favorites": 95000,
+      "downloads": 5000000
+    },
+    "seo": {
+      "keywords": [
+        "RAID Shadow Legends",
+        "RPG Mobile Game",
+        "Turn-based Strategy",
+        "Fantasy RPG"
+      ],
+      "description": "RAID: Shadow Legends is a free-to-play dark fantasy RPG featuring hundreds of champions, strategic turn-based combat, and epic PvP battles on mobile and PC.",
+      "slug": "raid-shadow-legends"
+    }
+  }
+,
   {
     "id": "19",
     "title": "8 Ball Pool",
@@ -186,9 +2594,132 @@
     "category": "Sports",
     "downloadLink": "https://www.miniclip.com/games/8-ball-pool-mobile",
     "description": "Play pool online against players worldwide, level up, and compete in tournaments with realistic physics.",
-    "ratings": "4.4",
-    "developer": "Miniclip"
-  },
+    "ratings": 4.4,
+    "developer": "Miniclip",
+    "publisher": "Miniclip",
+    "releaseDate": "2010-05-12",
+    "platforms": ["iOS", "Android", "Web"],
+    "multiplayer": true,
+    "gameModes": ["1v1", "Tournament", "Practice", "Challenge Friends"],
+    "size": "150 MB",
+    "language": [
+      "English",
+      "French",
+      "German",
+      "Spanish",
+      "Portuguese",
+      "Italian",
+      "Russian",
+      "Japanese",
+      "Korean",
+      "Chinese"
+    ],
+    "ageRating": "12+",
+    "tags": [
+      "Sports",
+      "Pool",
+      "Multiplayer",
+      "Competitive",
+      "Online",
+      "Mobile",
+      "Casual",
+      "Billiards"
+    ],
+    "price": "Free with in-app purchases",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 10 / Android 5.0 / Web browser",
+        "RAM": "1 GB",
+        "Storage": "150 MB",
+        "Processor": "Dual-core 1.2 GHz",
+        "GPU": "Integrated GPU"
+      },
+      "recommended": {
+        "OS": "iOS 12 / Android 8.0 / Web browser",
+        "RAM": "2 GB",
+        "Storage": "200 MB",
+        "Processor": "Quad-core 1.8 GHz",
+        "GPU": "Adreno 506 / Mali-T720 / Dedicated GPU"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=YOUR_TRAILER_LINK",
+    "screenshots": [
+      "https://i.ibb.co/mV5Nrsrf/8ball1.png",
+      "https://i.ibb.co/mV5Nrsrf/8ball2.png",
+      "https://i.ibb.co/mV5Nrsrf/8ball3.png",
+      "https://i.ibb.co/mV5Nrsrf/8ball4.png",
+      "https://i.ibb.co/mV5Nrsrf/8ball5.png"
+    ],
+    "awards": ["Best Mobile Sports Game 2015", "Top Casual Game 2018"],
+    "achievements": [
+      "Million+ Tournaments Played",
+      "Top 1 Online Pool Game Globally",
+      "Over 500M Downloads",
+      "Millions of Active Players Daily"
+    ],
+    "communityRating": {
+      "totalReviews": 95000,
+      "positive": 85,
+      "negative": 15
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/8BallPool",
+      "discord": "https://discord.gg/8ballpool",
+      "facebook": "https://www.facebook.com/8BallPool",
+      "instagram": "https://www.instagram.com/8ballpool/"
+    },
+    "releaseNotes": [
+      "New cues and skins added",
+      "Improved multiplayer matchmaking",
+      "Bug fixes and performance improvements"
+    ],
+    "support": {
+      "email": "support@miniclip.com",
+      "website": "https://www.miniclip.com/support",
+      "liveChat": true,
+      "faqLink": "https://www.miniclip.com/help"
+    },
+    "isFeatured": true,
+    "leaderboards": [
+      { "mode": "1v1", "topScore": 12500 },
+      { "mode": "Tournament", "topScore": 9800 }
+    ],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "Pool Masters Tournament",
+        "startDate": "2025-12-01",
+        "endDate": "2025-12-20",
+        "description": "Compete globally and win exclusive cues and coins."
+      },
+      {
+        "id": "ev2",
+        "name": "Holiday Challenge",
+        "startDate": "2025-12-15",
+        "endDate": "2026-01-05",
+        "description": "Special festive tables and rewards for the holiday season."
+      }
+    ],
+    "meta": {
+      "createdAt": "2025-06-01T12:00:00Z",
+      "updatedAt": "2025-11-15T12:00:00Z",
+      "views": 720000,
+      "favorites": 110000,
+      "downloads": 500000000
+    },
+    "seo": {
+      "keywords": [
+        "8 Ball Pool",
+        "Pool Game",
+        "Online Multiplayer Billiards",
+        "Sports Mobile Game"
+      ],
+      "description": "8 Ball Pool is a free-to-play multiplayer billiards game allowing players to compete in tournaments, online matches, and challenges with friends globally.",
+      "slug": "8-ball-pool"
+    }
+  }
+,
   {
     "id": "20",
     "title": "Temple Run 2",
@@ -196,9 +2727,128 @@
     "category": "Endless Runner",
     "downloadLink": "https://www.imangistudios.com/games/temple-run-2",
     "description": "Navigate treacherous cliffs, zip lines, and mines as you run for your life in this epic endless runner.",
-    "ratings": "4.3",
-    "developer": "Imangi Studios"
-  },
+    "ratings": 4.3,
+    "developer": "Imangi Studios",
+    "publisher": "Imangi Studios",
+    "releaseDate": "2013-01-17",
+    "platforms": ["iOS", "Android", "Windows Phone"],
+    "multiplayer": false,
+    "gameModes": ["Endless Run", "Daily Challenges", "Weekly Challenges"],
+    "size": "120 MB",
+    "language": [
+      "English",
+      "Spanish",
+      "French",
+      "German",
+      "Portuguese",
+      "Italian",
+      "Russian",
+      "Japanese",
+      "Korean",
+      "Chinese"
+    ],
+    "ageRating": "9+",
+    "tags": [
+      "Endless Runner",
+      "Adventure",
+      "Arcade",
+      "Action",
+      "Mobile",
+      "Casual",
+      "High Score"
+    ],
+    "price": "Free with in-app purchases",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 9 / Android 4.4",
+        "RAM": "1 GB",
+        "Storage": "120 MB",
+        "Processor": "Dual-core 1.2 GHz",
+        "GPU": "Integrated GPU"
+      },
+      "recommended": {
+        "OS": "iOS 12 / Android 7.0",
+        "RAM": "2 GB",
+        "Storage": "150 MB",
+        "Processor": "Quad-core 1.8 GHz",
+        "GPU": "Adreno 506 / Mali-T720 / Dedicated GPU"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=YOUR_TRAILER_LINK",
+    "screenshots": [
+      "https://i.ibb.co/dJWBfnxw/tr2-1.png",
+      "https://i.ibb.co/dJWBfnxw/tr2-2.png",
+      "https://i.ibb.co/dJWBfnxw/tr2-3.png",
+      "https://i.ibb.co/dJWBfnxw/tr2-4.png",
+      "https://i.ibb.co/dJWBfnxw/tr2-5.png"
+    ],
+    "awards": ["Top Endless Runner 2013", "Editor's Choice Mobile Game 2014"],
+    "achievements": [
+      "Over 500 Million Downloads Globally",
+      "Top Endless Runner on Mobile Stores",
+      "Millions of Daily Active Players",
+      "Featured in Best Mobile Games Lists"
+    ],
+    "communityRating": {
+      "totalReviews": 85000,
+      "positive": 82,
+      "negative": 18
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/TempleRun",
+      "discord": "https://discord.gg/templerun",
+      "facebook": "https://www.facebook.com/TempleRun",
+      "instagram": "https://www.instagram.com/templerun/"
+    },
+    "releaseNotes": [
+      "New environments and obstacles added",
+      "Performance improvements on older devices",
+      "Bug fixes and enhanced gameplay experience"
+    ],
+    "support": {
+      "email": "support@imangistudios.com",
+      "website": "https://www.imangistudios.com/support",
+      "liveChat": false,
+      "faqLink": "https://www.imangistudios.com/faq"
+    },
+    "isFeatured": true,
+    "leaderboards": [{ "mode": "Endless Run", "topScore": 999999 }],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "Jungle Festival",
+        "startDate": "2025-12-10",
+        "endDate": "2025-12-25",
+        "description": "Special limited-time obstacles and rewards for festival participants."
+      },
+      {
+        "id": "ev2",
+        "name": "Winter Escape",
+        "startDate": "2025-12-20",
+        "endDate": "2026-01-10",
+        "description": "Run through snowy terrains with exclusive winter-themed rewards."
+      }
+    ],
+    "meta": {
+      "createdAt": "2025-06-15T12:00:00Z",
+      "updatedAt": "2025-11-20T12:00:00Z",
+      "views": 680000,
+      "favorites": 90000,
+      "downloads": 500000000
+    },
+    "seo": {
+      "keywords": [
+        "Temple Run 2",
+        "Endless Runner Mobile Game",
+        "Adventure Mobile Game",
+        "Arcade Runner"
+      ],
+      "description": "Temple Run 2 is an endless runner game where players navigate cliffs, zip lines, and obstacles while collecting coins and achieving high scores.",
+      "slug": "temple-run-2"
+    }
+  }
+,
   {
     "id": "21",
     "title": "League of Legends: Wild Rift",
@@ -206,9 +2856,138 @@
     "category": "MOBA",
     "downloadLink": "https://wildrift.leagueoflegends.com",
     "description": "Team-based strategy game with fast-paced 5v5 battles, bringing the PC MOBA experience to mobile.",
-    "ratings": "4.4",
-    "developer": "Riot Games"
-  },
+    "ratings": 4.4,
+    "developer": "Riot Games",
+    "publisher": "Riot Games",
+    "releaseDate": "2020-10-27",
+    "platforms": ["iOS", "Android"],
+    "multiplayer": true,
+    "gameModes": [
+      "5v5 Ranked",
+      "ARAM",
+      "Co-op vs AI",
+      "Custom Games",
+      "Events"
+    ],
+    "size": "3.5 GB",
+    "language": [
+      "English",
+      "French",
+      "German",
+      "Spanish",
+      "Portuguese",
+      "Russian",
+      "Japanese",
+      "Korean",
+      "Chinese"
+    ],
+    "ageRating": "12+",
+    "tags": [
+      "MOBA",
+      "Multiplayer",
+      "Strategy",
+      "Competitive",
+      "Action",
+      "Mobile",
+      "Esports",
+      "Ranked Matches"
+    ],
+    "price": "Free with in-app purchases",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 10 / Android 5.0",
+        "RAM": "2 GB",
+        "Storage": "3 GB",
+        "Processor": "Quad-core 1.4 GHz",
+        "GPU": "Adreno 506 / Mali-T830"
+      },
+      "recommended": {
+        "OS": "iOS 12 / Android 8.0",
+        "RAM": "4 GB",
+        "Storage": "4 GB",
+        "Processor": "Octa-core 2.0 GHz",
+        "GPU": "Adreno 620 / Mali-G76"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=YOUR_TRAILER_LINK",
+    "screenshots": [
+      "https://i.ibb.co/7dRgW62G/wild-rift-1.png",
+      "https://i.ibb.co/7dRgW62G/wild-rift-2.png",
+      "https://i.ibb.co/7dRgW62G/wild-rift-3.png",
+      "https://i.ibb.co/7dRgW62G/wild-rift-4.png",
+      "https://i.ibb.co/7dRgW62G/wild-rift-5.png"
+    ],
+    "awards": ["Best Mobile MOBA 2021", "Editor's Choice 2021"],
+    "achievements": [
+      "Top MOBA in Mobile Stores",
+      "Over 40 Million Downloads Globally",
+      "Ranked #1 in MOBA Category",
+      "Featured in Esports Tournaments Worldwide"
+    ],
+    "communityRating": {
+      "totalReviews": 95000,
+      "positive": 85,
+      "negative": 15
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/wildrift",
+      "discord": "https://discord.gg/wildrift",
+      "facebook": "https://www.facebook.com/wildrift",
+      "instagram": "https://www.instagram.com/wildrift/"
+    },
+    "releaseNotes": [
+      "New champions added",
+      "Balance updates and bug fixes",
+      "Improved graphics and performance",
+      "Seasonal events and skins added"
+    ],
+    "support": {
+      "email": "support@wildrift.leagueoflegends.com",
+      "website": "https://wildrift.leagueoflegends.com/help",
+      "liveChat": true,
+      "faqLink": "https://wildrift.leagueoflegends.com/faq"
+    },
+    "isFeatured": true,
+    "leaderboards": [
+      { "mode": "Ranked 5v5", "topScore": 9999 },
+      { "mode": "ARAM", "topScore": 8500 }
+    ],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "Wild Rift Championship",
+        "startDate": "2025-12-05",
+        "endDate": "2025-12-20",
+        "description": "Compete in global tournaments and earn exclusive rewards."
+      },
+      {
+        "id": "ev2",
+        "name": "New Champion Launch Event",
+        "startDate": "2025-12-22",
+        "endDate": "2026-01-10",
+        "description": "Play the new champion early and participate in special missions."
+      }
+    ],
+    "meta": {
+      "createdAt": "2025-03-15T12:00:00Z",
+      "updatedAt": "2025-11-25T12:00:00Z",
+      "views": 1120000,
+      "favorites": 87000,
+      "downloads": 40000000
+    },
+    "seo": {
+      "keywords": [
+        "League of Legends Wild Rift",
+        "Mobile MOBA Game",
+        "5v5 Multiplayer Mobile",
+        "Strategy Mobile Game"
+      ],
+      "description": "League of Legends: Wild Rift brings the classic PC MOBA experience to mobile with fast-paced 5v5 battles, ranked modes, and seasonal events.",
+      "slug": "league-of-legends-wild-rift"
+    }
+  }
+,
   {
     "id": "22",
     "title": "Stumble Guys",
@@ -216,9 +2995,136 @@
     "category": "Party",
     "downloadLink": "https://www.stumbleguys.com",
     "description": "Multiplayer knockout game where 32 players compete through chaotic obstacle courses until one remains.",
-    "ratings": "4.2",
-    "developer": "Kitka Games"
-  },
+    "ratings": 4.2,
+    "developer": "Kitka Games",
+    "publisher": "Kitka Games",
+    "releaseDate": "2020-12-15",
+    "platforms": ["iOS", "Android", "PC"],
+    "multiplayer": true,
+    "gameModes": [
+      "Battle Royale",
+      "Obstacle Course",
+      "Team Mode",
+      "Custom Games"
+    ],
+    "size": "1.8 GB",
+    "language": [
+      "English",
+      "French",
+      "German",
+      "Spanish",
+      "Portuguese",
+      "Russian",
+      "Japanese",
+      "Korean"
+    ],
+    "ageRating": "7+",
+    "tags": [
+      "Party Game",
+      "Multiplayer",
+      "Casual",
+      "Fun",
+      "Obstacle Course",
+      "Competitive",
+      "Mobile",
+      "Free-to-Play"
+    ],
+    "price": "Free with in-app purchases",
+    "currency": "USD",
+    "systemRequirements": {
+      "minimum": {
+        "OS": "iOS 10 / Android 5.0",
+        "RAM": "2 GB",
+        "Storage": "1.8 GB",
+        "Processor": "Dual-core 1.4 GHz",
+        "GPU": "Adreno 506 / Mali-T830"
+      },
+      "recommended": {
+        "OS": "iOS 12 / Android 8.0",
+        "RAM": "3 GB",
+        "Storage": "2 GB",
+        "Processor": "Quad-core 2.0 GHz",
+        "GPU": "Adreno 610 / Mali-G72"
+      }
+    },
+    "trailerLink": "https://www.youtube.com/watch?v=YOUR_TRAILER_LINK",
+    "screenshots": [
+      "https://i.ibb.co/Z6ZqQLGp/stumble-1.png",
+      "https://i.ibb.co/Z6ZqQLGp/stumble-2.png",
+      "https://i.ibb.co/Z6ZqQLGp/stumble-3.png",
+      "https://i.ibb.co/Z6ZqQLGp/stumble-4.png",
+      "https://i.ibb.co/Z6ZqQLGp/stumble-5.png"
+    ],
+    "awards": ["Best Casual Multiplayer Game 2021", "Editor's Choice 2021"],
+    "achievements": [
+      "Over 50 Million Downloads Globally",
+      "Top 1 Casual Game in Mobile Stores",
+      "Millions of Daily Active Players",
+      "Community-driven Events and Updates"
+    ],
+    "communityRating": {
+      "totalReviews": 65000,
+      "positive": 82,
+      "negative": 18
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com/stumbleguys",
+      "discord": "https://discord.gg/stumbleguys",
+      "facebook": "https://www.facebook.com/stumbleguys",
+      "instagram": "https://www.instagram.com/stumbleguys/"
+    },
+    "releaseNotes": [
+      "New obstacle courses added",
+      "Seasonal skins and cosmetics",
+      "Improved matchmaking and server stability",
+      "Bug fixes and performance improvements"
+    ],
+    "support": {
+      "email": "support@stumbleguys.com",
+      "website": "https://www.stumbleguys.com/support",
+      "liveChat": true,
+      "faqLink": "https://www.stumbleguys.com/faq"
+    },
+    "isFeatured": true,
+    "leaderboards": [
+      { "mode": "Solo", "topScore": 120 },
+      { "mode": "Team", "topScore": 300 }
+    ],
+    "events": [
+      {
+        "id": "ev1",
+        "name": "Winter Knockout",
+        "startDate": "2025-12-10",
+        "endDate": "2026-01-05",
+        "description": "Compete in snowy obstacle courses and earn exclusive winter skins."
+      },
+      {
+        "id": "ev2",
+        "name": "Spring Fiesta",
+        "startDate": "2026-03-15",
+        "endDate": "2026-04-05",
+        "description": "New colorful maps, costumes, and rewards for spring season."
+      }
+    ],
+    "meta": {
+      "createdAt": "2020-12-15T12:00:00Z",
+      "updatedAt": "2025-11-30T12:00:00Z",
+      "views": 850000,
+      "favorites": 40000,
+      "downloads": 50000000
+    },
+    "seo": {
+      "keywords": [
+        "Stumble Guys",
+        "Party Mobile Game",
+        "Obstacle Course",
+        "Multiplayer Knockout"
+      ],
+      "description": "Stumble Guys is a chaotic multiplayer party game with obstacle courses for up to 32 players. Compete, stumble, and be the last one standing!",
+      "slug": "stumble-guys"
+    }
+  }
+,
   {
     "id": "23",
     "title": "Rise of Kingdoms",
