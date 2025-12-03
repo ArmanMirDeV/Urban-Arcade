@@ -12,6 +12,7 @@ import NotFound from "../Pages/NotFound";
 import PrivateRoute from "../Provider/PrivateRoute";
 import UpdateProfile from "../Pages/UpdateProfile";
 import Events from "../Pages/Events";
+import AboutUs from "../Pages/AboutUs";
 
 export const router = createBrowserRouter([
   {
@@ -62,6 +63,10 @@ export const router = createBrowserRouter([
       {
         path: "/events",
         element: <Events />,
+      },
+      {
+        path: "/about-us",
+        element: <AboutUs />,
       },
     ],
   },

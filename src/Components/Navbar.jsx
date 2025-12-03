@@ -8,6 +8,7 @@ import { SiGnuprivacyguard } from "react-icons/si";
 import { motion } from "framer-motion";
 import { MdEmojiEvents } from "react-icons/md";
 import Logo from "./Logo";
+import { FcAbout } from "react-icons/fc";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
@@ -46,6 +47,11 @@ const Navbar = () => {
       <li>
         <NavLink className={linkClasses} to="/events">
           <MdEmojiEvents className="text-lg"></MdEmojiEvents>Events
+        </NavLink>
+      </li>
+      <li>
+        <NavLink className={linkClasses} to="/about-us">
+          <FcAbout className="text-lg "></FcAbout>About Us
         </NavLink>
       </li>
     </>
@@ -135,7 +141,7 @@ const Navbar = () => {
                   />
                 </Link>
                 <li
-                  className="btn bg-pink-500 hover:bg-pink-600 text-white"
+                  className="btn bg-pink-500  hover:bg-pink-600 text-white"
                   onClick={handleLogOut}
                 >
                   Log Out

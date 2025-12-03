@@ -56,7 +56,7 @@ const Slider = () => {
   return (
     <div className="relative overflow-hidden w-full max-w-6xl mx-auto rounded-2xl shadow-xl mt-10">
       {/* Image animation */}
-      <div className="relative h-[400px] flex items-center justify-center bg-black">
+      <div className="relative h-[500px] flex items-center justify-center bg-black">
         <AnimatePresence custom={direction}>
           <motion.img
             key={currentIndex}

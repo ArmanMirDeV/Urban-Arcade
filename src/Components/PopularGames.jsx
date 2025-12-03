@@ -30,7 +30,7 @@ const PopularGames = () => {
 
   return (
     <section className="px-6 py-12 text-white">
-      <h2 className="text-4xl text-pink-300  flex font-bold justify-center items-center mb-10 font-mono gap-10 tracking-wide">
+      <h2 className="text-4xl  text-pink-300  flex font-bold justify-center items-center mb-10 font-mono gap-10 tracking-wide">
         Popular Games <PiGameControllerFill />
       </h2>
 
